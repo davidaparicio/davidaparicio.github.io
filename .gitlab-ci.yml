@@ -3,19 +3,21 @@ image: registry.gitlab.com/pages/hugo:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  HUGO_VERSION: "0.74.3"
+  HUGO_VERSION: "0.75.1"
   HUGO_ENABLEGITINFO: "true"
   HUGO_ENV: "production"
 
 test:
   script:
+  - hugo mod get -u
   - hugo
   except:
   - master
 
 pages:
   script:
-  - hugo --gc --minify #-b $URL
+  - hugo mod get -u
+  - hugo #--gc --minify #-b $URL
   artifacts:
     paths:
     - public
