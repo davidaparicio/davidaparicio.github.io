@@ -2,5 +2,4 @@ module github.com/wowchemy/starter-academic
 
 go 1.15
 
-require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20200925152821-841053c6c8f2 // indirect
-path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20200928004651-12b7ad9f019e // indirect
