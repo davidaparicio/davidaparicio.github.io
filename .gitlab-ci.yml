@@ -4,10 +4,10 @@
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+  #GIT_SUBMODULE_STRATEGY: recursive
   #HUGO_VERSION: "0.75.1"
   HUGO_ENABLEGITINFO: "true"
-  HUGO_ENV: "production"
+  #HUGO_ENV: "production"
 
 # test:
 #   script:
@@ -18,7 +18,7 @@ variables:
 
 pages:
   script:
-  - hugo mod get -u #https://wowchemy.com/docs/install-locally/
+  #- hugo mod get -u #https://wowchemy.com/docs/install-locally/
   - hugo #--gc --minify #-b $URL
   artifacts:
     paths:
