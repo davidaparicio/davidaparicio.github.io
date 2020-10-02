@@ -1,26 +1,24 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:latest
+image: klakegg/hugo:0.75.1-ext-alpine
 # https://discourse.gohugo.io/t/hugo-starter-error/28550/2
+#image: registry.gitlab.com/pages/hugo:latest
 #image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   #HUGO_VERSION: "0.75.1"
   HUGO_ENABLEGITINFO: "true"
-  #HUGO_ENV: "production"
+  HUGO_ENV: "production"
 
 # test:
 #   script:
-#   - hugo mod get -u
 #   - hugo
 #   except:
 #   - master
 
 pages:
   script:
-  #https://wowchemy.com/docs/install-locally/
-  #- hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master
-  - hugo #--gc --minify #-b $URL
+  - hugo --cleanDestinationDir --minify --debug #--gc --minify #-b $URL
   artifacts:
     paths:
     - public
