@@ -1,7 +1,8 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
 #image: registry.gitlab.com/pages/hugo:latest
 # https://discourse.gohugo.io/t/hugo-starter-error/28550/2
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+image: klakegg/hugo:0.74.3-ext-alpine
+#image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   #GIT_SUBMODULE_STRATEGY: recursive
