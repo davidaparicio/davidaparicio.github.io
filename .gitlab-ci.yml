@@ -7,10 +7,11 @@ variables:
   #HUGO_VERSION: "0.75.1"
   HUGO_ENABLEGITINFO: "true"
   HUGO_ENV: "production"
+  BASE_URL: "https://davidaparicio.gitlab.io/website/"
 
 pages:
   script:
-  - hugo --cleanDestinationDir --minify --debug #--gc --minify #-b $URL
+  - hugo --cleanDestinationDir --minify --debug --baseURL $BASE_URL
   artifacts:
     paths:
     - public
