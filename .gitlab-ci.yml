@@ -20,8 +20,8 @@ variables:
 pages:
   script:
   #https://wowchemy.com/docs/install-locally/
-  - hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master
-  - hugo #--gc --minify #-b $URL
+  #- hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master
+  - server #--gc --minify #-b $URL
   artifacts:
     paths:
     - public
