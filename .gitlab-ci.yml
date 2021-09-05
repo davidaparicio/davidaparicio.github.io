@@ -11,13 +11,14 @@ variables:
 
 pages:
   script:
-  - hugo --cleanDestinationDir --minify --debug --baseURL $BASE_URL
+  - hugo --cleanDestinationDir --minify --baseURL $BASE_URL
   artifacts:
     paths:
     - public
   only:
   - master
 
+# - hugo --cleanDestinationDir --minify --debug --baseURL $BASE_URL
 # test:
 #   script:
 #   - hugo

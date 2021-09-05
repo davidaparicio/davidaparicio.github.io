@@ -2,27 +2,25 @@ version: "3"
 
 services:
   hugo:
-    #image: klakegg/hugo:0.74.3-ext-alpine
     image: klakegg/hugo:0.88.0-ext-alpine
     container_name: "hugo-academic"
     restart: "no"
     # https://docs.docker.com/compose/compose-file/compose-file-v3/#restart
     #"no", always, on-failure, unless-stopped
     environment:
-      - HUGO_THEME=academic
-      - HUGO_WATCH=1
       - HUGO_ENV=production
-      # - HUGO_DESTINATION=/output
-      - HUGO_REFRESH_TIME=60
-      # - HUGO_BASEURL=<your-url-here>
+      #- HUGO_REFRESH_TIME=60
+      #- GIT_SUBMODULE_STRATEGY=recursive
+      #- HUGO_THEME=academic
+      #- HUGO_WATCH=1
+      #- HUGO_ENABLEGITINFO="true"
+      #- HUGO_DESTINATION=/output
+      #- HUGO_BASEURL=<your-url-here>
     volumes:
       - .:/src
-      # - ./output:/output
     ports: [ "1313:1313", ]
     command:
-      - hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master; hugo mod tidy; hugo server --disableFastRender --i18n-warnings
-    #  - /run.sh
-    #  - --disableFastRender
+    - server --disableFastRender --i18n-warnings
 
 # https://net-security.fr/system/deploiement-automatique-dhugo-avec-gitlab-docker/
 # https://gitlab.com/tzkuat/hugo-site/-/tree/master
@@ -31,3 +29,4 @@ services:
 # https://discourse.gohugo.io/t/klakeggs-wonderful-hugo-docker-image-update-thread/20347/3
 # https://hub.docker.com/r/klakegg/hugo/
 # https://hub.docker.com/r/jojomi/hugo/
+# https://discourse.gohugo.io/t/binding-server-to-local-ip-or-0-0-0-0-does-not-work/18999/11
