@@ -1,6 +1,18 @@
-version: "3"
+version: "3.3"
 
 services:
+  whoami:
+    image: "traefik/whoami"
+    container_name: "iamfoo" #"simple-service"
+    ports:
+      - "1414:8080"
+    #labels:
+      #- "traefik.enable=true"
+      #- "traefik.http.routers.whoami.rule=Host(`whoami.localhost`)"
+      #- "traefik.http.routers.whoami.entrypoints=web"
+    command:
+      - "--name=iamfoo"
+      - "--port=8080"
   hugo:
     image: klakegg/hugo:0.88.0-ext-alpine
     container_name: "hugo-academic"
