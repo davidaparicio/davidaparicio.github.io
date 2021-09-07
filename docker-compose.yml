@@ -1,9 +1,9 @@
 version: "3.3"
 
 services:
-  whoami:
+  simple:
     image: "traefik/whoami"
-    container_name: "iamfoo" #"simple-service"
+    container_name: "whoami"
     ports:
       - "1414:8080"
     #labels:
@@ -13,26 +13,20 @@ services:
     command:
       - "--name=iamfoo"
       - "--port=8080"
-  hugo:
+  hugo-academic:
     image: klakegg/hugo:0.88.0-ext-alpine
-    container_name: "hugo-academic"
+    container_name: "hugo"
     restart: "no"
-    # https://docs.docker.com/compose/compose-file/compose-file-v3/#restart
-    #"no", always, on-failure, unless-stopped
     environment:
       - HUGO_ENV=production
-      #- HUGO_REFRESH_TIME=60
-      #- GIT_SUBMODULE_STRATEGY=recursive
-      #- HUGO_THEME=academic
-      #- HUGO_WATCH=1
-      #- HUGO_ENABLEGITINFO="true"
-      #- HUGO_DESTINATION=/output
-      #- HUGO_BASEURL=<your-url-here>
     volumes:
       - .:/src
     ports: [ "1313:1313", ]
     command:
     - server --disableFastRender --i18n-warnings --bind 0.0.0.0 
+
+# https://docs.docker.com/compose/compose-file/compose-file-v3/#restart
+#"no", always, on-failure, unless-stopped
 
 # https://gohugo.io/commands/hugo_server/
 # https://net-security.fr/system/deploiement-automatique-dhugo-avec-gitlab-docker/
