@@ -6,15 +6,11 @@ services:
     container_name: "whoami"
     ports:
       - "1414:8080"
-    #labels:
-      #- "traefik.enable=true"
-      #- "traefik.http.routers.whoami.rule=Host(`whoami.localhost`)"
-      #- "traefik.http.routers.whoami.entrypoints=web"
     command:
       - "--name=iamfoo"
       - "--port=8080"
   hugo-academic:
-    image: klakegg/hugo:0.88.0-ext-alpine
+    image: "klakegg/hugo:0.88.0-ext-alpine"
     container_name: "hugo"
     restart: "no"
     environment:
@@ -23,17 +19,4 @@ services:
       - .:/src
     ports: [ "1313:1313", ]
     command:
-    - server --disableFastRender --i18n-warnings --bind 0.0.0.0 
-
-# https://docs.docker.com/compose/compose-file/compose-file-v3/#restart
-#"no", always, on-failure, unless-stopped
-
-# https://gohugo.io/commands/hugo_server/
-# https://net-security.fr/system/deploiement-automatique-dhugo-avec-gitlab-docker/
-# https://gitlab.com/tzkuat/hugo-site/-/tree/master
-
-# https://discourse.gohugo.io/t/docker-official-repo-for-hugo/144
-# https://discourse.gohugo.io/t/klakeggs-wonderful-hugo-docker-image-update-thread/20347/3
-# https://hub.docker.com/r/klakegg/hugo/
-# https://hub.docker.com/r/jojomi/hugo/
-# https://discourse.gohugo.io/t/binding-server-to-local-ip-or-0-0-0-0-does-not-work/18999/11
+    - server --disableFastRender --i18n-warnings --bind 0.0.0.0
