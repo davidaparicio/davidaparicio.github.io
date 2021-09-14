@@ -1,7 +1,10 @@
-<p align="center"><a href="https://davidaparicio.gitlab.io/website/" target="_blank" rel="noopener"><img src="http://icongal.com/gallery/image/146720/earth_world_internet.png" alt="Hugo Academic Template for Wowchemy Website Builder"></a></p>
+# David Aparicio's website
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/davidaparicio/website)
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+The website is based on **[Hugo](https://gohugo.io/)** + [Academic Resumé Template by Wowchemy](https://wowchemy.com/docs/) to publish my online resumé and showcase my conference presentations.
 
-[Check out the website](https://davidaparicio.gitlab.io/website/)
+[Check out the main website](https://davidaparicio.gitlab.io/website/)
+[Check out the secondary website](https://davidaparicio.github.io/website/)
+
+<p align="center"><a href="https://davidaparicio.gitlab.io/website/" target="_blank" rel="noopener"><img src="http://icongal.com/gallery/image/146720/earth_world_internet.png" alt="World / Earth globe"></a></p>
