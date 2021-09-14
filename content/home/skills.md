@@ -23,8 +23,8 @@ feature:
 - name: Big Data
   icon: chart-line
   icon_pack: fas
-- name: Distributed Systems
-  icon: project-diagram
+- name: Security
+  icon: user-secret
   icon_pack: fas
 
 # Uncomment to use emoji icons.
