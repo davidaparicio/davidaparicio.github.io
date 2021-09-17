@@ -37,7 +37,7 @@ summary: This project seeks a characterization of factors external to software t
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
