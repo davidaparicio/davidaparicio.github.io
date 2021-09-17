@@ -3,9 +3,11 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseurl: 'https://example.com/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+title: David Aparicio # Website name
+baseurl: 'https://david.aparicio.eu' # Website URL
+#'https://davidaparicio.gitlab.io/website/'
+#'https://github.com/davidaparicio/website'
+copyright: '© {year} David Aparicio' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

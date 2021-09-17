@@ -25,7 +25,7 @@ publishDate: "2021-09-11T00:00:00Z"
 authors: [David Aparicio]
 tags: [SRE]
 
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**Slides**](../../talks/JSC2021_IaaS.pdf)'

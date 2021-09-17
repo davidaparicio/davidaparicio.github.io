@@ -6,7 +6,7 @@ event_url: https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/progr
 
 location: Twitch (Online)
 
-summary: La sécurité dès la conception du projet
+summary: La protection des données personnelles ainsi que la sécurité "by design" deviennent des sujets centraux depuis l'entrée en vigueur du RGPD.
 abstract: "La protection des données personnelles ainsi que la sécurité 'by design' deviennent des sujets centraux depuis l'entrée en vigueur du RGPD.
 
 Je présenterai les techniques utilisées et j'aborderai aussi la prise de conscience du management sur ces aspects importants.

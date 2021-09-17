@@ -13,7 +13,7 @@ address:
   postcode: '06410'
   country: France
 
-summary: Agilité et sécurité numériques, un cas concret
+summary: Étant même dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n'existe pas
 abstract: "Dans le cadre d'une mission à AMADEUS, je devais implementer un daemon LINUX pour sauvegarder les informations relatives à Kerberos, afin de pouvoir recréer au plus vite cette machine virtuelle, selon le Disaster Recovery Plan - Reprise d'activité (DRP,PRA,PCA). Ces informations étant importantes et critiques, j'ai appliqué le paradigme SecurityByDesign. En configurant un utilisateur spécifique, l’échange de clés, l’utilisation d’une autorité de confiance déjà présente, se sont une partie des techniques utilisées. En plus du story telling, je donnerai des clés pour faciliter la discussion avec le management."
 
 date: "2019-10-08T18:00:00Z"
