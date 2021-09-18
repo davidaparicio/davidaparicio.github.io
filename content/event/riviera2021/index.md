@@ -40,3 +40,11 @@ url_video: ""
 slides: ""
 projects: []
 ---
+
+{{% callout note %}}
+Edition spéciale "les pieds dans l'eau"
+
+En raison du Covid, l'édition 2021 sera une édition spéciale sur un seul jour, en extérieur dans un lac privatisé, afin de garantir le strict respect des normes sanitaires.
+
+Du coup, les deux tracks sur l'eau n'auront sans doute pas de slides, mais les orateurs auront des sujets vraiment passionants ! Changer de track en pédalant, à la nage ou à la rame, ça n'a pas de prix :)
+{{% /callout %}}
