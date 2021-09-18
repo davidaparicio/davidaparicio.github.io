@@ -1,5 +1,5 @@
 ---
-title: Talk only (No slides) IaaS
+title: IaaS, talk only (no slides) 
 
 event: Riviera DEV 2021
 event_url: https://2021.rivieradev.fr/session/1028
@@ -12,7 +12,7 @@ address:
   postcode: '83520'
   country: France
 
-summary: Fastly a eu un outage 8/6/21, que pouvons-nous apprendre de ce dernier ?
+summary: Fastly a eu un outage 8 Juin 2021, quoi de neuf ?
 abstract: "L'échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ?
 Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie: Github, Google, Amazon, Facebook, Apple, Microsoft, Gitlab ou plus récemment Fastly À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques"
 
