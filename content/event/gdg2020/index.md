@@ -1,5 +1,5 @@
 ---
-title: Security By Design
+title: La Sauvegarde de Kerberos
 
 event: GDG Cloud & Iot Lyon
 event_url: https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/
@@ -12,7 +12,7 @@ address:
   postcode: '69006'
   country: France
 
-summary: Sauvegarde automatique de Kerberos
+summary: Comment intégrer la sécurité dès les premières phases d'un projet
 abstract: "PENSER UNE DÉMARCHE PRÉVENTIVE DÈS LA PHASE DE CONCEPTION D’UN PROJET
 
 Kerberos est notre système d’authentification dans notre architecture BigData et dans cette architecture ce serveur est un SPOF (Single Point of Failure).

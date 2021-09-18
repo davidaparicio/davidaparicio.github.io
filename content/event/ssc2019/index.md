@@ -1,5 +1,5 @@
 ---
-title: La Sauvegarde de Kerberos
+title: Agilité et sécurité numériques
 #title: Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos
 
 event: Sophia Security Camp 2019
