@@ -5,7 +5,7 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="David Aparicio">
-<meta name=description content="Étant même dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n'existe pas">
+<meta name=description content="Comment intégrer la sécurité dès les premières phases d'un projet">
 <link rel=alternate hreflang=en-us href=https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
@@ -26,14 +26,14 @@
 <meta property="og:site_name" content="David Aparicio">
 <meta property="og:url" content="https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/">
 <meta property="og:title" content="La Sauvegarde de Kerberos | David Aparicio">
-<meta property="og:description" content="Étant même dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n'existe pas"><meta property="og:image" content="https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/featured.jpg">
+<meta property="og:description" content="Comment intégrer la sécurité dès les premières phases d'un projet"><meta property="og:image" content="https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/featured.jpg">
 <meta property="twitter:image" content="https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/featured.jpg"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2019-10-09T00:00:00+00:00">
-<meta property="article:modified_time" content="2019-10-08T18:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/"},"name":"La Sauvegarde de Kerberos","location":{"@type":"Place","name":"Inria Sophia Antipolis (Canceled)","address":{"@type":"PostalAddress","streetAddress":"2004 Route des Lucioles, Espace Kahn","addressLocality":"Sophia Antipolis","postalCode":"06410","addressRegion":"CA","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/featured.jpg"],"startDate":"2019-10-08T18:00:00Z","endDate":"2019-10-08T18:30:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"Étant même dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n'existe pas"}</script>
+<meta property="article:published_time" content="2020-02-13T21:30:00+00:00">
+<meta property="article:modified_time" content="2020-02-13T19:20:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/"},"name":"La Sauvegarde de Kerberos","location":{"@type":"Place","name":"Zenika","address":{"@type":"PostalAddress","streetAddress":"6 place Jules Ferry","addressLocality":"Lyon","postalCode":"69006","addressRegion":"RA","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/talk/la-sauvegarde-de-kerberos/featured.jpg"],"startDate":"2020-02-13T19:20:00Z","endDate":"2020-02-13T21:00:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"Comment intégrer la sécurité dès les premières phases d'un projet"}</script>
 <title>La Sauvegarde de Kerberos | David Aparicio</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=1136363a2699842452be6d61faab64d8>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=9cd04ff31993e82baf913d4ec7e631f4>
 <script src=/website/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -128,27 +128,30 @@ David Aparicio</span>
 </div>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/website/slides/ssc2019/ target=_blank>
+<a class="btn btn-outline-primary btn-page-header" href=https://davidaparicio.gitlab.io/200213-gdglyon/ target=_blank rel=noopener>
 Slides
 </a>
 </div>
 </div>
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:478px>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:353px>
 <div style=position:relative>
-<img src=/website/talk/la-sauvegarde-de-kerberos/featured_hubf80c8e9273fd19d5aeb1fd5f32c0704_143227_720x0_resize_q75_lanczos.jpg alt class=featured-image>
-<span class=article-header-caption>Image credit: <strong>Slides</strong></span>
+<img src=/website/talk/la-sauvegarde-de-kerberos/featured_hubf80c8e9273fd19d5aeb1fd5f32c0704_133002_720x0_resize_q75_lanczos.jpg alt class=featured-image>
+<span class=article-header-caption>Image credit: <a href=https://davidaparicio.gitlab.io/200213-gdglyon/><strong>Slides</strong></a></span>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>Dans le cadre d&rsquo;une mission à AMADEUS, je devais implementer un daemon LINUX pour sauvegarder les informations relatives à Kerberos, afin de pouvoir recréer au plus vite cette machine virtuelle, selon le Disaster Recovery Plan - Reprise d&rsquo;activité (DRP, PRA, PCA). Ces informations étant importantes et critiques, j&rsquo;ai appliqué le paradigme SecurityByDesign. En configurant un utilisateur spécifique, l’échange de clés, l’utilisation d’une autorité de confiance déjà présente, se sont une partie des techniques utilisées. En plus du story telling, je donnerai des clés pour faciliter la discussion avec le management.</p>
+<p class=pub-abstract>PENSER UNE DÉMARCHE PRÉVENTIVE DÈS LA PHASE DE CONCEPTION D’UN PROJET
+Kerberos est notre système d’authentification dans notre architecture BigData et dans cette architecture ce serveur est un SPOF (Single Point of Failure).
+Pour assurer la disponibilité de la plateforme j&rsquo;ai mis en place un mécanisme de sauvegarde et restauration des informations relatives à Kerberos. Cela permet recréer au plus vite (en cas d&rsquo;incident) un serveur Kerberos opérationnel.
+Ces informations étant critiques, la sécurité fût pensée dès la réalisation. Je présenterai les techniques utilisées et j&rsquo;aborderai aussi la prise de conscience du management sur ces aspects importants. En effet, même en étant dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n&rsquo;existe pas.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-8 Oct 2019 18:00 &mdash; 18:30
+13 Feb 2020 19:20 &mdash; 21:00
 </div>
 </div>
 </div>
@@ -161,8 +164,8 @@ Slides
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Event</div>
 <div class="col-12 col-md-9">
-<a href=https://www.telecom-valley.fr/sophia-security-camp-2019/ target=_blank rel=noopener>
-Sophia Security Camp 2019
+<a href=https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/ target=_blank rel=noopener>
+GDG Cloud & Iot Lyon
 </a>
 </div>
 </div>
@@ -175,9 +178,9 @@ Sophia Security Camp 2019
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Location</div>
-<div class="col-12 col-md-9">Inria Sophia Antipolis (Canceled)</div>
+<div class="col-12 col-md-9">Zenika</div>
 <div class=col-md-3></div>
-<div class="col-12 col-md-9">2004 Route des Lucioles, Espace Kahn, Sophia Antipolis, CA 06410</div>
+<div class="col-12 col-md-9">6 place Jules Ferry, Lyon, RA 69006</div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -187,8 +190,7 @@ Sophia Security Camp 2019
 <div class=article-style>
 <div class="alert alert-note">
 <div>
-<p>This conference at Sophia Security Camp 2019 was not given due to company change</p>
-<p>But I did it at <a href=https://humantalks.com/cities/lyon/events/533>HumanTalks (10 min)</a> and at <a href=https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/>GDG Lyon Meetup (1h)</a></p>
+This conference was given as a small version <a href=https://humantalks.com/cities/lyon/events/533>HumanTalks (10 min)</a> (<a href=https://davidaparicio.gitlab.io/200211-humantalks/>slides</a>)
 </div>
 </div>
 </div>
@@ -234,7 +236,7 @@ Sophia Security Camp 2019
 <ul>
 <li><a href=/website/talk/la-securite-des-la-conception-du-projet/>La Sécurité dès la conception du projet</a></li>
 <li><a href=/website/talk/la-securite-des-la-conception-du-projet/>La Sécurité dès la conception du projet</a></li>
-<li><a href=/website/talk/security-by-design/>Security By Design</a></li>
+<li><a href=/website/talk/agilite-et-securite-numeriques/>Agilité et sécurité numériques</a></li>
 <li><a href=/website/slides/ssc2019/>Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos</a></li>
 </ul>
 </div>
