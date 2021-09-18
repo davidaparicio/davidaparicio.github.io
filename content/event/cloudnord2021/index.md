@@ -13,7 +13,7 @@ Nous allons, pour cela, faire la revue de quelques grands outages de la dernièr
 ~ IaaS (Interruption as a Sageness) #HugOps"
 
 date: "2021-10-07T14:30:00Z"
-date_end: "2021-10-07T12:15:25Z"
+date_end: "2021-10-07T15:15:25Z"
 all_day: false
 
 publishDate: "2021-09-18T00:00:00Z"
