@@ -12,7 +12,7 @@ address:
   postcode: '17000'
   country: France
 
-summary: L'échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ?
+summary: L'échec comme une source de connaissance
 abstract: "L'échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ?
 Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie: Github, Google, Amazon, Facebook, Apple, Microsoft, Gitlab ou plus récemment Fastly À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques"
 
