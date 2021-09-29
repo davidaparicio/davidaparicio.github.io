@@ -1,15 +1,15 @@
 ---
 title: Père Castor, raconte nous une histoire (d'OPS)
 
-event: Cloud Nord 2021
-event_url: https://www.meetup.com/cafe-devops-lyon/
+event: Café DevOps
+event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
 
-location: Lyon (to be defined)
+location: Zenika Lyon
 address:
-  street:
+  street: 6 place Jules Ferry
   city: Lyon
   region: RA
-  postcode: '69000'
+  postcode: '69006'
   country: France
 
 summary: A l'approche d'Halloween, qu'est-ce qui fait le plus peur ?
@@ -18,8 +18,8 @@ Nous allons, pour cela, faire la revue de quelques grands outages de la dernièr
 
 ~ IaaS (Interruption as a Sageness) #HugOps"
 
-date: "2021-12-24T12:00:00Z"
-date_end: "2021-12-24T12:00:00Z"
+date: "2021-10-12T18:30:00Z"
+date_end: "2021-10-12T20:30:00Z"
 all_day: false
 
 publishDate: "2021-09-18T00:00:00Z"
@@ -30,7 +30,7 @@ tags: [SRE]
 featured: false
 
 image:
-  caption: 'Image credit: [**Cloud Nord 2021**](https://www.cloudnord.fr/programme2021)'
+  caption: 'Image credit: [**Meetup**](https://www.meetup.com/cafe-devops-lyon/events/281097147)'
   focal_point: Right
 
 links:
