@@ -13,7 +13,7 @@ Nous allons, pour cela, faire la revue de quelques grands outages de la dernièr
 ~ IaaS (Interruption as a Sageness) #HugOps"
 
 date: "2021-10-07T14:30:00Z"
-date_end: "2021-10-07T15:15:00Z"
+date_end: "2021-10-07T15:30:00Z"
 all_day: false
 
 publishDate: "2021-09-18T00:00:00Z"
@@ -30,7 +30,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CloudNord2021_PereCastor.pdf"
 url_video: ""
 
 slides: ""
