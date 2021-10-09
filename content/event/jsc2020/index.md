@@ -1,5 +1,5 @@
 ---
-title: La Sécurité dès la conception du projet
+title: La Sécurité dès la conception du projet (quickie)
 
 event: JUG SummerCamp 2020
 event_url: https://www.jugsummercamp.org/edition/11/presentations/JxaAbqezLIFaLJvOn6FN
