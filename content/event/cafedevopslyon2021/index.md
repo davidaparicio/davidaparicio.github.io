@@ -1,5 +1,5 @@
 ---
-title: Père Castor, raconte nous une histoire (d'OPS)
+title: Meetup Père Castor
 
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
