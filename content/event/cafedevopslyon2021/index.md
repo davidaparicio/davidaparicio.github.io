@@ -1,5 +1,5 @@
 ---
-title: Meetup Père Castor
+title: Père Castor (Format Meetup)
 
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
