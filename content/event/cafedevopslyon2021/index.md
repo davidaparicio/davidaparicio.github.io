@@ -1,5 +1,5 @@
 ---
-title: IaaS (Interruption as a Sageness) \#HugOps
+title: IaaS, Interruption as a Sageness (meetup)
 
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
