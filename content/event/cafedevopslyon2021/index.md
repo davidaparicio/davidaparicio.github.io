@@ -1,5 +1,5 @@
 ---
-title: Père Castor (Format Meetup)
+title: IaaS (Interruption as a Sageness) \#HugOps
 
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
@@ -36,7 +36,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CafeDevOps2021_IaaS.pdf"
 url_video: ""
 
 slides: ""
