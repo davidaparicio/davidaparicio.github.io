@@ -15,6 +15,12 @@ Afin de présenter leurs talks ainsi que leur vision du Cloud tout en réagissan
 aux questions des auditeurs sur des sujets chauds comme la panne DNS de Facebook ou de Data leak de Twitch
 
 
+Core Team: Horacio Gonzalez (OVHcloud), François Teychene (StarTree), Sébastien Blanc (RedHat), Aurélie Vache (OVHcloud), Julien Lengrand-Lambert‏ (Adyen)
+
+
+Invités: Julien Landuré (Zenika), Cyril Lakech (QIMA), David Aparicio (OVHcloud), Tugdual Grall (GitHub)
+
+
 Les Rendez-vous des Speakers est une série de conférences techniques, de rencontres, d’ateliers et autres événements pour les développeurs. Plus d'informations sur: https://rdv-speakers.fr/"
 
 date: "2021-10-07T12:15:00Z"
@@ -33,14 +39,22 @@ image:
   focal_point: Right
 
 links: 
+- icon: youtube
+  icon_pack: fab
+  name: Youtube
+  url: https://youtu.be/DkY1BA6M93g
+- icon: twitch
+  icon_pack: fab
+  name: Twitch
+  url: https://www.twitch.tv/videos/1169837703
 - icon: twitter
   icon_pack: fab
   name: Twitter
-  url: https://twitter.com/dadideo/status/1446073878304935940
+  url: https://twitter.com/dadideo/status/1446073878304935940 
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.twitch.tv/videos/1169837703"
+url_video: "https://youtu.be/DkY1BA6M93g"
 
 slides: ""
 projects: []
