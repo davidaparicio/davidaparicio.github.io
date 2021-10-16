@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="David Aparicio">
-<meta name=description content="A l'approche d'Halloween, qu'est-ce qui fait le plus peur ?">
-<link rel=alternate hreflang=en-us href=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/>
+<meta name=description content="Halloween est passé, mais lequel du DNS ou BGP fait-il le plus peur ?">
+<link rel=alternate hreflang=en-us href=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/website/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -19,21 +19,21 @@
 <link rel=manifest href=/website/manifest.webmanifest>
 <link rel=icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/>
+<link rel=canonical href=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/>
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:site" content="@dadideo">
 <meta property="twitter:creator" content="@dadideo">
 <meta property="og:site_name" content="David Aparicio">
-<meta property="og:url" content="https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/">
-<meta property="og:title" content="IaaS, Interruption as a Sageness (meetup) | David Aparicio">
-<meta property="og:description" content="A l'approche d'Halloween, qu'est-ce qui fait le plus peur ?"><meta property="og:image" content="https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/featured.jpg">
-<meta property="twitter:image" content="https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/featured.jpg"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-09-18T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-10-12T18:30:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/"},"name":"IaaS, Interruption as a Sageness (meetup)","location":{"@type":"Place","name":"Zenika Lyon","address":{"@type":"PostalAddress","streetAddress":"6 place Jules Ferry","addressLocality":"Lyon","postalCode":"69006","addressRegion":"RA","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/featured.jpg"],"startDate":"2021-10-12T18:30:00Z","endDate":"2021-10-12T20:30:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"A l'approche d'Halloween, qu'est-ce qui fait le plus peur ?"}</script>
-<title>IaaS, Interruption as a Sageness (meetup) | David Aparicio</title>
+<meta property="og:url" content="https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/">
+<meta property="og:title" content="Interruption as a Sageness (DEVOPS D-DAY) | David Aparicio">
+<meta property="og:description" content="Halloween est passé, mais lequel du DNS ou BGP fait-il le plus peur ?"><meta property="og:image" content="https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/featured.jpg">
+<meta property="twitter:image" content="https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/featured.jpg"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2021-10-16T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-11-18T09:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/"},"name":"Interruption as a Sageness (DEVOPS D-DAY)","location":{"@type":"Place","name":"Orange Velodrome","address":{"@type":"PostalAddress","streetAddress":"3 Boulevard Michelet","addressLocality":"Marseille","postalCode":"13008","addressRegion":"Bouches-du-Rhône","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/featured.jpg"],"startDate":"2021-11-18T09:00:00Z","endDate":"2021-11-18T18:00:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"Halloween est passé, mais lequel du DNS ou BGP fait-il le plus peur ?"}</script>
+<title>Interruption as a Sageness (DEVOPS D-DAY) | David Aparicio</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=70550e81b81d86266af59f715fd45ef6>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=67a2ef69e4bb27b5f1facacc04347657>
 <script src=/website/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -120,28 +120,23 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>IaaS, Interruption as a Sageness (meetup)</h1>
+<h1>Interruption as a Sageness (DEVOPS D-DAY)</h1>
 <div class=article-metadata>
 <div>
 <span>
 David Aparicio</span>
 </div>
 </div>
-<div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/website/talks/CafeDevOps2021_IaaS.pdf target=_blank rel=noopener>
-Slides
-</a>
 </div>
-</div>
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:490px>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:240px>
 <div style=position:relative>
-<img src=/website/talk/iaas-interruption-as-a-sageness-meetup/featured_hubf80c8e9273fd19d5aeb1fd5f32c0704_190639_720x0_resize_q75_lanczos.jpg alt class=featured-image>
-<span class=article-header-caption>Image credit: <a href=https://www.meetup.com/cafe-devops-lyon/events/281097147><strong>Meetup</strong></a></span>
+<img src=/website/talk/interruption-as-a-sageness-devops-d-day/featured_hue4c51c908dc050bebe084bc3f4a3b744_529137_720x0_resize_q75_lanczos.jpg alt class=featured-image>
+<span class=article-header-caption>Image credit: <a href=https://www.2021-devops-dday.com/><strong>DEVOPS D-DAY #6</strong></a></span>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>L&rsquo;échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ? Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Google, Amazon, Facebook, Apple, Microsoft, Gitlab ou plus récemment Fastly À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
+<p class=pub-abstract>L&rsquo;échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ? Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Amazon, Google, OVHcloud, Apple, Fastly, Microsoft, Gitlab ou plus récemment Facebook À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
 ~ IaaS (Interruption as a Sageness) #HugOps</p>
 <div class=row>
 <div class=col-md-1></div>
@@ -149,7 +144,7 @@ Slides
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-12 Oct 2021 18:30 &mdash; 20:30
+18 Nov 2021 09:00 &mdash; 18:00
 </div>
 </div>
 </div>
@@ -162,8 +157,8 @@ Slides
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Event</div>
 <div class="col-12 col-md-9">
-<a href=https://www.meetup.com/cafe-devops-lyon/events/281097147 target=_blank rel=noopener>
-Café DevOps
+<a href=https://www.2021-devops-dday.com/ target=_blank rel=noopener>
+DEVOPS D-DAY, 6 edition
 </a>
 </div>
 </div>
@@ -176,9 +171,9 @@ Café DevOps
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Location</div>
-<div class="col-12 col-md-9">Zenika Lyon</div>
+<div class="col-12 col-md-9">Orange Velodrome</div>
 <div class=col-md-3></div>
-<div class="col-12 col-md-9">6 place Jules Ferry, Lyon, RA 69006</div>
+<div class="col-12 col-md-9">3 Boulevard Michelet, Marseille, Bouches-du-Rhône 13008</div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -188,37 +183,38 @@ Café DevOps
 <div class=article-style>
 </div>
 <div class=article-tags>
+<a class="badge badge-light" href=/website/tag/cloud/>Cloud</a>
 <a class="badge badge-light" href=/website/tag/sre/>SRE</a>
 </div>
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/&text=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/&text=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/&t=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/&t=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29&body=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29&body=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/&title=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/&title=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29%20https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29%20https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://davidaparicio.github.io/website/talk/iaas-interruption-as-a-sageness-meetup/&title=IaaS,%20Interruption%20as%20a%20Sageness%20%28meetup%29" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://davidaparicio.github.io/website/talk/interruption-as-a-sageness-devops-d-day/&title=Interruption%20as%20a%20Sageness%20%28DEVOPS%20D-DAY%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
@@ -227,11 +223,11 @@ Café DevOps
 <div class="article-widget content-widget-hr">
 <h3>Related</h3>
 <ul>
-<li><a href=/website/talk/interruption-as-a-sageness-devops-d-day/>Interruption as a Sageness (DEVOPS D-DAY)</a></li>
+<li><a href=/website/talk/les-briques-du-cloud-speciale-cloud-nord-s01e01/>Les Briques du Cloud - Spéciale Cloud Nord (S01E01)</a></li>
+<li><a href=/website/talk/iaas-interruption-as-a-sageness-meetup/>IaaS, Interruption as a Sageness (meetup)</a></li>
 <li><a href=/website/talk/interruption-as-a-sageness-cloud-est/>Interruption as a Sageness (Cloud Est)</a></li>
 <li><a href=/website/talk/pere-castor-raconte-nous-une-histoire-dops/>Père Castor, raconte nous une histoire (d'OPS)</a></li>
 <li><a href=/website/talk/iaas-interruption-as-a-sageness/>IaaS (Interruption as a Sageness)</a></li>
-<li><a href=/website/talk/iaas-talk-only-no-slides/>IaaS, talk only (no slides)</a></li>
 </ul>
 </div>
 </div>
