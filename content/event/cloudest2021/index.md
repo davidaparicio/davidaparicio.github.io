@@ -1,5 +1,5 @@
 ---
-title: Interruption as a Sageness (IaaS)
+title: Interruption as a Sageness (Cloud Est)
 
 event: Cloud Est 2021
 event_url: http://cloudest-event.fr/
