@@ -1,36 +1,39 @@
 ---
-title: Interruption as a Sageness (Cloud Est)
+title: La Sécurité dès la conception du projet (Cloud Est)
 
 event: Cloud Est 2021
 event_url: http://cloudest-event.fr/
 
 location: Online
 
-summary: Le Legacy, le pire des soucis...
-abstract: "L'échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ?
-Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Google, Amazon, Facebook, Apple, Microsoft, Gitlab ou plus récemment Fastly À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
+summary: Depuis l'entrée en vigueur du RGPD, la protection des données personnelles (PII) ainsi que la sécurité "by design" deviennent des sujets centraux 
+abstract: "Penser une démarche préventive dès la phase de conception d'un projet
 
-~ IaaS (Interruption as a Sageness) #HugOps"
+La protection des données personnelles ainsi que la sécurité 'by design' deviennent des sujets centraux, depuis l'entrée en vigueur du RGPD.
 
-date: "2021-10-21T08:00:00Z"
-date_end: "2021-10-22T18:00:00Z"
+Je présenterai les techniques utilisées et j'aborderai aussi la prise de conscience du management sur ces aspects importants.
+
+En effet, même en étant dans le réseau interne d’un datacenter, nous ne sommes pas à l’abri d’une intrusion. Le risque 0 n'existe pas."
+
+date: "2021-10-22T14:00:00Z"
+date_end: "2021-10-22T15:00:00Z"
 all_day: false
 
 publishDate: "2021-09-18T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [SRE]
+tags: [Security]
 
 featured: false
 
 image:
-  caption: 'Image credit: [**Cloud Est 2021**](http://cloudest-event.fr/)'
+  caption: 'Image credit: [**Slides**](../../talks/CloudEst2021_La_securite_des_la_conception.pdf)'
   focal_point: Right
 
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CloudEst2021_La_securite_des_la_conception.pdf"
 url_video: ""
 
 slides: ""
