@@ -1,5 +1,5 @@
 ---
-title: Père Castor, raconte nous une histoire (d'OPS)
+title: Père Castor, raconte nous une histoire d'OPS (Cloud Nord)
 
 event: Cloud Nord 2021
 event_url: https://www.cloudnord.fr/programme2021
