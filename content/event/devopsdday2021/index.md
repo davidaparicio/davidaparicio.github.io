@@ -18,8 +18,8 @@ Nous allons, pour cela, faire la revue de quelques grands outages de la dernièr
 
 ~ IaaS (Interruption as a Sageness) #HugOps"
 
-date: "2021-11-18T09:00:00Z"
-date_end: "2021-11-18T18:00:00Z"
+date: "2021-11-18T16:45:00Z"
+date_end: "2021-11-18T17:25:00Z"
 all_day: false
 
 publishDate: "2021-10-16T00:00:00Z"
@@ -33,10 +33,14 @@ image:
   caption: 'Image credit: [**DEVOPS D-DAY #6**](https://www.2021-devops-dday.com/)'
   focal_point: Right
 
-links:
+links: 
+- icon: comments
+  icon_pack: fas
+  name: openfeedback.io
+  url: https://openfeedback.io/O0JgOh7607hrFK6xomd6/2021-11-18/SIE6sm17zZIewvX5vO9G
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/DevOpsDDay2021_IaaS.pdf"
 url_video: ""
 
 slides: ""
