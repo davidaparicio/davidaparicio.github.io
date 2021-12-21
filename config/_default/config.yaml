@@ -68,3 +68,9 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
+# New in v0.91.0 | https://gohugo.io/about/security-model/#security-policy
+security:
+  funcs:
+    getenv:
+    - ^WC_POST_CSS

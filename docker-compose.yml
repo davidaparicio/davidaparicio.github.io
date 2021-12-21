@@ -11,7 +11,7 @@ services:
       - "--name=iamfoo"
       - "--port=8080"
   hugo-academic:
-    image: "klakegg/hugo:0.88.0-ext-alpine"
+    image: "klakegg/hugo:edge-ext-alpine" #"klakegg/hugo:0.88.0-ext-alpine"
     container_name: "hugo"
     restart: "no"
     environment:
