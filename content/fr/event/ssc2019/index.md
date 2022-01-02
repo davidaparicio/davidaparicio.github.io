@@ -44,7 +44,7 @@ projects: []
 ---
 
 {{% callout note %}}
-This conference at Sophia Security Camp 2019 was not given due to company change
+Cette conférence au Sophia Security Camp 2019 n'a pas été donnée en raison d'un changement d'entreprise.
 
-But I did it at [HumanTalks (10 min)](https://humantalks.com/cities/lyon/events/533) and at [GDG Lyon Meetup (1h)](https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/) 
+Mais je l'ai donné à [HumanTalks (10 min)](https://humantalks.com/cities/lyon/events/533) ainsi qu'au [GDG Lyon Meetup (format 1h)](https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/) 
 {{% /callout %}}
