@@ -1,22 +1,48 @@
 # Languages
 #   Create a section for each of your site's languages.
-#   Documentation: https://wowchemy.com/docs/guide/language/
+#   Documentation: https://wowchemy.com/docs/guide/language/ (old/not found)
+#   https://wowchemy.com/docs/hugo-tutorials/language/
 
 # Default language
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+fr:
+  languageCode: fr-fr
+  contentDir: content/fr
+  title: David Aparicio
+  params:
+    description: 'David Aparicio, DevSecOps @OVHcloud'
+    address:
+      street: Quelque part à Lyon
+      region: Rhône-Alpes, FR
+    contact_links:
+    - icon: twitter
+      icon_pack: fab
+      name: M'envoyer un message privé
+  menu:
+    main:
+      - name: Accueil
+        url: '#about'
+        weight: 10
+      - name: Articles
+        url: '#posts'
+        weight: 20
+      - name: Projets
+        url: '#projects'
+        weight: 30
+      - name: Conférences
+        url: '#talks'
+        weight: 40
+      - name: Publications
+        url: '#publications'
+        weight: 50
+      - name: Contact
+        url: '#contact'
+        weight: 60
+      - name: CV
+        url: ../files/DavidAparicio-CV.pdf
+        weight: 70

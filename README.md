@@ -8,3 +8,6 @@ The website is based on **[Hugo](https://gohugo.io/)** + [Academic Resumé Templ
 [Check out the secondary website](https://davidaparicio.github.io/website/)
 
 <p align="center"><a href="https://davidaparicio.gitlab.io/website/" target="_blank" rel="noopener"><img src="http://icongal.com/gallery/image/146720/earth_world_internet.png" alt="World / Earth globe"></a></p>
+
+[comment]: <> (Languages i18n retrieved from https://github.com/wowchemy/wowchemy-hugo-themes/tree/main/wowchemy/i18n)
+[todo_update]: <> (https://github.com/wowchemy/starter-hugo-academic/commit/d99a03a46fe59269e23a272c996184d2df0ef884)
