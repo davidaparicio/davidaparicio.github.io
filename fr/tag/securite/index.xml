@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité | David Aparicio</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link><atom:link href="https://davidaparicio.github.io/website/fr/tag/securite/index.xml" rel="self" type="application/rss+xml"/><description>Sécurité</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© 2022 David Aparicio</copyright><lastBuildDate>Tue, 08 Oct 2019 18:00:00 +0000</lastBuildDate><image><url>https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>Sécurité</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link></image><item><title>Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos</title><link>https://davidaparicio.github.io/website/fr/slides/ssc2019/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/slides/ssc2019/</guid><description>&lt;h2 id="agilité-et-sécurité-numériques-cas-concret-avec-la-sauvegarde-automatisée-de-kerberos">Agilité et sécurité numériques: Cas concret avec la sauvegarde automatisée de Kerberos&lt;/h2>
+&lt;p>&lt;a href="https://david.aparicio.eu" target="_blank" rel="noopener">David Aparicio&lt;/a>&lt;/p>
+&lt;p>&lt;em>DevOps Cloud and Bigdata&lt;/em>&lt;/p>
+&lt;h6 id="3ème-édition-sophia-security-camp-08-octobre-2019">3ème édition Sophia Security Camp (08 Octobre 2019)&lt;/h6>
+&lt;hr>
+&lt;h2 id="avant-propos">Avant propos&lt;/h2>
+&lt;!-- .slide: data-background="#9a0007" data-transition="page" -->
+&lt;p>L&amp;rsquo;ensemble de la présentation porte sur ma mission DevOps Bigdata ALTRAN chez AMADEUS&lt;/p>
+&lt;p>Les opinions sont les miennes et non les visions de mon ancien employeur, ni celles de mon employeur actuel&lt;/p>
+&lt;h5 id="disclaimer">Disclaimer&lt;/h5>
+&lt;hr>
+&lt;h2 id="david-aparicio">David Aparicio&lt;/h2>
+&lt;p>Double diplôme INSA de Lyon / UNICAMP (Brésil)&lt;/p>
+&lt;p>Facebook Open Academy / MIT AppInventor&lt;/p>
+&lt;p>2 ans à AMADEUS&lt;/p>
+&lt;p>Nouveau job à Lyon&lt;/p>
+&lt;!-- Curieux
+* Transactional Memories
+* Battery Profiling
+* MIT AppInventor
+* SMPC / BC -->
+&lt;hr>
+&lt;h2 id="analogie">Analogie&lt;/h2>
+&lt;p>« Nul n&amp;rsquo;est censé ignorer la loi »&lt;/p>
+&lt;hr>
+&lt;h2 id="ma-devise">Ma devise&lt;/h2>
+&lt;h2 id="-nul-développeur-nest-censé-ignorer-la-sécurité-">« Nul développeur n&amp;rsquo;est censé ignorer la sécurité »&lt;/h2>
+&lt;h2 id="kerberos-kézako">Kerberos: kézako?&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/kerberos1.png" alt="Kerberos" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;!-- KDC = Key Distribution Center -->
+&lt;p>Source (EN): &lt;a href="https://dzone.com/articles/introduction-to-kerberos-for-managers" target="_blank" rel="noopener">Kerberos pour les manageurs&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="authentification--autorisation">Authentification | Autorisation&lt;/h2>
+&lt;h2 id="cours-en-6858-fall-2014-lecture-13-kerberoshttpsyoutubebcwxll8x33c">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/kerberos2.png" alt="Authentication/Authorization" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+Cours (EN): &lt;a href="https://youtu.be/bcWxLl8x33c" target="_blank" rel="noopener">6.858 Fall 2014 Lecture 13: Kerberos&lt;/a>&lt;/h2>
+&lt;h2 id="contexte">Contexte&lt;/h2>
+&lt;p>Kerberos est un SPOF (Point individuel de défaillance)&lt;/p>
+&lt;p>Pas de ressource pour le rendre HA (Haute Disponibilité)&lt;/p>
+&lt;p>Vite fait &amp;amp; Bien fait&lt;/p>
+&lt;hr>
+&lt;h2 id="où-stocker-la-sauvegarde-">Où stocker la sauvegarde ?&lt;/h2>
+&lt;ul>
+&lt;li>HDFS
+alias Hadoop Distributed File System ?&lt;/li>
+&lt;/ul>
+&lt;!--___
+## Architecture
+* GMock
+* Master
+* Worker
+* Gateway
+* Consul KV -->
+&lt;hr>
+&lt;h2 id="architecture-générale">Architecture générale&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/archi_gmock.png" alt="Architecture" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="résultat">Résultat&lt;/h2>
+&lt;h2 id="architecture-avec-la-sauvegardeimgarchi_gmock2png">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/archi_gmock2.png" alt="Architecture avec la sauvegarde" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/h2>
+&lt;h2 id="sécurité">Sécurité&lt;/h2>
+&lt;!-- https://media.giphy.com/media/PmXwiamUkK5qjKPPaa/source.gif-->
+&lt;!-- .slide: data-background="/img/security_container.gif" data-transition="fade" -->
+&lt;hr>
+&lt;h2 id="modèle-de-menacehttpsfrwikipediaorgwikimodc3a8le_de_menace">&lt;a href="https://fr.wikipedia.org/wiki/Mod%C3%A8le_de_menace" target="_blank" rel="noopener">Modèle de menace&lt;/a>&lt;/h2>
+&lt;h3 id="threat-modelhttpsenwikipediaorgwikithreat_model">&lt;a href="https://en.wikipedia.org/wiki/Threat_model" target="_blank" rel="noopener">Threat model&lt;/a>&lt;/h3>
+&lt;hr>
+&lt;h2 id="single-source-of-truth-ssothttpsenwikipediaorgwikisingle_source_of_truth">&lt;a href="https://en.wikipedia.org/wiki/Single_source_of_truth" target="_blank" rel="noopener">Single Source of Truth (SSOT)&lt;/a>&lt;/h2>
+&lt;h2 id="puppet-master-avec-la-gestion-des-certificats">Puppet Master avec la gestion des certificats&lt;/h2>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/doc.png" alt="Doc" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="configuration-optionnelle">Configuration optionnelle&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/custom.png" alt="Customization" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="chaos-monkey">Chaos Monkey&lt;/h2>
+&lt;h2 id="qaimgqapng">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/qa.png" alt="QA" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/h2>
+&lt;h2 id="quelques-problèmes">Quelques problèmes&lt;/h2>
+&lt;ul>
+&lt;li>Cluster sans Kerberos (MapR ticket)&lt;/li>
+&lt;li>Pas de 50/50&lt;/li>
+&lt;li>Temps de livraison&lt;/li>
+&lt;li>Sécurité ?&lt;/li>
+&lt;li>Accompagnement du Management&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;hr>
+&lt;h2 id="infos-à-retenir">Infos à retenir&lt;/h2>
+&lt;!-- Key Takeaways-->
+&lt;ul>
+&lt;li>Security by design&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="sécurité-dans-lagilité">Sécurité dans l&amp;rsquo;agilité&lt;/h2>
+&lt;!-- Key Takeaways-->
+&lt;p>Pour &lt;a href="https://www.ssi.gouv.fr/administration/guide/agilite-et-securite-numeriques-methode-et-outils-a-lusage-des-equipes-projet/" target="_blank" rel="noopener">aller plus loin&lt;/a>:
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img/anssi_agile.jpg" alt="Guide de l&amp;amp;rsquo;ANSSI, Agilité &amp;amp;amp; Sécurité numériques" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>Atelier d&amp;rsquo;analyse de risque&lt;/li>
+&lt;li>L&amp;rsquo;appréciation des risques&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="merci">Merci&lt;/h2>
+&lt;p>Questions ?&lt;/p>
+&lt;hr>
+&lt;h2 id="keep-in-touch">Keep in touch&lt;/h2>
+&lt;!-- https://media.giphy.com/media/NEvPzZ8bd1V4Y/source.gif" -->
+&lt;p>Ceci fût ma 1ère présentation tech&lt;/p>
+&lt;p>&lt;em>&lt;a href="mailto:david@aparicio.eu">david@aparicio.eu&lt;/a>&lt;/em>&lt;/p>
+&lt;!--
+trans: default/cube/page/concave/zoom/linear/fade/none
+https://github.com/yusukebe/revealgo/blob/master/assets/templates/slide.html
+https://t.co/3MgS9jX2Ky | http://i.giphy.com/90F8aUepslB84.gif -->&lt;blockquote>
+&lt;/blockquote></description></item></channel></rss>
