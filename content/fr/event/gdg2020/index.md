@@ -50,5 +50,5 @@ projects: []
 ---
 
 {{% callout note %}}
-This conference was given as a small version [HumanTalks (10 min)](https://humantalks.com/cities/lyon/events/533) ([slides](https://davidaparicio.gitlab.io/200211-humantalks/))
+Cette conférence a été donnée dans un format bien plus court à [HumanTalks (10 min)](https://humantalks.com/cities/lyon/events/533) ([slides](https://davidaparicio.gitlab.io/200211-humantalks/))
 {{% /callout %}}

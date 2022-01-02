@@ -41,6 +41,6 @@ projects: []
 ---
 
 {{% callout note %}}
-This conference was given as a big version [GDG Cloud & Iot Lyon (1h)](../la-sauvegarde-de-kerberos/) ([slides](https://davidaparicio.gitlab.io/200213-gdglyon/))
-It was a proposal (accepted) for [Sophia Security Camp 2019](../agilite-et-securite-numeriques/)
+Cette conférence a été donnée dans une grande version au [GDG Cloud & Iot Lyon (1h)](../la-sauvegarde-de-kerberos/) ([slides](https://davidaparicio.gitlab.io/200213-gdglyon/))
+Il s'agissait d'une proposition (acceptée) pour [Sophia Security Camp 2019](../agilite-et-securite-numeriques/)
 {{% /callout %}}
