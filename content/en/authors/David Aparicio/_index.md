@@ -74,4 +74,4 @@ Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two yea
 
 His motto: "No developer is supposed to ignore security".
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/DavidAparicio-CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/DavidAparicio-CV.pdf" "newtab" >}}resume{{< /staticref >}}.

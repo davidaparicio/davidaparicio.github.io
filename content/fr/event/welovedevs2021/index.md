@@ -49,5 +49,5 @@ projects: []
 ---
 
 {{% callout note %}}
-Fun fact, It was my first podcast recording ;-)
+Petite anecdote/fait amusant, c'était mon premier enregistrement de podcast ;-)
 {{% /callout %}}
