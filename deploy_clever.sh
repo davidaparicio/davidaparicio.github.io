@@ -5,9 +5,9 @@ HUGO_DESTINATION="public"
 #HUGO_DEBUG="" #--debug
 #docker run --rm -it --cpus="1.5" -v "$(pwd)":/src klakegg/hugo:"${HUGO_VERSION}"-ext-alpine --cleanDestinationDir --minify ${HUGO_DEBUG}
 
-clever create "website_$(date "+%Y%m%dT%H%M%S")" --type static-apache
+#clever create "website_$(date "+%Y%m%dT%H%M%S")" --type static-apache
+clever link app_166bc141-afa9-4536-afd2-61f661648d93
 clever scale --flavor nano
-#clever link website|app_24b9854c-98c7-4cdd-abec-2b0fb914cf3b
 #clever domain add clever-cloud.com/fr/podcast
 clever config set force-https enabled
 clever env set CC_PRE_BUILD_HOOK "./hugo.sh"
