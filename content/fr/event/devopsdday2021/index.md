@@ -41,7 +41,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevOpsDDay2021_IaaS.pdf"
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=tll9gsDLuLM"
 
 slides: ""
 projects: []
