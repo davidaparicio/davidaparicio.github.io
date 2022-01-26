@@ -31,7 +31,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/CloudNord2021_PereCastor.pdf"
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=J5SOD97nxWk"
 
 slides: ""
 projects: []
