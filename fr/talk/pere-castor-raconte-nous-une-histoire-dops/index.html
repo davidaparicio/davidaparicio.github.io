@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="David Aparicio">
-<meta name=description content="Suite aux derniers incidents AWS ? Que pouvons-nous apprendre ?">
-<link rel=alternate hreflang=en href=https://davidaparicio.github.io/website/talk/father-castor-tell-us-a-story-about-ops/>
+<meta name=description content="Quels sont les derniers incidents ? Que pouvons-nous apprendre ?">
+<link rel=alternate hreflang=en href=https://davidaparicio.github.io/website/talk/father-castor-tell-us-a-story-from-ops/>
 <link rel=alternate hreflang=fr-fr href=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
@@ -26,15 +26,15 @@
 <meta property="twitter:creator" content="@dadideo">
 <meta property="og:site_name" content="David Aparicio">
 <meta property="og:url" content="https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/">
-<meta property="og:title" content="Père Castor 🐻, raconte nous une histoire d'OPS | David Aparicio">
-<meta property="og:description" content="Suite aux derniers incidents AWS ? Que pouvons-nous apprendre ?"><meta property="og:image" content="https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured.jpg">
+<meta property="og:title" content="Père Castor 🐻, raconte nous une histoire (d'OPS) | David Aparicio">
+<meta property="og:description" content="Quels sont les derniers incidents ? Que pouvons-nous apprendre ?"><meta property="og:image" content="https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured.jpg">
 <meta property="twitter:image" content="https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured.jpg"><meta property="og:locale" content="fr-fr">
-<meta property="article:published_time" content="2021-12-21T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-01-21T08:30:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/"},"name":"Père Castor 🐻, raconte nous une histoire d'OPS","location":{"@type":"Place","name":"Polytech'Tours","address":{"@type":"PostalAddress","streetAddress":"64 Av. Jean Portalis","addressLocality":"Tours","postalCode":"37200","addressRegion":"Centre-Val de Loire","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured.jpg"],"startDate":"2022-01-21T08:30:00Z","endDate":"2022-01-21T18:30:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"Suite aux derniers incidents AWS ? Que pouvons-nous apprendre ?"}</script>
-<title>Père Castor 🐻, raconte nous une histoire d'OPS | David Aparicio</title>
+<meta property="article:published_time" content="2021-11-05T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-02-02T09:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/"},"name":"Père Castor 🐻, raconte nous une histoire (d'OPS)","location":{"@type":"Place","name":"WTC World Trade Center Grenoble","address":{"@type":"PostalAddress","streetAddress":"5 - 7, place Robert Schuman","addressLocality":"Grenoble","postalCode":"38025","addressRegion":"Rhône-Alpes","addressCountry":"France"}},"image":["https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured.jpg"],"startDate":"2022-02-02T09:00:00Z","endDate":"2022-02-05T18:00:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"Quels sont les derniers incidents ? Que pouvons-nous apprendre ?"}</script>
+<title>Père Castor 🐻, raconte nous une histoire (d'OPS) | David Aparicio</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=238a28c995983ff12251d89e04f92208>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=dfe631ff43994013663369343de1e37b>
 <script src=/website/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -121,7 +121,7 @@
 <div class="dropdown-item dropdown-item-active">
 <span>Français</span>
 </div>
-<a class=dropdown-item href=https://davidaparicio.github.io/website/talk/father-castor-tell-us-a-story-about-ops/>
+<a class=dropdown-item href=https://davidaparicio.github.io/website/talk/father-castor-tell-us-a-story-from-ops/>
 <span>English</span>
 </a>
 </div>
@@ -133,7 +133,7 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Père Castor 🐻, raconte nous une histoire d'OPS</h1>
+<h1>Père Castor 🐻, raconte nous une histoire (d'OPS)</h1>
 <div class=article-metadata>
 <div>
 <span>
@@ -141,20 +141,20 @@ David Aparicio</span>
 </div>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/website/talks/TNT2022_PereCastor.pdf target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=/website/talks/SnowCamp2022_PereCastor.pdf target=_blank rel=noopener>
 Slides
 </a>
 </div>
 </div>
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:404px>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:410px>
 <div style=position:relative>
-<img src=/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured_hu0e4936d86f1d5286237a69ff439c23df_1478585_720x0_resize_q75_lanczos.jpg alt class=featured-image>
-<span class=article-header-caption>Crédits: <a href=https://unsplash.com/photos/M5tzZtFCOfs><strong>Photo by Taylor Vick on Unsplash</strong></a></span>
+<img src=/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/featured_hu99aab96c17d701e474b66eb562af2d5d_467384_720x0_resize_q75_lanczos.jpg alt class=featured-image>
+<span class=article-header-caption>Crédits: <a href=https://snowcamp.io/><strong>SnowCamp 2022</strong></a></span>
 </div>
 </div>
 <div class=article-container>
 <h3>Résumé</h3>
-<p class=pub-abstract>L&rsquo;échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ? Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Amazon, Google, OVHcloud, Apple, Fastly, Microsoft, Gitlab ou plus récemment Facebook À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
+<p class=pub-abstract>L&rsquo;échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ? Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Amazon, Google, OVHcloud, Apple, Fastly, Microsoft, Gitlab, Facebook, Firefox ou plus récemment AirFrance. À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
 ~ IaaS (Interruption as a Sageness) #HugOps</p>
 <div class=row>
 <div class=col-md-1></div>
@@ -162,7 +162,7 @@ Slides
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-21 Jan 2022 08:30 &mdash; 18:30
+2 Feb 2022 09:00 &mdash; 5 Feb 2022 18:00
 </div>
 </div>
 </div>
@@ -175,8 +175,8 @@ Slides
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Évènement</div>
 <div class="col-12 col-md-9">
-<a href=https://touraine.tech/ target=_blank rel=noopener>
-Touraine Tech 22
+<a href=https://snowcamp.io/ target=_blank rel=noopener>
+SnowCamp 2022
 </a>
 </div>
 </div>
@@ -189,9 +189,9 @@ Touraine Tech 22
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Lieu</div>
-<div class="col-12 col-md-9">Polytech&rsquo;Tours</div>
+<div class="col-12 col-md-9">WTC World Trade Center Grenoble</div>
 <div class=col-md-3></div>
-<div class="col-12 col-md-9">64 Av. Jean Portalis, Tours, Centre-Val de Loire 37200</div>
+<div class="col-12 col-md-9">5 - 7, place Robert Schuman, Grenoble, Rhône-Alpes 38025</div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -207,32 +207,32 @@ Touraine Tech 22
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&text=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&text=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&t=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&t=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS&body=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29&body=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&title=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&title=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS%20https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29%20https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&title=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20d&amp;#39;OPS" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://davidaparicio.github.io/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/&title=P%c3%a8re%20Castor%20%f0%9f%90%bb,%20raconte%20nous%20une%20histoire%20%28d&amp;#39;OPS%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
@@ -241,7 +241,7 @@ Touraine Tech 22
 <div class="article-widget content-widget-hr">
 <h3>Sur le même sujet</h3>
 <ul>
-<li><a href=/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/>Père Castor 🐻, raconte nous une histoire (d'OPS)</a></li>
+<li><a href=/website/fr/talk/pere-castor-raconte-nous-une-histoire-ops/>Père Castor 🐻, raconte nous une histoire OPS</a></li>
 <li><a href=/website/fr/talk/interruption-as-a-sageness-devops-d-day/>Interruption as a Sageness (DEVOPS D-DAY)</a></li>
 <li><a href=/website/fr/talk/les-briques-du-cloud-speciale-cloud-nord-s01e01/>Les Briques du Cloud - Spéciale Cloud Nord (S01E01)</a></li>
 <li><a href=/website/fr/talk/iaas-interruption-as-a-sageness-meetup/>IaaS, Interruption as a Sageness (meetup)</a></li>
