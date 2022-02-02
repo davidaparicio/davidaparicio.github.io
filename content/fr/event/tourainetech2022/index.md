@@ -1,5 +1,5 @@
 ---
-title: Père Castor 🐻, raconte nous une histoire d'OPS
+title: Père Castor 🐻, raconte nous une histoire OPS
 
 event: Touraine Tech 22
 event_url: https://touraine.tech/

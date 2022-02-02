@@ -36,7 +36,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/SnowCamp2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""

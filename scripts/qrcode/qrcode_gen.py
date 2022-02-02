@@ -1,6 +1,6 @@
 import qrcode
 
-websiteurl = 'https://davidaparicio.gitlab.io/website/talks/DevOpsDDay2021_IaaS.pdf'
+websiteurl = 'https://davidaparicio.gitlab.io/website/talks/SnowCamp2022_PereCastor.pdf'
 filename = 'qrcode.png'
 
 versions   = 1  #1 to 40

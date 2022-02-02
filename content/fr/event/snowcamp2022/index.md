@@ -14,7 +14,7 @@ address:
 
 summary: Quels sont les derniers incidents ? Que pouvons-nous apprendre ?
 abstract: "L'échec comme une source de connaissance. Pouvons-nous apprendre des erreurs des plus grands ?
-Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Amazon, Google, OVHcloud, Apple, Fastly, Microsoft, Gitlab ou plus récemment Facebook À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
+Nous allons, pour cela, faire la revue de quelques grands outages de la dernière décennie : Github, Amazon, Google, OVHcloud, Apple, Fastly, Microsoft, Gitlab, Facebook, Firefox ou plus récemment AirFrance. À travers la lecture des post-mortems des incidents, nous analyserons la root cause, la mise en place de la remédiation, et en extraire des bonnes pratiques
 
 ~ IaaS (Interruption as a Sageness) #HugOps"
 
@@ -36,7 +36,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/SnowCamp2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""
