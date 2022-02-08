@@ -19,10 +19,15 @@ fr:
     address:
       street: Quelque part à Lyon
       region: Rhône-Alpes, FR
+    appointment_url: 'https://cal.com/dadideo'
     contact_links:
     - icon: twitter
       icon_pack: fab
       name: M'envoyer un message privé
+    - icon: keybase
+      icon_pack: fab
+      name: Me contacter via Keybase
+      link: 'https://keybase.io/dadideo'
   menu:
     main:
       - name: Accueil
