@@ -1,0 +1,306 @@
+<!doctype html><html lang=fr-fr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.3.0 for Hugo">
+<meta name=author content="David Aparicio">
+<meta name=description content="L’échec comme une source de connaissance.">
+<link rel=alternate hreflang=en href=https://davidaparicio.github.io/website/talk/live-my-life-as-an-ops/>
+<link rel=alternate hreflang=fr-fr href=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<meta name=theme-color content="#1565c0">
+<link rel=stylesheet href=/website/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
+<link rel=stylesheet href=/website/css/wowchemy.481af39c39ffd87b2d14f39943e7c723.css>
+<link rel=manifest href=/website/fr/manifest.webmanifest>
+<link rel=icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/>
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@dadideo">
+<meta property="twitter:creator" content="@dadideo">
+<meta property="og:site_name" content="David Aparicio">
+<meta property="og:url" content="https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/">
+<meta property="og:title" content="Vis ma vie d'Ops | David Aparicio">
+<meta property="og:description" content="L’échec comme une source de connaissance."><meta property="og:image" content="https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/featured.jpg">
+<meta property="twitter:image" content="https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/featured.jpg"><meta property="og:locale" content="fr-fr">
+<meta property="article:published_time" content="2022-02-08T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-03-17T13:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/"},"name":"Vis ma vie d'Ops","location":{"@type":"Place","name":"En ligne"},"image":["https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/featured.jpg"],"startDate":"2022-03-17T13:00:00Z","endDate":"2022-03-17T14:00:00Z","performer":{"@type":"Person","name":"David Aparicio"},"description":"L’échec comme une source de connaissance."}</script>
+<title>Vis ma vie d'Ops | David Aparicio</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=0a201bf4240a08d728cf155a6e29c4b4>
+<script src=/website/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Rechercher</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=Recherche... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Recherche...>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/website/fr/>David Aparicio</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Ouvrir la barre de navigation">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/website/fr/>David Aparicio</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#about><span>Accueil</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#posts><span>Articles</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#projects><span>Projets</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#talks><span>Conférences</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#publications><span>Publications</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/fr/#contact><span>Contact</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/website/files/DavidAparicio-CV.pdf><span>CV</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Rechercher><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+<li class="nav-item dropdown theme-dropdown">
+<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
+<i class="fas fa-moon" aria-hidden=true></i>
+</a>
+<div class=dropdown-menu>
+<a href=# class="dropdown-item js-set-theme-light">
+<span>Light</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-dark">
+<span>Dark</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-auto">
+<span>Automatic</span>
+</a>
+</div>
+</li>
+<li class="nav-item dropdown i18n-dropdown">
+<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label=Languages>
+<i class="fas fa-globe mr-1" aria-hidden=true></i></a>
+<div class=dropdown-menu>
+<div class="dropdown-item dropdown-item-active">
+<span>Français</span>
+</div>
+<a class=dropdown-item href=https://davidaparicio.github.io/website/talk/live-my-life-as-an-ops/>
+<span>English</span>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<div class=pub>
+<div class="article-container pt-3">
+<h1>Vis ma vie d'Ops</h1>
+<div class=article-metadata>
+<div>
+<span>
+David Aparicio</span>
+</div>
+</div>
+<div class="btn-links mb-3">
+<a class="btn btn-outline-primary btn-page-header" href="https://app.livestorm.co/malt-community/vis-ma-vie-dops?type=detailed" target=_blank rel=noopener>
+<i class="fas fa-pencil-alt mr-1"></i>S'inscrire</a>
+</div>
+</div>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:377px>
+<div style=position:relative>
+<img src=/website/fr/talk/vis-ma-vie-dops/featured_hubf80c8e9273fd19d5aeb1fd5f32c0704_70018_720x0_resize_q75_lanczos.jpg alt class=featured-image>
+<span class=article-header-caption>Crédits: <a href=https://www.malt-academy.com/><strong>Malt Academy</strong></a></span>
+</div>
+</div>
+<div class=article-container>
+<h3>Résumé</h3>
+<p class=pub-abstract>Les incidents seront présentés en storytelling, accompagnés de la remédiation et les bonnes pratiques. Surtout rappelez-vous une chose, personne n&rsquo;est à l&rsquo;abri !</p>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Date</div>
+<div class="col-12 col-md-9">
+17 Mar 2022 13:00 &mdash; 14:00
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Évènement</div>
+<div class="col-12 col-md-9">
+<a href=https://www.malt-academy.com/malt-academy-all-malt-academies target=_blank rel=noopener>
+Malt Academy
+</a>
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Lieu</div>
+<div class="col-12 col-md-9">En ligne</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=space-below></div>
+<div class=article-style>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/website/fr/tag/cloud/>Cloud</a>
+<a class="badge badge-light" href=/website/fr/tag/sre/>SRE</a>
+</div>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/&text=Vis%20ma%20vie%20d&amp;#39;Ops" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/&t=Vis%20ma%20vie%20d&amp;#39;Ops" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=Vis%20ma%20vie%20d&amp;#39;Ops&body=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/" target=_blank rel=noopener class=share-btn-email>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/&title=Vis%20ma%20vie%20d&amp;#39;Ops" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+<li>
+<a href="whatsapp://send?text=Vis%20ma%20vie%20d&amp;#39;Ops%20https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/" target=_blank rel=noopener class=share-btn-whatsapp>
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="https://service.weibo.com/share/share.php?url=https://davidaparicio.github.io/website/fr/talk/vis-ma-vie-dops/&title=Vis%20ma%20vie%20d&amp;#39;Ops" target=_blank rel=noopener class=share-btn-weibo>
+<i class="fab fa-weibo"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="article-widget content-widget-hr">
+<h3>Sur le même sujet</h3>
+<ul>
+<li><a href=/website/fr/talk/pere-castor-raconte-nous-des-histoire-dops/>Père Castor 🐻, raconte nous des histoire (d'OPS)</a></li>
+<li><a href=/website/fr/talk/pere-castor-raconte-nous-une-histoire-ops/>Père Castor 🐻, raconte nous une histoire OPS</a></li>
+<li><a href=/website/fr/talk/pere-castor-raconte-nous-une-histoire-dops/>Père Castor 🐻, raconte nous une histoire (d'OPS)</a></li>
+<li><a href=/website/fr/talk/interruption-as-a-sageness-devops-d-day/>Interruption as a Sageness (DEVOPS D-DAY)</a></li>
+<li><a href=/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/>Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+© 2022 David Aparicio
+</p>
+<p class=powered-by>
+Publié avec <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> - le constructeur de site web gratuit et <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> qui donne du pouvoir aux créateurs.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Citation</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copier
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Télécharger
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=/website/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script src=/website/fr/js/wowchemy.min.16a3f778d47c1bfe141fe1e6789a62b9.js></script>
+</body>
+</html>
