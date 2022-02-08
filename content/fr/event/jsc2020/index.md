@@ -28,7 +28,7 @@ all_day: false
 publishDate: "2020-09-11T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cybersécurité]
+tags: [Cybersécurité, Quickie]
 
 featured: false
 

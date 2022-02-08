@@ -37,7 +37,7 @@ links:
 - icon: binoculars
   icon_pack: fas
   name: Description
-  url: https://app.livestorm.co/malt-community/vis-ma-vie-dops?type=detailed
+  url: https://cfp.devoxx.fr/2022/talk/BJV-2519
 url_code: ""
 url_pdf: ""
 url_slides: ""
