@@ -1,5 +1,5 @@
 ---
-title: Père Castor 🐻, raconte nous des histoire (d'OPS)
+title: Father Castor 🐻, tell us some OPS stories
 
 event: Devoxx FR 2022
 event_url: https://devoxx.fr/
