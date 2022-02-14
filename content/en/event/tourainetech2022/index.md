@@ -37,7 +37,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/TNT2022_PereCastor.pdf"
-url_video: ""
+url_video: "https://youtu.be/pjv1Jic7VLM"
 
 slides: ""
 projects: []
