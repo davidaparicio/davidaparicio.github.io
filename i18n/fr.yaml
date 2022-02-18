@@ -151,4 +151,4 @@
 - id: cookie_learn
   translation: En savoir plus
 - id: published_with
-  translation: Publié avec {wowchemy} - le constructeur de site web gratuit et {repo_link}open source{/repo_link} qui donne du pouvoir aux créateurs.
+  translation: Publié avec Hugo+{repo_link}wowchemy{/repo_link}
