@@ -30,7 +30,7 @@ experience:
     date_start: '2019-07-01'
     date_end: ''
     description: |2-
-        Datalake Hortonworks sur une Infra OpenStack (Public Cloud), Migration du Legacy, Processus ITIL, Automatisation et Industrialisation
+        Datalake Hortonworks sur une Infra OpenStack (Public Cloud), Migration à partir de l'infra Legacy, ainsi que les agents de réplication depuis Mesos + Marathon vers Kubernetes, Automatisation et Industrialisation, Processus ITIL 
         
         Orateur aux conférences:
         * SnowCamp/TouraineTech 22

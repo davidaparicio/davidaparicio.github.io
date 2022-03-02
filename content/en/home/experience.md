@@ -30,7 +30,8 @@ experience:
     date_start: '2019-07-01'
     date_end: ''
     description: |2-
-        Hortonworks datalake on OpenStack (Public Cloud), Legacy migration, ITIL Change management, Industrialization
+        Hortonworks datalake on OpenStack (Public Cloud), Replication agent from Mesos Marathon to Kubernetes,
+        Legacy infrastructure migration, ITIL Change management, Industrialization
         
         Conference speaker:
         
