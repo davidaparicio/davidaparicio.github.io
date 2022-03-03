@@ -23,6 +23,13 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- title: Istio Fondamentaux
+  #date_end: "2021-05-20"
+  date_start: "2022-03-02"
+  description: "Certifie que vous possédez les compétences de base pour l'installer, sécuriser les services, ajouter des services au Mesh, sécuriser la communication interservices, contrôler le trafic et en assurer la résilience avec les tests de Chaos Monkey (2h30)"
+  organization: Solo.io
+  organization_url: https://www.solo.io/
+  url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
 - title: Formation Google Cloud Fundamentals Core Infrastructure
   #date_end: "2021-05-20"
   date_start: "2021-05-20"
