@@ -1,518 +1,60 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=generator content="Wowchemy 5.3.0 for Hugo">
-<meta name=author content="David Aparicio">
-<meta name=description content="David Aparicio, DevSecOps @OVHcloud">
-<link rel=alternate hreflang=fr href=https://davidaparicio.github.io/website/fr/>
-<link rel=alternate hreflang=en-us href=https://davidaparicio.github.io/website/>
-<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-<meta name=theme-color content="#1565c0">
-<link rel=stylesheet href=/website/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload='this.media="all"'>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload='this.media="all"'>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload='this.media="all"'>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload='this.media="all"' disabled>
-<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'>
-<link rel=stylesheet href=/website/css/wowchemy.481af39c39ffd87b2d14f39943e7c723.css>
-<script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
-<link rel=alternate href=/website/index.xml type=application/rss+xml title="David Aparicio">
-<link rel=manifest href=/website/manifest.webmanifest>
-<link rel=icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://davidaparicio.github.io/website/>
-<meta property="twitter:card" content="summary">
-<meta property="twitter:site" content="@dadideo">
-<meta property="twitter:creator" content="@dadideo">
-<meta property="og:site_name" content="David Aparicio">
-<meta property="og:url" content="https://davidaparicio.github.io/website/">
-<meta property="og:title" content="David Aparicio">
-<meta property="og:description" content="David Aparicio, DevSecOps @OVHcloud"><meta property="og:image" content="https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2022-04-21T09:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://davidaparicio.github.io/website/?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://davidaparicio.github.io/website/"}</script>
-<title>David Aparicio</title></head><body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper>
-<script src=/website/js/wowchemy-init.min.1f72b8d01369091b0ae66fde915ee9cc.js></script>
-<aside class=search-modal id=search>
-<div class=container>
-<section class=search-header>
-<div class="row no-gutters justify-content-between mb-3">
-<div class=col-6>
-<h1>Search</h1></div><div class="col-6 col-search-close">
-<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
-</div></div><div id=search-box>
-<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
-</div></section><section class=section-search-results>
-<div id=search-hits>
-</div></section></div></aside><div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<div class="d-none d-lg-inline-flex">
-<a class=navbar-brand href=/website/>David Aparicio</a>
-</div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span>
-</button>
-<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-<a class=navbar-brand href=/website/>David Aparicio</a>
-</div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=/website/#about data-target=#about><span>Home</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/#posts data-target=#posts><span>Posts</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/#projects data-target=#projects><span>Projects</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/#talks data-target=#talks><span>Talks</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/#featured data-target=#featured><span>Publications</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/#contact data-target=#contact><span>Contact</span></a>
-</li><li class=nav-item>
-<a class=nav-link href=/website/files/DavidAparicio-CV.pdf><span>CV</span></a>
-</li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-<li class=nav-item>
-<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
-</li><li class="nav-item dropdown theme-dropdown">
-<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
-<i class="fas fa-moon" aria-hidden=true></i>
-</a>
-<div class=dropdown-menu>
-<a href=# class="dropdown-item js-set-theme-light">
-<span>Light</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-dark">
-<span>Dark</span>
-</a>
-<a href=# class="dropdown-item js-set-theme-auto">
-<span>Automatic</span>
-</a>
-</div></li><li class="nav-item dropdown i18n-dropdown">
-<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label=Languages>
-<i class="fas fa-globe mr-1" aria-hidden=true></i></a>
-<div class=dropdown-menu>
-<div class="dropdown-item dropdown-item-active">
-<span>English</span>
-</div><a class=dropdown-item href=https://davidaparicio.github.io/website/fr/ data-target=/website/fr/>
-<span>Français</span>
-</a>
-</div></li></ul></div></nav></div><div class=page-body>
-<span class="js-widget-page d-none"></span>
-<section id=about class="home-section wg-about">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="col-12 col-lg-4">
-<div id=profile>
-<img class="avatar avatar-circle" src="https://s.gravatar.com/avatar/4000ce303cc94d538f2b83c99c9aee0a?s=270')" alt="David Aparicio">
-<div class=portrait-title>
-<h2>David Aparicio</h2><h3>DataOps</h3><h3>
-<a href=https://www.ovhcloud.com/ target=_blank rel=noopener>
-<span>OVHCloud</span>
-</a>
-</h3></div><ul class=network-icon aria-hidden=true>
-<li>
-<a href=/website/#contact aria-label=envelope>
-<i class="fas fa-envelope big-icon"></i>
-</a>
-</li><li>
-<a href=https://twitter.com/dadideo target=_blank rel=noopener aria-label=twitter>
-<i class="fab fa-twitter big-icon"></i>
-</a>
-</li><li>
-<a href=https://github.com/davidaparicio target=_blank rel=noopener aria-label=github>
-<i class="fab fa-github big-icon"></i>
-</a>
-</li><li>
-<a href=https://gitlab.com/davidaparicio target=_blank rel=noopener aria-label=gitlab>
-<i class="fab fa-gitlab big-icon"></i>
-</a>
-</li><li>
-<a href=https://fr.linkedin.com/in/davidaparicio1 target=_blank rel=noopener aria-label=linkedin>
-<i class="fab fa-linkedin big-icon"></i>
-</a>
-</li></ul></div></div><div class="col-12 col-lg-8">
-<h1>Biography</h1><div class=article-style>
-<p>Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences.</p><p>His motto: &ldquo;No developer is supposed to ignore security&rdquo;.</p><p>
-<i class="fas fa-download pr-1 fa-fw"></i> Download my <a href=/website/files/DavidAparicio-CV.pdf target=_blank>resume</a>.</p></div><div class=row>
-<div class=col-md-5>
-<div class=section-subheading>Interests</div><ul class="ul-interests mb-0">
-<li>Distributed Systems & Algorithms</li><li>Big Data & Artificial Intelligence</li><li>Cyber-Security</li></ul></div><div class=col-md-7>
-<div class=section-subheading>Education</div><ul class="ul-edu fa-ul mb-0">
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>MSc in Computer Science, 2014</p><p class=institution>INSA Lyon / France</p></div></li><li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>MEng in Computer Engineering, 2014</p><p class=institution>UNICAMP / Brazil</p></div></li></ul></div></div></div></div></div></section><section id=skills class="home-section wg-featurette">
-<div class=home-section-bg>
-</div><div class=container>
-<div class="row featurette">
-<div class="col-md-12 section-heading">
-<h1>Skills</h1></div><div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-server"></i></div><div class=section-subheading>Cloud Native</div></div><div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-chart-line"></i></div><div class=section-subheading>Big Data</div></div><div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-user-secret"></i></div><div class=section-subheading>Security</div></div></div></div></section><section id=experience class="home-section wg-experience">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Experience</h1></div><div class="col-12 col-lg-8">
-<div class="row experience">
-<div class="col-auto text-center flex-column d-none d-sm-flex">
-<div class="row h-50">
-<div class=col>&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2>
-<span class="badge badge-pill border exp-fill">&nbsp;</span>
-</div><div class="row h-50">
-<div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2">
-<div class=card>
-<div class=card-body>
-<div class="d-flex align-content-start">
-<div class="mr-2 mb-2"><a href=https://www.ovhcloud.com/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-x.svg width=56px height=56px alt=OVHcloud></a></div><div>
-<div class="section-subheading card-title exp-title text-muted my-0">DataOps</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.ovhcloud.com/ target=_blank rel=noopener>OVHcloud</a></div><div class="text-muted exp-meta">
-Jul 2019 –
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.3.0 for Hugo"><meta name=author content="David Aparicio"><meta name=description content="David Aparicio, DevSecOps @OVHcloud"><link rel=alternate hreflang=fr href=https://davidaparicio.github.io/website/fr/><link rel=alternate hreflang=en-us href=https://davidaparicio.github.io/website/><link rel=preconnect href=https://fonts.gstatic.com crossorigin><meta name=theme-color content="#1565c0"><link rel=stylesheet href=/website/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload='this.media="all"' disabled><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><link rel=stylesheet href=/website/css/wowchemy.481af39c39ffd87b2d14f39943e7c723.css><script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
+<link rel=alternate href=/website/index.xml type=application/rss+xml title="David Aparicio"><link rel=manifest href=/website/manifest.webmanifest><link rel=icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_180x180_fill_lanczos_center_3.png><link rel=canonical href=https://davidaparicio.github.io/website/><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@dadideo"><meta property="twitter:creator" content="@dadideo"><meta property="og:site_name" content="David Aparicio"><meta property="og:url" content="https://davidaparicio.github.io/website/"><meta property="og:title" content="David Aparicio"><meta property="og:description" content="David Aparicio, DevSecOps @OVHcloud"><meta property="og:image" content="https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png"><meta property="twitter:image" content="https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="og:updated_time" content="2022-04-21T09:00:00+00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://davidaparicio.github.io/website/?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://davidaparicio.github.io/website/"}</script><title>David Aparicio</title></head><body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper><script src=/website/js/wowchemy-init.min.1f72b8d01369091b0ae66fde915ee9cc.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/website/>David Aparicio</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/website/>David Aparicio</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/website/#about data-target=#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/website/#posts data-target=#posts><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/website/#projects data-target=#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/website/#talks data-target=#talks><span>Talks</span></a></li><li class=nav-item><a class=nav-link href=/website/#featured data-target=#featured><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/website/#contact data-target=#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href=/website/files/DavidAparicio-CV.pdf><span>CV</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li><li class="nav-item dropdown i18n-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label=Languages><i class="fas fa-globe mr-1" aria-hidden=true></i></a><div class=dropdown-menu><div class="dropdown-item dropdown-item-active"><span>English</span></div><a class=dropdown-item href=https://davidaparicio.github.io/website/fr/ data-target=/website/fr/><span>Français</span></a></div></li></ul></div></nav></div><div class=page-body><span class="js-widget-page d-none"></span><section id=about class="home-section wg-about"><div class=home-section-bg></div><div class=container><div class=row><div class="col-12 col-lg-4"><div id=profile><img class="avatar avatar-circle" src="https://s.gravatar.com/avatar/4000ce303cc94d538f2b83c99c9aee0a?s=270')" alt="David Aparicio"><div class=portrait-title><h2>David Aparicio</h2><h3>DataOps</h3><h3><a href=https://www.ovhcloud.com/ target=_blank rel=noopener><span>OVHCloud</span></a></h3></div><ul class=network-icon aria-hidden=true><li><a href=/website/#contact aria-label=envelope><i class="fas fa-envelope big-icon"></i></a></li><li><a href=https://twitter.com/dadideo target=_blank rel=noopener aria-label=twitter><i class="fab fa-twitter big-icon"></i></a></li><li><a href=https://github.com/davidaparicio target=_blank rel=noopener aria-label=github><i class="fab fa-github big-icon"></i></a></li><li><a href=https://gitlab.com/davidaparicio target=_blank rel=noopener aria-label=gitlab><i class="fab fa-gitlab big-icon"></i></a></li><li><a href=https://fr.linkedin.com/in/davidaparicio1 target=_blank rel=noopener aria-label=linkedin><i class="fab fa-linkedin big-icon"></i></a></li></ul></div></div><div class="col-12 col-lg-8"><h1>Biography</h1><div class=article-style><p>Passionate engineer in Computer Science, graduated INSA Lyon 2014, after two years spent at UNICAMP in Brazil, actively participates in the community, through Meetups and conferences.</p><p>His motto: &ldquo;No developer is supposed to ignore security&rdquo;.</p><p><i class="fas fa-download pr-1 fa-fw"></i> Download my <a href=/website/files/DavidAparicio-CV.pdf target=_blank>resume</a>.</p></div><div class=row><div class=col-md-5><div class=section-subheading>Interests</div><ul class="ul-interests mb-0"><li>Distributed Systems & Algorithms</li><li>Big Data & Artificial Intelligence</li><li>Cyber-Security</li></ul></div><div class=col-md-7><div class=section-subheading>Education</div><ul class="ul-edu fa-ul mb-0"><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>MSc in Computer Science, 2014</p><p class=institution>INSA Lyon / France</p></div></li><li><i class="fa-li fas fa-graduation-cap"></i><div class=description><p class=course>MEng in Computer Engineering, 2014</p><p class=institution>UNICAMP / Brazil</p></div></li></ul></div></div></div></div></div></section><section id=skills class="home-section wg-featurette"><div class=home-section-bg></div><div class=container><div class="row featurette"><div class="col-md-12 section-heading"><h1>Skills</h1></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-server"></i></div><div class=section-subheading>Cloud Native</div></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-chart-line"></i></div><div class=section-subheading>Big Data</div></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-user-secret"></i></div><div class=section-subheading>Security</div></div></div></div></section><section id=experience class="home-section wg-experience"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Experience</h1></div><div class="col-12 col-lg-8"><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class=col>&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border exp-fill">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.ovhcloud.com/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-x.svg width=56px height=56px alt=OVHcloud></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">DataOps</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.ovhcloud.com/ target=_blank rel=noopener>OVHcloud</a></div><div class="text-muted exp-meta">Jul 2019 –
 Present
 <span class=middot-divider></span>
-<span>Lyon</span>
-</div></div></div><div class=card-text><p>Hortonworks datalake on OpenStack (Public Cloud), Replication agent from Mesos Marathon to Kubernetes,
-Legacy infrastructure migration, ITIL Change management, Industrialization</p><p>Conference speaker:</p><ul>
-<li>SnowCamp/TouraineTech 22</li><li>RivieraDev/CloudNord/CloudEst 2021</li><li>JUG SummerCamp 2020/2021</li></ul></div></div></div></div></div><div class="row experience">
-<div class="col-auto text-center flex-column d-none d-sm-flex">
-<div class="row h-50">
-<div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2>
-<span class="badge badge-pill border">&nbsp;</span>
-</div><div class="row h-50">
-<div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2">
-<div class=card>
-<div class=card-body>
-<div class="d-flex align-content-start">
-<div class="mr-2 mb-2"><a href=https://www.amadeus.com/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-gc.svg width=56px height=56px alt="AMADEUS / Altran"></a></div><div>
-<div class="section-subheading card-title exp-title text-muted my-0">DevOps consultant</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.amadeus.com/ target=_blank rel=noopener>AMADEUS / Altran</a></div><div class="text-muted exp-meta">
-May 2017 –
+<span>Lyon</span></div></div></div><div class=card-text><p>Hortonworks datalake on OpenStack (Public Cloud), Replication agent from Mesos Marathon to Kubernetes,
+Legacy infrastructure migration, ITIL Change management, Industrialization</p><p>Conference speaker:</p><ul><li>SnowCamp/TouraineTech 22</li><li>RivieraDev/CloudNord/CloudEst 2021</li><li>JUG SummerCamp 2020/2021</li></ul></div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.amadeus.com/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-gc.svg width=56px height=56px alt="AMADEUS / Altran"></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">DevOps consultant</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.amadeus.com/ target=_blank rel=noopener>AMADEUS / Altran</a></div><div class="text-muted exp-meta">May 2017 –
 Jun 2019
 <span class=middot-divider></span>
-<span>Nice (Sophia-Antipolis)</span>
-</div></div></div><div class=card-text>BigData MapR deployment platform on hybrid clouds with CI/CD workflows and Terraform/Vault, following Twelve factor & ITIL principles. Migration from Puppet to Ansible, and MapR 3 to 5</div></div></div></div></div><div class="row experience">
-<div class="col-auto text-center flex-column d-none d-sm-flex">
-<div class="row h-50">
-<div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2>
-<span class="badge badge-pill border">&nbsp;</span>
-</div><div class="row h-50">
-<div class=col>&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2">
-<div class=card>
-<div class=card-body>
-<div class="d-flex align-content-start">
-<div class="mr-2 mb-2"><a href=https://liris.cnrs.fr/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-x.svg width=56px height=56px alt="INSA de Lyon (L.I.R.I.S. CNRS)"></a></div><div>
-<div class="section-subheading card-title exp-title text-muted my-0">PhD Fast,Verifiable,Secure compute for decentralized systems</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://liris.cnrs.fr/ target=_blank rel=noopener>INSA de Lyon (L.I.R.I.S. CNRS)</a></div><div class="text-muted exp-meta">
-Sep 2014 –
+<span>Nice (Sophia-Antipolis)</span></div></div></div><div class=card-text>BigData MapR deployment platform on hybrid clouds with CI/CD workflows and Terraform/Vault, following Twelve factor & ITIL principles. Migration from Puppet to Ansible, and MapR 3 to 5</div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border">&nbsp;</span></div><div class="row h-50"><div class=col>&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://liris.cnrs.fr/ target=_blank rel=noopener><img src=/website/media/icons/brands/org-x.svg width=56px height=56px alt="INSA de Lyon (L.I.R.I.S. CNRS)"></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">PhD Fast,Verifiable,Secure compute for decentralized systems</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://liris.cnrs.fr/ target=_blank rel=noopener>INSA de Lyon (L.I.R.I.S. CNRS)</a></div><div class="text-muted exp-meta">Sep 2014 –
 Apr 2017
 <span class=middot-divider></span>
-<span>Lyon (La Doua)</span>
-</div></div></div><div class=card-text><p>Real-time Multi-cloud sentiment analysis of 1.78 Billion tweets (48h) during Trump-Clinton debates with auto-scaling (Vert.X/Kubernetes/AWS/GCP/Azure)</p><p>6th/7th BIU Winter School, Cryptography on the Cloud/Differential Privacy, Tel Aviv/Israel</p></div></div></div></div></div></div></div></div></section><section id=accomplishments class="home-section wg-accomplishments">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Accomplish­ments</h1></div><div class="col-12 col-lg-8">
-<div class="card experience course">
-<div class=card-body><a href=https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222 target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">Foundation for Istio</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://www.solo.io/ target=_blank rel=noopener>Solo.io</a><span class=middot-divider></span>
-Mar 2022
-</div><div class=card-text>Certifies that you possess the introductory skills, to install, secure services, add services to the Mesh, secure interservices communication, control traffic, resiliency and Chaos Testing (2h30)</div></div></div><div class="card experience course">
-<div class=card-body><a href=https://training.zenika.com/fr-fr/training/gcp-core-infra/description target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">Google Cloud Fundamentals Core Infrastructure training</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://zenika.com target=_blank rel=noopener>Zenika</a><span class=middot-divider></span>
-May 2021
-</div><div class=card-text>Introduces you to important concepts, terminology for working with Google Cloud Platform (GCP) and compare many of the computing/storage services available: App/Compute/Container Engine (1 day)</div></div></div><div class="card experience course">
-<div class=card-body><a href=https://www.redhat.com/en/services/training/do407-automation-ansible-i target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">RedHat Automation with Ansible I training (DO407)</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://www.redhat.com target=_blank rel=noopener>RedHat</a><span class=middot-divider></span>
-Jul 2018
-</div><div class=card-text>Designed for system administrators who are intending to use Ansible for automation, configuration, and management. You will learn how to install and configure Ansible, create and run playbooks to configure systems, and learn to manage inventories (4 days)</div></div></div><div class="card experience course">
-<div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">MapR Cluster Administration ADM2000 training (MCCA 5.1)</div><div class="card-subtitle my-0 article-metadata"><a href=https://mapr.com/ target=_blank rel=noopener>MapR (Think Big Academy)</a><span class=middot-divider></span>
-Oct 2017
-</div><div class=card-text>Understand the big data pipeline and the MapR Converged Data Platform, how to install, configure, and maintain a cluster (3 days)</div></div></div></div></div></div></section><section id=posts class="home-section wg-pages">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Recent Posts</h1></div><div class="col-12 col-lg-8">
-</div></div></div></section><section id=projects class="home-section wg-portfolio">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Projects</h1></div><div class="col-12 col-lg-8">
-<span class="d-none default-project-filter">*</span>
-<div class=project-toolbar>
-<div class=project-filters>
-<div class=btn-toolbar>
-<div class="btn-group flex-wrap">
-<a href=# data-filter=* class="btn btn-primary btn-lg active">All</a>
+<span>Lyon (La Doua)</span></div></div></div><div class=card-text><p>Real-time Multi-cloud sentiment analysis of 1.78 Billion tweets (48h) during Trump-Clinton debates with auto-scaling (Vert.X/Kubernetes/AWS/GCP/Azure)</p><p>6th/7th BIU Winter School, Cryptography on the Cloud/Differential Privacy, Tel Aviv/Israel</p></div></div></div></div></div></div></div></div></section><section id=accomplishments class="home-section wg-accomplishments"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Accomplish­ments</h1></div><div class="col-12 col-lg-8"><div class="card experience course"><div class=card-body><a href=https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222 target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">Foundation for Istio</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://www.solo.io/ target=_blank rel=noopener>Solo.io</a><span class=middot-divider></span>
+Mar 2022</div><div class=card-text>Certifies that you possess the introductory skills, to install, secure services, add services to the Mesh, secure interservices communication, control traffic, resiliency and Chaos Testing (2h30)</div></div></div><div class="card experience course"><div class=card-body><a href=https://training.zenika.com/fr-fr/training/gcp-core-infra/description target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">Google Cloud Fundamentals Core Infrastructure training</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://zenika.com target=_blank rel=noopener>Zenika</a><span class=middot-divider></span>
+May 2021</div><div class=card-text>Introduces you to important concepts, terminology for working with Google Cloud Platform (GCP) and compare many of the computing/storage services available: App/Compute/Container Engine (1 day)</div></div></div><div class="card experience course"><div class=card-body><a href=https://www.redhat.com/en/services/training/do407-automation-ansible-i target=_blank rel=noopener><div class="section-subheading card-title exp-title text-muted my-0">RedHat Automation with Ansible I training (DO407)</div></a><div class="card-subtitle my-0 article-metadata"><a href=https://www.redhat.com target=_blank rel=noopener>RedHat</a><span class=middot-divider></span>
+Jul 2018</div><div class=card-text>Designed for system administrators who are intending to use Ansible for automation, configuration, and management. You will learn how to install and configure Ansible, create and run playbooks to configure systems, and learn to manage inventories (4 days)</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">MapR Cluster Administration ADM2000 training (MCCA 5.1)</div><div class="card-subtitle my-0 article-metadata"><a href=https://mapr.com/ target=_blank rel=noopener>MapR (Think Big Academy)</a><span class=middot-divider></span>
+Oct 2017</div><div class=card-text>Understand the big data pipeline and the MapR Converged Data Platform, how to install, configure, and maintain a cluster (3 days)</div></div></div></div></div></div></section><section id=posts class="home-section wg-pages"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent Posts</h1></div><div class="col-12 col-lg-8"></div></div></div></section><section id=projects class="home-section wg-portfolio"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Projects</h1></div><div class="col-12 col-lg-8"><span class="d-none default-project-filter">*</span><div class=project-toolbar><div class=project-filters><div class=btn-toolbar><div class="btn-group flex-wrap"><a href=# data-filter=* class="btn btn-primary btn-lg active">All</a>
 <a href=# data-filter=.js-id-Deep-Learning class="btn btn-primary btn-lg">Deep Learning</a>
-<a href=# data-filter=.js-id-Demo class="btn btn-primary btn-lg">Other</a>
-</div></div></div></div><div class="isotope projects-container row js-layout-row">
-<div class="col-12 isotope-item js-id-Deep-Learning">
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/project/example/>Example Project</a>
-</div><a href=/website/project/example/ class=summary-link>
-<div class=article-style>
-An example of using the in-built project page.
-</div></a>
-<div class="stream-meta article-metadata">
-</div><div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/slides/example/ target=_blank>
-Slides
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://twitter.com/georgecushen target=_blank rel=noopener>
-<i class="fab fa-twitter mr-1"></i>Follow</a>
-</div></div><div class=ml-3>
-<a href=/website/project/example/>
-<img src=/website/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_lanczos.jpg alt="Example Project" loading=lazy>
-</a>
-</div></div></div></div></div></div></div></section><section id=talks class="home-section wg-pages">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Recent & Upcoming Talks</h1></div><div class="col-12 col-lg-8">
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/talk/father-castor-tell-us-some-ops-stories/>Father Castor 🐻, tell us some OPS stories</a>
-</div><a href=/website/talk/father-castor-tell-us-some-ops-stories/ class=summary-link>
-<div class=article-style>
-Following the latest IT incidents? What can we learn?
-</div></a>
-<div class="stream-meta article-metadata">
-<div>
-<span>
-21 Apr 2022 09:00 &mdash; 22 Apr 2022 18:00
-</span>
+<a href=# data-filter=.js-id-Demo class="btn btn-primary btn-lg">Other</a></div></div></div></div><div class="isotope projects-container row js-layout-row"><div class="col-12 isotope-item js-id-Deep-Learning"><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/project/example/>Example Project</a></div><a href=/website/project/example/ class=summary-link><div class=article-style>An example of using the in-built project page.</div></a><div class="stream-meta article-metadata"></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/slides/example/ target=_blank>Slides</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://twitter.com/georgecushen target=_blank rel=noopener><i class="fab fa-twitter mr-1"></i>Follow</a></div></div><div class=ml-3><a href=/website/project/example/><img src=/website/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_lanczos.jpg alt="Example Project" loading=lazy></a></div></div></div></div></div></div></div></section><section id=talks class="home-section wg-pages"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent & Upcoming Talks</h1></div><div class="col-12 col-lg-8"><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/talk/father-castor-tell-us-some-ops-stories/>Father Castor 🐻, tell us some OPS stories</a></div><a href=/website/talk/father-castor-tell-us-some-ops-stories/ class=summary-link><div class=article-style>Following the latest IT incidents? What can we learn?</div></a><div class="stream-meta article-metadata"><div><span>21 Apr 2022 09:00 &mdash; 22 Apr 2022 18:00</span>
 <span class=middot-divider></span>
-<span>Paris (Palais des Congrès)</span>
-</div><div>
-<span>
-David Aparicio</span>
-</div></div><div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://cfp.devoxx.fr/2022/talk/BJV-2519 target=_blank rel=noopener>
-<i class="fas fa-binoculars mr-1"></i>Description</a>
-</div></div><div class=ml-3>
-<a href=/website/talk/father-castor-tell-us-some-ops-stories/>
-<img src=/website/talk/father-castor-tell-us-some-ops-stories/featured_hu436e33b4aa7a21157c3b59f6f4a27661_3083598_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us some OPS stories" loading=lazy>
-</a>
-</div></div><div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/>Take back control of your Bash by becoming a CLI ninja! 😎</a>
-</div><a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/ class=summary-link>
-<div class=article-style>
-Tools-in-Action about the terminal
-</div></a>
-<div class="stream-meta article-metadata">
-<div>
-<span>
-20 Apr 2022 09:00 &mdash; 18:00
-</span>
+<span>Paris (Palais des Congrès)</span></div><div><span>David Aparicio</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://cfp.devoxx.fr/2022/talk/BJV-2519 target=_blank rel=noopener><i class="fas fa-binoculars mr-1"></i>Description</a></div></div><div class=ml-3><a href=/website/talk/father-castor-tell-us-some-ops-stories/><img src=/website/talk/father-castor-tell-us-some-ops-stories/featured_hu436e33b4aa7a21157c3b59f6f4a27661_3083598_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us some OPS stories" loading=lazy></a></div></div><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/>Take back control of your Bash by becoming a CLI ninja! 😎</a></div><a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/ class=summary-link><div class=article-style>Tools-in-Action about the terminal</div></a><div class="stream-meta article-metadata"><div><span>20 Apr 2022 09:00 &mdash; 18:00</span>
 <span class=middot-divider></span>
-<span>Paris (Palais des Congrès)</span>
-</div><div>
-<span>
-David Aparicio</span>
-</div></div><div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://cfp.devoxx.fr/2022/talk/LDA-6791 target=_blank rel=noopener>
-<i class="fas fa-binoculars mr-1"></i>Description</a>
-</div></div><div class=ml-3>
-<a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/>
-<img src=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/featured_hu2bcdee52a40ff50666772f4f44777ef1_713462_150x0_resize_q75_lanczos.jpg alt="Take back control of your Bash by becoming a CLI ninja! 😎" loading=lazy>
-</a>
-</div></div><div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/talk/father-castor-tell-us-a-ops-story/>Father Castor 🐻, tell us a OPS story</a>
-</div><a href=/website/talk/father-castor-tell-us-a-ops-story/ class=summary-link>
-<div class=article-style>
-What can we learn from the latest IT incidents?
-</div></a>
-<div class="stream-meta article-metadata">
-<div>
-<span>
-24 Mar 2022 09:00 &mdash; 18:00
-</span>
+<span>Paris (Palais des Congrès)</span></div><div><span>David Aparicio</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href=https://cfp.devoxx.fr/2022/talk/LDA-6791 target=_blank rel=noopener><i class="fas fa-binoculars mr-1"></i>Description</a></div></div><div class=ml-3><a href=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/><img src=/website/talk/take-back-control-of-your-bash-by-becoming-a-cli-ninja/featured_hu2bcdee52a40ff50666772f4f44777ef1_713462_150x0_resize_q75_lanczos.jpg alt="Take back control of your Bash by becoming a CLI ninja! 😎" loading=lazy></a></div></div><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/talk/father-castor-tell-us-a-ops-story/>Father Castor 🐻, tell us a OPS story</a></div><a href=/website/talk/father-castor-tell-us-a-ops-story/ class=summary-link><div class=article-style>What can we learn from the latest IT incidents?</div></a><div class="stream-meta article-metadata"><div><span>24 Mar 2022 09:00 &mdash; 18:00</span>
 <span class=middot-divider></span>
-<span>Online</span>
-</div><div>
-<span>
-David Aparicio</span>
-</div></div></div><div class=ml-3>
-<a href=/website/talk/father-castor-tell-us-a-ops-story/>
-<img src=/website/talk/father-castor-tell-us-a-ops-story/featured_huf6a934d0eca7235508bd4f01ae93c771_122033_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us a OPS story" loading=lazy>
-</a>
-</div></div><div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/talk/live-my-life-as-an-ops/>Live my life as an Ops</a>
-</div><a href=/website/talk/live-my-life-as-an-ops/ class=summary-link>
-<div class=article-style>
-Failure as a source of knowledge.
-</div></a>
-<div class="stream-meta article-metadata">
-<div>
-<span>
-17 Mar 2022 13:00 &mdash; 14:00
-</span>
+<span>Online</span></div><div><span>David Aparicio</span></div></div></div><div class=ml-3><a href=/website/talk/father-castor-tell-us-a-ops-story/><img src=/website/talk/father-castor-tell-us-a-ops-story/featured_huf6a934d0eca7235508bd4f01ae93c771_122033_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us a OPS story" loading=lazy></a></div></div><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/talk/live-my-life-as-an-ops/>Live my life as an Ops</a></div><a href=/website/talk/live-my-life-as-an-ops/ class=summary-link><div class=article-style>Failure as a source of knowledge.</div></a><div class="stream-meta article-metadata"><div><span>17 Mar 2022 13:00 &mdash; 14:00</span>
 <span class=middot-divider></span>
-<span>Online</span>
-</div><div>
-<span>
-David Aparicio</span>
-</div></div><div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://app.livestorm.co/malt-community/vis-ma-vie-dops?type=detailed" target=_blank rel=noopener>
-<i class="fas fa-pencil-alt mr-1"></i>Register</a>
-</div></div><div class=ml-3>
-<a href=/website/talk/live-my-life-as-an-ops/>
-<img src=/website/talk/live-my-life-as-an-ops/featured_hu2994fa37104100a1647afdc0da88eda0_73842_150x0_resize_q75_lanczos.jpg alt="Live my life as an Ops" loading=lazy>
-</a>
-</div></div><div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/website/talk/father-castor-tell-us-a-story-from-ops/>Father Castor 🐻, tell us a story (from OPS)</a>
-</div><a href=/website/talk/father-castor-tell-us-a-story-from-ops/ class=summary-link>
-<div class=article-style>
-What are the latest incidents? What can we learn?
-</div></a>
-<div class="stream-meta article-metadata">
-<div>
-<span>
-2 Feb 2022 09:00 &mdash; 5 Feb 2022 18:00
-</span>
+<span>Online</span></div><div><span>David Aparicio</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/talks/MaltAcademy2022_VisMaVieDOps.pdf target=_blank rel=noopener>Slides</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://app.livestorm.co/malt-community/vis-ma-vie-dops?type=detailed" target=_blank rel=noopener><i class="fas fa-pencil-alt mr-1"></i>Register</a></div></div><div class=ml-3><a href=/website/talk/live-my-life-as-an-ops/><img src=/website/talk/live-my-life-as-an-ops/featured_hu2994fa37104100a1647afdc0da88eda0_73842_150x0_resize_q75_lanczos.jpg alt="Live my life as an Ops" loading=lazy></a></div></div><div class="media stream-item"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/website/talk/father-castor-tell-us-a-story-from-ops/>Father Castor 🐻, tell us a story (from OPS)</a></div><a href=/website/talk/father-castor-tell-us-a-story-from-ops/ class=summary-link><div class=article-style>What are the latest incidents? What can we learn?</div></a><div class="stream-meta article-metadata"><div><span>2 Feb 2022 09:00 &mdash; 5 Feb 2022 18:00</span>
 <span class=middot-divider></span>
-<span>WTC World Trade Center Grenoble</span>
-</div><div>
-<span>
-David Aparicio</span>
-</div></div><div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/talks/SnowCamp2022_PereCastor.pdf target=_blank rel=noopener>
-Slides
-</a>
-</div></div><div class=ml-3>
-<a href=/website/talk/father-castor-tell-us-a-story-from-ops/>
-<img src=/website/talk/father-castor-tell-us-a-story-from-ops/featured_hu99aab96c17d701e474b66eb562af2d5d_467384_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us a story (from OPS)" loading=lazy>
-</a>
-</div></div><div class=see-all>
-<a href=/website/event/>
-See all events
-<i class="fas fa-angle-right"></i>
-</a>
-</div></div></div></div></section><section id=featured class="home-section wg-featured">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Featured Publications</h1></div><div class="col-12 col-lg-8">
-</div></div></div></section><section id=publications class="home-section wg-pages">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Recent Publications</h1></div><div class="col-12 col-lg-8">
-<div class="alert alert-note">
-<div>
-Quickly discover relevant content by <a href=./publication/>filtering publications</a>.
-</div></div><div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-David Aparicio</span>, <span>
-Luiz E. Buzato</span>
-</span>
+<span>WTC World Trade Center Grenoble</span></div><div><span>David Aparicio</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/talks/SnowCamp2022_PereCastor.pdf target=_blank rel=noopener>Slides</a></div></div><div class=ml-3><a href=/website/talk/father-castor-tell-us-a-story-from-ops/><img src=/website/talk/father-castor-tell-us-a-story-from-ops/featured_hu99aab96c17d701e474b66eb562af2d5d_467384_150x0_resize_q75_lanczos.jpg alt="Father Castor 🐻, tell us a story (from OPS)" loading=lazy></a></div></div><div class=see-all><a href=/website/event/>See all events
+<i class="fas fa-angle-right"></i></a></div></div></div></div></section><section id=featured class="home-section wg-featured"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Featured Publications</h1></div><div class="col-12 col-lg-8"></div></div></div></section><section id=publications class="home-section wg-pages"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent Publications</h1></div><div class="col-12 col-lg-8"><div class="alert alert-note"><div>Quickly discover relevant content by <a href=./publication/>filtering publications</a>.</div></div><div class=pub-list-item style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author"><span>David Aparicio</span>, <span>Luiz E. Buzato</span></span>
 (2014).
 <a href=/website/publication/transactional_memories/>A Study of Factors External to Software Transactional Memories that Affect their Speed-up</a>.
-In <em>PiBic</em>.
-<p>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/publication/transactional_memories/transactional_memories.pdf target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/website/publication/transactional_memories/cite.bib>
-Cite
-</a>
-</p></div></div></div></div></section><section id=tags class="home-section wg-tag-cloud">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Popular Topics</h1></div><div class="col-12 col-lg-8">
-<div class=tag-cloud>
-<a href=/website/tag/cloud/ style=font-size:1.71801940688103rem>Cloud</a>
+In <em>PiBic</em>.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=/website/publication/transactional_memories/transactional_memories.pdf target=_blank rel=noopener>PDF</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/website/publication/transactional_memories/cite.bib>Cite</a></p></div></div></div></div></section><section id=tags class="home-section wg-tag-cloud"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Popular Topics</h1></div><div class="col-12 col-lg-8"><div class=tag-cloud><a href=/website/tag/cloud/ style=font-size:1.71801940688103rem>Cloud</a>
 <a href=/website/tag/conference/ style=font-size:.7rem>Conference</a>
 <a href=/website/tag/deep-learning/ style=font-size:.7rem>Deep Learning</a>
 <a href=/website/tag/podcast/ style=font-size:.7rem>Podcast</a>
 <a href=/website/tag/quickie/ style=font-size:1.0626258293464688rem>Quickie</a>
 <a href=/website/tag/security/ style=font-size:1.71801940688103rem>Security</a>
 <a href=/website/tag/sre/ style=font-size:1.954479259775747rem>SRE</a>
-<a href=/website/tag/tia/ style=font-size:.7rem>TIA</a>
-</div></div></div></div></section><section id=contact class="home-section wg-contact">
-<div class=home-section-bg>
-</div><div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Contact</h1></div><div class="col-12 col-lg-8">
-<div class=mb-3>
-<form name=contact method=post netlify netlify-honeypot=_gotcha>
-<div class="form-group form-inline">
-<label class=sr-only for=inputName>Name</label>
-<input type=text name=name class="form-control w-100" id=inputName placeholder=Name required>
-</div><div class="form-group form-inline">
-<label class=sr-only for=inputEmail>Email</label>
-<input type=email name=email class="form-control w-100" id=inputEmail placeholder=Email required>
-</div><div class=form-group>
-<label class=sr-only for=inputMessage>Message</label>
-<textarea name=message class=form-control id=inputMessage rows=5 placeholder=Message required></textarea>
-</div><div class=d-none>
-<label>Do not fill this field unless you are a bot: <input name=_gotcha></label>
-</div><button type=submit class="btn btn-primary px-3 py-2 w-100">Send</button>
-</form></div><ul class=fa-ul>
-<li>
-<i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
-<span id=person-email><a href=mailto:david.aparicio@free.fr>david.aparicio@free.fr</a></span>
-</li><li>
-<i class="fa-li fas fa-phone fa-2x" aria-hidden=true></i>
-<span id=person-telephone><a href=tel:06%2005%2020%2032%2008>06 05 20 32 08</a></span>
-</li><li>
-<i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
-<span id=person-address>Somewhere, Lyon, Rhône-Alpes 69000</span>
-</li><li>
-<i class="fa-li fas fa-calendar-check fa-2x" aria-hidden=true></i>
-<a href=https://cal.com/dadideo target=_blank rel=noopener>Book an appointment</a>
-</li><li>
-<i class="fa-li fab fa-twitter fa-2x" aria-hidden=true></i>
-<a href=https://twitter.com/dadideo target=_blank rel=noopener>DM Me</a>
-</li><li>
-<i class="fa-li fab fa-keybase fa-2x" aria-hidden=true></i>
-<a href=https://keybase.io/dadideo target=_blank rel=noopener>Chat on Keybase</a>
-</li></ul></div></div></div></section></div><div class=page-footer>
-<div class=container>
-<footer class=site-footer>
-<p class=powered-by>
-© 2022 David Aparicio
-</p><p class=powered-by>
-Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
-</p></footer></div></div><div id=modal class="modal fade" role=dialog>
-<div class=modal-dialog>
-<div class=modal-content>
-<div class=modal-header>
-<h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span>
-</button>
-</div><div class=modal-body>
-<pre><code class="tex hljs"></code></pre></div><div class=modal-footer>
-<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
-<i class="fas fa-copy"></i> Copy
-</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
-<i class="fas fa-download"></i> Download
-</a>
-<div id=modal-error></div></div></div></div></div><script src=/website/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js></script>
+<a href=/website/tag/tia/ style=font-size:.7rem>TIA</a></div></div></div></div></section><section id=contact class="home-section wg-contact"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Contact</h1></div><div class="col-12 col-lg-8"><div class=mb-3><form name=contact method=post netlify netlify-honeypot=_gotcha><div class="form-group form-inline"><label class=sr-only for=inputName>Name</label>
+<input type=text name=name class="form-control w-100" id=inputName placeholder=Name required></div><div class="form-group form-inline"><label class=sr-only for=inputEmail>Email</label>
+<input type=email name=email class="form-control w-100" id=inputEmail placeholder=Email required></div><div class=form-group><label class=sr-only for=inputMessage>Message</label>
+<textarea name=message class=form-control id=inputMessage rows=5 placeholder=Message required></textarea></div><div class=d-none><label>Do not fill this field unless you are a bot: <input name=_gotcha></label></div><button type=submit class="btn btn-primary px-3 py-2 w-100">Send</button></form></div><ul class=fa-ul><li><i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
+<span id=person-email><a href=mailto:david.aparicio@free.fr>david.aparicio@free.fr</a></span></li><li><i class="fa-li fas fa-phone fa-2x" aria-hidden=true></i>
+<span id=person-telephone><a href=tel:06%2005%2020%2032%2008>06 05 20 32 08</a></span></li><li><i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
+<span id=person-address>Somewhere, Lyon, Rhône-Alpes 69000</span></li><li><i class="fa-li fas fa-calendar-check fa-2x" aria-hidden=true></i>
+<a href=https://cal.com/dadideo target=_blank rel=noopener>Book an appointment</a></li><li><i class="fa-li fab fa-twitter fa-2x" aria-hidden=true></i>
+<a href=https://twitter.com/dadideo target=_blank rel=noopener>DM Me</a></li><li><i class="fa-li fab fa-keybase fa-2x" aria-hidden=true></i>
+<a href=https://keybase.io/dadideo target=_blank rel=noopener>Chat on Keybase</a></li></ul></div></div></div></section></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>© 2022 David Aparicio</p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/website/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
@@ -527,8 +69,6 @@ Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_bl
             </div>
           </div>
         </div>
-      </script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
-<script src=/website/en/js/wowchemy.min.400d476313da18e8c4747e75e0978123.js></script>
-</body></html>
+<script src=/website/en/js/wowchemy.min.400d476313da18e8c4747e75e0978123.js></script></body></html>
