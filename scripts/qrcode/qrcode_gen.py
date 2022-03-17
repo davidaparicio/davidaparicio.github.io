@@ -1,7 +1,7 @@
 import qrcode
 
-websiteurl = 'https://www.linkedin.com/jobs/view/2900803809/'
-filename = 'poste.png'
+websiteurl = 'https://davidaparicio.gitlab.io/website/'
+filename = 'website.png'
 
 versions   = 1  #1 to 40
 boxsize    = 10 #nb of pixels
@@ -17,7 +17,8 @@ qr = qrcode.QRCode(
 )
 qr.add_data(websiteurl)
 qr.make(fit=True)
-img = qr.make_image(fill_color="#160096", back_color="white").convert('RGB')
+img = qr.make_image(fill_color="#000000", back_color="white").convert('RGB')
+#img = qr.make_image(fill_color="#160096", back_color="white").convert('RGB')
 img.save(filename)
 
 #https://betterprogramming.pub/how-to-generate-and-decode-qr-codes-in-python-a933bce56fd0

@@ -31,7 +31,7 @@ links:
   url: https://app.livestorm.co/malt-community/vis-ma-vie-dops?type=detailed
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/MaltAcademy2022_VisMaVieDOps.pdf"
 url_video: ""
 
 slides: ""
