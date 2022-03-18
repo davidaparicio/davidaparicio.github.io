@@ -260,6 +260,5 @@
   translation: Learn more
 
 # Published with
-
 - id: published_with
-  translation: Published with Hugo+{repo_link}wowchemy{/repo_link}
+  translation: Published in <a href="https://gitlab.com/davidaparicio/website" target="_blank" rel="noopener">GitOps</a> style with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>+{wowchemy}

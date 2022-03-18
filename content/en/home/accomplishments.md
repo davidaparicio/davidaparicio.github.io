@@ -26,10 +26,12 @@ item:
 - title: Foundation for Istio
   #date_end: "2021-05-20"
   date_start: "2022-03-02"
-  description: "Certifies that you possess the introductory skills, to install, secure services, add services to the Mesh, secure interservices communication, control traffic, resiliency and Chaos Testing (2h30)"
+  description: "Istio is the most popular service mesh deployed into production across the cloud-native ecosystem. It provides the foundational pieces to implement zero-trust networking, get deeper observability into a distributed system, and smart routing control for safer software releases. This certification validates that you possess the introductory skills, to install, secure services and interservices communication into the Mesh, control traffic, resiliency and implement Chaos Testing (2h30)"
+  #description: "Certifies that you possess the introductory skills, to install, secure services, add services to the Mesh, secure interservices communication, control traffic, resiliency and Chaos Testing (2h30) Skill list: Kubernetes, Microservices, Envoy Proxy, Istio, Service Mesh, Operate Service Mesh, Secure Istio, Secure Microservices"
   organization: Solo.io
   organization_url: https://www.solo.io/
-  url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
+  url: "https://www.credly.com/badges/69945842-15e4-4aca-ae51-56e0854a666c/public_url"
+  #url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
 - title: Google Cloud Fundamentals Core Infrastructure training
   #date_end: "2021-05-20"
   date_start: "2021-05-20"

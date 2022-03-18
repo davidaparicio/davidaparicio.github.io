@@ -29,7 +29,8 @@ item:
   description: "Certifie que vous possédez les compétences de base pour l'installer, sécuriser les services, ajouter des services au Mesh, sécuriser la communication interservices, contrôler le trafic et en assurer la résilience avec les tests de Chaos Monkey (2h30)"
   organization: Solo.io
   organization_url: https://www.solo.io/
-  url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
+  url: "https://www.credly.com/badges/69945842-15e4-4aca-ae51-56e0854a666c/public_url"
+  #url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
 - title: Formation Google Cloud Fundamentals Core Infrastructure
   #date_end: "2021-05-20"
   date_start: "2021-05-20"
