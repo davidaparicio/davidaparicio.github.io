@@ -12,7 +12,7 @@ address:
   postcode: '56870'
   country: France
 
-summary: Le synonyme, en pire, surtout dans l'administratif 
+summary: C'est comme un synonyme, en pire, surtout dans l'administratif 
 abstract: "Imaginez-vous, seul & l'unique [PRENOM] sur Terre, un cursus scolaire sans encombre, avec une famille parfaite. Tout se passe bien, quand soudain, lors d'une étape administrative, vous vous rendez compte que vous avez un homonyme. Et oui, c'est possible, même nom, même prénom et même date de naissance.
 
 Je vais vous raconter ce cauchemar qui alourdit toutes les procédures : par exemple, permis, CAF voir même mes tests antigéniques Covid-19. Rien que du vécu ! (Format Autour du feu, slideless 15 minutes)"

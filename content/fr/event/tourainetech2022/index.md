@@ -34,6 +34,10 @@ image:
   focal_point: Right
 
 links:
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/O0JgOh7607hrFK6xomd6/2022-01-21/SIE6sm17zZIewvX5vO9G
 url_code: ""
 url_pdf: ""
 url_slides: "talks/TNT2022_PereCastor.pdf"

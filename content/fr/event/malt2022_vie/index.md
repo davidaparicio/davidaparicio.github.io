@@ -25,6 +25,10 @@ image:
   focal_point: Right
 
 links:
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/ccc3T1AYxWjl8tVAOq0x/2022-03-17/RbvD53UfoTpfWE5xmW99
 - icon: pencil-alt
   icon_pack: fas
   name: S'inscrire

@@ -27,9 +27,14 @@ image:
   caption: 'Crédits: [**Cloud Sud 2022**](https://cloudsud.fr/)'
   focal_point: Right
 
+links:
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/J85DO0iwp4Fr59wWsLRR/2022-03-24/HH2TEY7nwTCrZIieE754
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CloudSud2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""
