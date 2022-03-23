@@ -32,7 +32,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/MaltAcademy2022_VisMaVieDOps.pdf"
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=8Tr8xnU_ZHw"
 
 slides: ""
 projects: []
