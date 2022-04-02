@@ -72,7 +72,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=PlqPI8ZYAK8&t=2897s"
+url_video: "https://youtu.be/PlqPI8ZYAK8?t=2390"
 
 slides: ""
 projects: []
