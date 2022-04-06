@@ -30,6 +30,8 @@
 
 ### zellij
 
+### nvm (full shell script)
+
 ## Choose our weapon
 Powerful shell (plug)
 
@@ -66,6 +68,8 @@ Powerful shell (plug)
 - du -x --max-depth=1|sort -rn|awk -F / -v c=$COLUMNS 'NR==1{t=$1} NR>1{r=int($1/t*c+.5); b="\033[1;31m"; for (i=0; i<r; i++) b=b"#"; printf " %5.2f%% %s\033[0m %s\n", $1/t*100, b, $2}'|tac
 
 ## Extra links
+
+### Toujours avoir un bash >= 4.2 sous la main
 
 ### TLDR / man (tools)
 
@@ -162,11 +166,15 @@ Improve your Mac Terminal
 
 ### tealdeer (tldr)
 
+### navi (dynamic tldr)
+
 ### broot (tree)
 
 ### grex (generate regex)
 
 ### hyperfine (benchmark)
+
+### volta (nvm)
 
 ### nu[shell] (SQL)
 
