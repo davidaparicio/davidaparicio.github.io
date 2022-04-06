@@ -5,7 +5,7 @@ title: Agilité et sécurité numériques
 event: Sophia Security Camp 2019
 event_url: https://www.telecom-valley.fr/sophia-security-camp-2019/
 
-location: Inria Sophia Antipolis (Canceled)
+location: Inria Sophia Antipolis (Annulé)
 address:
   street: 2004 Route des Lucioles, Espace Kahn
   city: Sophia Antipolis
