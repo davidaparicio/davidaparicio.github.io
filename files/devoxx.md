@@ -73,6 +73,8 @@ Powerful shell (plug)
 
 ## Extra links
 
+### Julia Evans Zines
+
 ### Toujours avoir un bash >= 4.2 sous la main
 
 ### TLDR / man (tools)
@@ -193,6 +195,8 @@ Improve your Mac Terminal
 ### lapce / ox / kiro / xi (editor)
 
 ### alacritty (openGL term)
+
+### warp (new gen term)
 
 ### zellij (tmux layout/plugin)
 
