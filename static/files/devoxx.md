@@ -24,6 +24,8 @@
 
 ### homebrew / arkade (cloudnative) / chocolatey (Windows/NuGet) / Nix 
 
+### byobu/screen/tmux
+
 ### Terminator
 
 - Konsole/etc with tmux
@@ -46,6 +48,8 @@ Powerful shell (plug)
 ### Fish / oh-my-fish
 
 ## Useful commands
+
+### mosh (3G Roaming/Intermittent SSH)
 
 ### df -i (inodes)
 
@@ -105,15 +109,21 @@ Improve your Mac Terminal
 
 ## C++ tooling
 
+### lnav / multitail (log navigator)
+
+### dfc / ncdu (ncurses du)
+
 ### jq (yaml issue #467)
 
 ### jo (create json)
 
-### lnav (log navigator)
-
 ### zstd (compress)
 
 ### mold (linker LLVM)
+
+### mc (Midnight Commander / Ncurses ls)
+
+### ag (ack=Perl)
 
 ## Python tooling
 
@@ -125,9 +135,11 @@ Improve your Mac Terminal
 
 ## Go tooling
 
-### gRPCurl (gRPC curl)
+### duf (du)
 
 ### hey (HTTP benchmark)
+
+### gRPCurl (gRPC curl)
 
 ### noti (notifications)
 
@@ -178,7 +190,7 @@ Improve your Mac Terminal
 
 ### nu[shell] (SQL)
 
-### ox / kiro / xi (editor)
+### lapce / ox / kiro / xi (editor)
 
 ### alacritty (openGL term)
 
@@ -193,4 +205,8 @@ Improve your Mac Terminal
 ### difftastic (diff)
 
 ### bottom (htop/ex-ytop/gtop/gotop)
+
+### rg (ack)
+
+### atuin (SQLite CTRL+R)
 
