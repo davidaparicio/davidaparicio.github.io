@@ -12,11 +12,17 @@
 
 ### !!
 
+- '$(history -p \!\!)'
+
+### ESC + # (comment the line)
+
 ### cd - / z <WORD>
 
 ### open <FILE/FOLDER>
 
 ### echo $? / in the prompt
+
+### alias Groot='sudo $(history -p \!\!)'
 
 ## Terminal++
 
@@ -34,6 +40,8 @@
 
 ### nvm (full shell script)
 
+### vcsh (save .dotfiles)
+
 ## Choose our weapon
 Powerful shell (plug)
 
@@ -46,6 +54,8 @@ Powerful shell (plug)
 (cross-shell)
 
 ### Fish / oh-my-fish
+
+### WSL2/Cmder/Windows Terminal/Powershell
 
 ## Useful commands
 
@@ -74,6 +84,9 @@ Powerful shell (plug)
 ## Extra links
 
 ### Julia Evans Zines
+
+### Aurélie Vache 
+Understanding X in a visual way / youtube
 
 ### Toujours avoir un bash >= 4.2 sous la main
 
@@ -111,6 +124,8 @@ Improve your Mac Terminal
 
 ## C++ tooling
 
+### pv (pipe viewer)
+
 ### lnav / multitail (log navigator)
 
 ### dfc / ncdu (ncurses du)
@@ -135,6 +150,8 @@ Improve your Mac Terminal
 
 ### yq (jq for yaml/xml/toml)
 
+### thefuck (autocorrect)
+
 ## Go tooling
 
 ### duf (du)
@@ -148,6 +165,8 @@ Improve your Mac Terminal
 ### fzf (fuzzy find)
 
 ### dstp (network checks)
+
+### GoAccess (web log)
 
 ### inlets/ngrok (port tunneling)
 
