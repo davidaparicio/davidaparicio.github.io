@@ -39,7 +39,7 @@ links:
   url: https://cfp.devoxx.fr/2022/talk/LDA-6791
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/DevoxxFR2022_Cli.pdf"
 url_video: ""
 
 slides: ""
