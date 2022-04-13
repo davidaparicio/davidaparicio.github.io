@@ -10,6 +10,8 @@
 
 ## Basic shortcut
 
+### alias
+
 ### !!
 
 - '$(history -p \!\!)'
@@ -173,6 +175,8 @@ Improve your Mac Terminal
 ### fq (bin jq)
 
 ### gjo (jo)
+
+### restic (backup like git)
 
 ## Rust tooling
 
