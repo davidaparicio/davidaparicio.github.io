@@ -40,7 +40,7 @@ links:
   url: https://cfp.devoxx.fr/2022/talk/BJV-2519
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/DevoxxFR2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""
