@@ -7,11 +7,6 @@ This conference was given as a small version &lt;a href="https://humantalks.com/
 This conference was given as a big version &lt;a href="../la-sauvegarde-de-kerberos/">GDG Cloud &amp;amp; Iot Lyon (1h)&lt;/a> (&lt;a href="https://davidaparicio.gitlab.io/200213-gdglyon/" target="_blank" rel="noopener">slides&lt;/a>)
 It was a proposal (accepted) for &lt;a href="../agilite-et-securite-numeriques/">Sophia Security Camp 2019&lt;/a>
 &lt;/div>
-&lt;/div></description></item><item><title>Agility and Security, Case study with Kerberos automated backup</title><link>https://davidaparicio.github.io/website/talk/agility-and-security-case-study-with-kerberos-automated-backup/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/talk/agility-and-security-case-study-with-kerberos-automated-backup/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>This conference at Sophia Security Camp 2019 was not given due to company change&lt;/p>
-&lt;p>But I did it at &lt;a href="https://humantalks.com/cities/lyon/events/533" target="_blank" rel="noopener">HumanTalks (10 min)&lt;/a> and at &lt;a href="https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/" target="_blank" rel="noopener">GDG Lyon Meetup (1h)&lt;/a>&lt;/p>
-&lt;/div>
 &lt;/div></description></item><item><title>Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos</title><link>https://davidaparicio.github.io/website/slides/ssc2019/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/slides/ssc2019/</guid><description>&lt;h2 id="agilité-et-sécurité-numériques-cas-concret-avec-la-sauvegarde-automatisée-de-kerberos">Agilité et sécurité numériques: Cas concret avec la sauvegarde automatisée de Kerberos&lt;/h2>
 &lt;p>&lt;a href="https://david.aparicio.eu" target="_blank" rel="noopener">David Aparicio&lt;/a>&lt;/p>
 &lt;p>&lt;em>DevOps Cloud and Bigdata&lt;/em>&lt;/p>
@@ -161,4 +156,9 @@ alias Hadoop Distributed File System ?&lt;/li>
 &lt;!--
 trans: default/cube/page/concave/zoom/linear/fade/none
 https://github.com/yusukebe/revealgo/blob/master/assets/templates/slide.html
-https://t.co/3MgS9jX2Ky | http://i.giphy.com/90F8aUepslB84.gif --></description></item></channel></rss>
+https://t.co/3MgS9jX2Ky | http://i.giphy.com/90F8aUepslB84.gif --></description></item><item><title>Agility and Security, Case study with Kerberos automated backup</title><link>https://davidaparicio.github.io/website/talk/agility-and-security-case-study-with-kerberos-automated-backup/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/talk/agility-and-security-case-study-with-kerberos-automated-backup/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>This conference at Sophia Security Camp 2019 was not given due to company change&lt;/p>
+&lt;p>But I did it at &lt;a href="https://humantalks.com/cities/lyon/events/533" target="_blank" rel="noopener">HumanTalks (10 min)&lt;/a> and at &lt;a href="https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/" target="_blank" rel="noopener">GDG Lyon Meetup (1h)&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
