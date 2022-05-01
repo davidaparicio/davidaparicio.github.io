@@ -37,6 +37,10 @@ links:
   icon_pack: fas
   name: Description
   url: https://cfp.devoxx.fr/2022/talk/LDA-6791
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://s.42l.fr/devoxxcli
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_Cli.pdf"

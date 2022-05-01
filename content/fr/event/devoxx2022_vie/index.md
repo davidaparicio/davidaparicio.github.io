@@ -38,6 +38,10 @@ links:
   icon_pack: fas
   name: Description
   url: https://cfp.devoxx.fr/2022/talk/BJV-2519
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://s.42l.fr/devoxxcastor
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_PereCastor.pdf"
