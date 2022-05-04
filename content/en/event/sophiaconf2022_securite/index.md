@@ -15,8 +15,12 @@ address:
 summary: Since the entry into force of the GDPR, the protection of personal data (PII) as well as security "by design" become central topics
 abstract: "In 2020, the number of cyberattacks has exploded worldwide. According to a recent report from the French National Agency for Information Systems Security (ANSSI), ANSSI operations in 2020 have increased fourfold, compared to the previous year.
 
+
 The Covid-19 pandemic has multiplied the opportunities for destabilization (cyber attacks) in several sectors, including health: Rouen University Hospital, Narbonne, Montpellier, Dax, Villefranche-sur-Saône, Oloron-Sainte-Marie, Saint-Gaudens ... The list of hospitals is getting longer.
+
+
 Moreover, since the RGPD came into force, the protection of personal data as well as the security 'by design' become central subjects in our projects.
+
 
 I will present the techniques used and I will also talk about the management's awareness of these important aspects.
 Indeed, even being in the internal network of a datacenter, we are not safe from an intrusion. The 0 risk does not exist.
