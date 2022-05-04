@@ -1,5 +1,5 @@
 ---
-title: Father Castor 🐻, tell us a OPS story
+title: Father Castor 🐻, tell us a OPS story (Cloud Sud)
 
 event: Cloud Sud 2022
 event_url: https://cloudsud.fr/

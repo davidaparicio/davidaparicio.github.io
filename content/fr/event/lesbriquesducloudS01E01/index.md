@@ -1,5 +1,5 @@
 ---
-title: Les Briques du Cloud - Spéciale Cloud Nord (S01E01)
+title: Les Briques du Cloud - Spéciale Cloud Nord S01E01 (Twitch)
 
 event: Cloud Nord 2021
 event_url: https://www.cloudnord.fr/programme2021
@@ -15,7 +15,7 @@ Afin de présenter leurs talks ainsi que leur vision du Cloud tout en réagissan
 aux questions des auditeurs sur des sujets chauds comme la panne DNS de Facebook ou de Data leak de Twitch
 
 
-Core Team: Horacio Gonzalez (OVHcloud), François Teychene (StarTree), Sébastien Blanc (RedHat), Aurélie Vache (OVHcloud), Julien Lengrand-Lambert‏ (Adyen)
+Core Team: Horacio Gonzalez (OVHcloud), François Teychene (StarTree), Sébastien Blanc (RedHat), Aurélie Vache (OVHcloud), Julien Lengrand-Lambert (Adyen)
 
 
 Invités: Julien Landuré (Zenika), Cyril Lakech (QIMA), David Aparicio (OVHcloud), Tugdual Grall (GitHub)
@@ -30,7 +30,7 @@ all_day: false
 publishDate: "2021-10-06T12:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud]
+tags: [Cloud, Twitch]
 
 featured: false
 

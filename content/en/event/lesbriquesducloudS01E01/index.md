@@ -1,5 +1,5 @@
 ---
-title: Cloud Lego - Special Cloud Nord (S01E01)
+title: Cloud Lego - Special Cloud Nord S01E01 (Twitch)
 
 event: Cloud Nord 2021
 event_url: https://www.cloudnord.fr/programme2021
@@ -30,7 +30,7 @@ all_day: false
 publishDate: "2021-10-06T12:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud]
+tags: [Cloud, Twitch]
 
 featured: false
 

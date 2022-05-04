@@ -8,7 +8,7 @@ location: Zenika Lyon
 address:
   street: 6 place Jules Ferry
   city: Lyon
-  region: RA
+  region: Rhône-Alpes
   postcode: '69006'
   country: France
 

@@ -1,5 +1,5 @@
 ---
-title: Reprenez le contrôle de votre bash en étant un ninja de la CLI ! 😎
+title: Take back control of Bash by becoming a CLI ninja! 😎
 
 event: Mix-IT 2022
 event_url: https://mixitconf.org/
@@ -12,10 +12,10 @@ address:
   postcode: '69008'
   country: France
 
-summary: Lightning Talk sur le terminal
-abstract: "Développeurs, nous passons plus de 50% de notre temps sur la conception et la revue de code. L'autre partie se passe sur l'interface en ligne de commande de l'IDE ou le terminal de l'OS: pour lancer l'application, débugger, lire les logs, mettre à jour les dépendances, analyser les trames réseau... Est-il possible de gagner du temps ? Avez-vous pris le temps de configurer votre terminal ? C'est ce que nous allons voir. Je vais partager un ensemble de bonnes pratiques et d'alias pour votre ligne de commande favorite.
+summary: Lightning Talk about the terminal
+abstract: "As developers, we spend more than 50% of our time on design and code review. The other part is spent on the command line interface of the IDE or the OS terminal: launching the application, debugging, reading logs, updating dependencies, analyzing network frames... Is it possible to save time? Have you taken the time to configure your terminal? That's what we'll see. I'll share a set of best practices and aliases for your favorite command line.
 
-A vos marques, prêt ? Kaizen ! kaizen = amélioration continue"
+On your marks, ready? Kaizen! kaizen = continuous improvement"
 
 date: "2022-05-25T17:00:00Z"
 date_end: "2022-05-25T17:20:00Z"
@@ -29,7 +29,7 @@ tags: [SRE, Quickie, CLI]
 featured: false
 
 image:
-  caption: 'Crédits: [**Mix-IT 2022 (11ème édition)**](https://mixitconf.org/)'
+  caption: 'Image credit: [**Mix-IT 2022 (11th edition)**](https://mixitconf.org/)'
   focal_point: Right
 
 links:

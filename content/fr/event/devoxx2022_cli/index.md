@@ -24,7 +24,7 @@ all_day: false
 publishDate: "2022-02-08T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [SRE, Quickie, TIA]
+tags: [SRE, Quickie, TIA, DevoxxFR, CLI]
 
 featured: false
 
@@ -44,7 +44,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_Cli.pdf"
-url_video: ""
+url_video: "https://youtu.be/Gn5hmC0hQzM"
 
 slides: ""
 projects: []

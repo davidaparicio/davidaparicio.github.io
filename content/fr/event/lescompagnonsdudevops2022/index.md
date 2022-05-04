@@ -1,5 +1,5 @@
 ---
-title: Libre Antenne du 01-04-2022
+title: Libre Antenne du 01-04-2022 (Twitch)
 
 event: Les Compagnons du DevOps
 event_url:  https://www.compagnons-devops.fr
@@ -52,7 +52,7 @@ all_day: false
 publishDate: "2022-04-01T12:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud, SRE, Quickie]
+tags: [Cloud, SRE, Quickie, Twitch]
 
 featured: false
 

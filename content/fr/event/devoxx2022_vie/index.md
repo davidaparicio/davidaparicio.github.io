@@ -25,7 +25,7 @@ all_day: false
 publishDate: "2022-02-08T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud, SRE]
+tags: [Cloud, SRE, DevoxxFR]
 
 featured: false
 
@@ -45,7 +45,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_PereCastor.pdf"
-url_video: ""
+url_video: "https://youtu.be/au6qYFjZI2Q"
 
 slides: ""
 projects: []

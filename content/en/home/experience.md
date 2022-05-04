@@ -35,7 +35,7 @@ experience:
         
         Conference speaker:
         
-        * SnowCamp/TouraineTech 22
+        * DevoxxFR/SophiaConf/Mix-IT/CloudSud/SnowCamp/TouraineTech 22
         * RivieraDev/CloudNord/CloudEst 2021
         * JUG SummerCamp 2020/2021
         

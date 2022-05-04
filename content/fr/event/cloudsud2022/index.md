@@ -1,5 +1,5 @@
 ---
-title: Père Castor raconte nous des histoires OPS
+title: Père Castor raconte nous des histoires OPS (Cloud Sud)
 
 event: Cloud Sud 2022
 event_url: https://cloudsud.fr/

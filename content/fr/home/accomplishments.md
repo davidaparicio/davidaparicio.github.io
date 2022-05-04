@@ -23,6 +23,21 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- title: Formation Go Avancé
+  #date_end: "2022-05-13"
+  date_start: "2022-05-06"
+  description: "Go séduit du monde par sa simplicité, ses fonctionnalités de concurrence natives, sa polyvalence, sa stabilité, sa performance. Vous apprendrez des techniques visant à améliorer votre code en terme d'exactitude, de maintenabilité, de testabilité, de performance et de sécurité (3 days)"
+  organization: Human Coders
+  organization_url: https://www.humancoders.com/
+  url: "https://www.humancoders.com/formations/go-avance"
+- title: eBPF Fondamentaux
+  #date_end: "2022-03-30"
+  date_start: "2022-04-08"
+  description: "Technologie Linux révolutionnaire qui permet d'exécuter des programmes sandboxés dans le noyau d'un OS afin d'étendre de manière sûre et efficace les capacités du noyau sans avoir à modifier le code source du noyau ou à charger des modules du noyau.(2h)"
+  organization: Solo.io
+  organization_url: https://www.solo.io/
+  url: "https://www.credly.com/badges/f6dcb7e0-5534-451e-9f14-52e4066ea615/public_url"
+  #url: "https://app.livestorm.co/solo-io/fundamentals-for-ebpf-workshop-with-certification-option-emea-033022"
 - title: Istio Fondamentaux
   #date_end: "2021-05-20"
   date_start: "2022-03-02"

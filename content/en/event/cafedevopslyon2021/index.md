@@ -25,7 +25,7 @@ all_day: false
 publishDate: "2021-09-18T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [SRE]
+tags: [Meetup, SRE]
 
 featured: false
 

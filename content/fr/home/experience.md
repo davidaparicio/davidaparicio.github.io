@@ -33,7 +33,7 @@ experience:
         Datalake Hortonworks sur une Infra OpenStack (Public Cloud), Migration à partir de l'infra Legacy, ainsi que les agents de réplication depuis Mesos + Marathon vers Kubernetes, Automatisation et Industrialisation, Processus ITIL 
         
         Orateur aux conférences:
-        * SnowCamp/TouraineTech 22
+        * DevoxxFR/SophiaConf/Mix-IT/CloudSud/SnowCamp/TouraineTech 22
         * RivieraDev/CloudNord/CloudEst 2021
         * JUG SummerCamp 2020/2021
         

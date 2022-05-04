@@ -52,12 +52,12 @@ all_day: false
 publishDate: "2022-04-01T12:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud, SRE, Quickie]
+tags: [Cloud, SRE, Quickie, Twitch]
 
 featured: false
 
 image:
-  caption: 'Crédits: [**Youtube**](https://www.youtube.com/watch?v=PlqPI8ZYAK8&t=2897s)'
+  caption: 'Image credit: [**Youtube**](https://www.youtube.com/watch?v=PlqPI8ZYAK8&t=2897s)'
   focal_point: Right
 
 links: 

@@ -25,7 +25,7 @@ all_day: false
 publishDate: "2022-02-08T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [Cloud, SRE]
+tags: [Cloud, SRE, DevoxxFR]
 
 featured: false
 

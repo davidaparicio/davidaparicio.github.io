@@ -1,0 +1,154 @@
+\documentclass[11pt,british]{article}
+\usepackage{mathpazo}
+\renewcommand{\sfdefault}{cmss}
+\renewcommand{\ttdefault}{cmtt}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=1.4cm,bmargin=1.4cm,lmargin=1.5cm,rmargin=1.5cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{array}
+\usepackage{graphicx}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+{\settowidth{\labelwidth}{#1}
+ \setlength{\leftmargin}{\labelwidth}
+ \addtolength{\leftmargin}{\labelsep}
+ \renewcommand{\makelabel}[1]{##1\hfil}}}
+{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\newcommand{\ø}{\raisebox{.3ex}{\tiny$\; \bullet \;$}}
+%\renewcommand{\arraystretch}{1.25}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\headsep 10pt
+\chead{\small{\textrm{\textit{David Aparicio}}}}
+%\chead{\small{\textrm{\textit{David Aparicio · \number\year~· Page \thepage}}}}
+%\cfoot{}
+%\usepackage{mathpazo}
+%\usepackage[english]{babel}
+
+\makeatother
+\usepackage{babel}
+
+\begin{document}
+\noindent \begin{center}
+\noun{\large{\vspace{-8pt}
+}}%
+\begin{tabular}{>{\centering}p{6cm}>{\centering}p{2cm}>{\raggedleft}p{3cm}>{\centering}p{5cm}}
+\noindent \raggedright{}\textbf{\textsc{\vspace{-70pt}
+}}\\
+\textbf{\textsc{David Aparicio}}\linebreak{}
+2 Bis Rue du Puits\linebreak{}
+60149 St Crépin-Ibouvillers,\linebreak{}
+France &  & \noindent \raggedleft{}\includegraphics[width=2.5cm]{500px-homer_simpson} & \noindent \raggedleft{}\textbf{\textsc{\vspace{-70pt}
+}}\\
++33 6 05 20 32 08\linebreak{}
+david@aparicio.eu\linebreak{}
+http://david.aparicio.eu\linebreak{}
+International Driver Licence\tabularnewline
+\end{tabular}\noun{\large{\vspace{8pt}
+}}
+\par\end{center}{\large \par}
+
+\vspace{-16pt}
+
+\textbf{Work Experience}\vspace{-8pt}
+\\
+\rule[0.5ex]{1\linewidth}{1pt}
+\vspace{-24pt}
+
+\begin{lyxlist}{0000.0000.000}
+\item [{2019\noun{~}{\scriptsize{Current}}}] DataOps, Hortonworks datalake, CDC, Legacy migration, Mesos Marathon to Kubernetes\\
+Conference Speaker at Devoxx22 FR, SnowCamp, JUG SummerCamp, TouraineTech\\
+\emph{OVHcloud, Lyon, France | [HDP, Go, K8s, Helm, Marathon, Grafana, OpenStack, Ansible, CDS]}
+\item [{\noun{2017-2019}}] DevSecOps, BigData MapR deployment platform on hybrid clouds with CI/CD workflows \\
+DevOpsAcademy Training creation for people in reconversion (self-learning \& on-site) \\
+\emph{Amadeus/Altran, Nice, France | [Hadoop, MariaDB, Docker, OpenStack, Ansible, Puppet, Jenkins]}
+\item [{201\noun{4~}{\scriptsize{Jan-July}}}] Java Developer, USB communication between Android/Linux computers, Datepicker \\component creation and Undo function for the MIT project App Inventor\\
+\emph{Facebook Open Academy, Menlo Park, USA | [Python, Java, JS, Android, Bash, GWT, GAE]}
+\item [{\noun{2013-2014}}] IoT Developer, Resilient Distributed platform to collect sensors data, interact with rules. BigData benchmark, usecases: work environment improvement, energy consumption\\
+\emph{Eldorado Research Institute, Campinas, Brazil | [NodeJS,MQTT,Redis,MongoDB,Hadoop,Python]}
+\item [{\noun{2012-2013}}] \noindent Researcher Internship,
+Study of OS parameters impact on Transactional Memory simulation \\
+Design a Geographical DB for bird sounds storage | \emph{[Java, PostgreSQL, PostGIS, Jenkins/JUnit]} \\
+Facebook Hackathon 2013 \& 2014 (Honorable Mention), \emph{São Paulo, Brazil}\\
+\emph{Laboratory of Distributed Systems/Laboratory of Information Systems - Campinas, Brazil}
+\item [{\noun{2005--2011}}] \noindent 5 Summer jobs: choose \& set-up an ERP, create a website, PHP Full-stack for Industrial fleet supervision, prototyping touchscreens communicating by CANBus/Ethernet with PLCs\\
+\emph{H-T-F, Méru, France | [PHP, Javascript, Python]}
+
+\end{lyxlist}
+\textbf{Academic Record}\vspace{-8pt}
+\\
+\rule[0.5ex]{1\linewidth}{1pt}
+\vspace{-24pt}
+
+\begin{lyxlist}{0000.0000.000}
+\item [{\noun{2015--2016}}] \noindent {\noun{PhD Fellowship}}{ Practical and verifiable secure multi-party computation for decentralized collaborative systems} \emph{[Java/Vert.X, Docker, Kubernetes, GKE, Stanford NLP, Sock.JS]}\\
+Auto-scaling experiment : Real-time sentiment analysis of 1.78 Billion tweets during Trump-Clinton debates | AICCSA 2016 Reviewer | WWW 2017 \emph{Perth/Australia}\\
+6th/7th BIU Winter School | Cryptography on the Cloud/Differential Privacy \emph{Tel Aviv/Israel}\\
+{\emph{INSA Lyon, Lyon, France}}
+\item [{\noun{2008-2014}}] \noindent MSc Computer Engineering, Double Diploma : UNICAMP and INSA DE LYON\\
+\emph{University of Campinas (UNICAMP), Campinas, Brazil}
+\end{lyxlist}
+
+\textbf{Accomplishments}\vspace{-8pt}
+\\
+\rule[0.5ex]{1\linewidth}{1pt}
+\vspace{-18pt}
+
+RedHat Automation with Ansible DO407, MapR Cluster Administration ADM2000\\
+Best Student 2015 Award Cap Magellan - Hôtel de Ville in Paris (10/10/2015)\\
+Microsoft Student Ambassador (10-12) SysAdmin at DSI-INSA (10-15) Imagine Cup 07 (IA French finalist) \\
+
+\textbf{Computer Skills}\vspace{-8pt}
+\\
+\rule[0.5ex]{1\linewidth}{1pt}
+\vspace{-24pt}
+
+\begin{lyxlist}{0000.0000.0000.0000.00}
+\item [{\noun{Programming:}}] \noindent Java (Vert.X/J2EE), C++, Python (TensorFlow/Scikit-learn/Django), JS (Node.js), PHP,  Go, Shell | HTML5/CSS3 | SQL/Mongo | AWS/GCP/Azure/OVH/Clever
+\item [{\noun{Software/OS:}}] \noindent Docker/Compose/Swarm/Mesos/Marathon/Kubernetes, Win/Unix
+\end{lyxlist}
+
+\textbf{Language Skills}\vspace{-8pt}
+\\
+\rule[0.5ex]{1\linewidth}{1pt}
+\vspace{-24pt}
+
+\begin{lyxlist}{0000.0000.0000.0000.00}
+\item [{\noun{Fluent:}}] \noindent English, Portuguese, French
+\item [{\noun{Basics:}}] \noindent Spanish
+\end{lyxlist}
+
+\iffalse
+DRAFT//OLD STUFF
+Active watch ANSSI Cybersecurity Best Practices, Bruce Schneier, Gartner\\
+Imagine Cup 2007 (IA French finalist) - Webmaster (2005-Now) 16 websites
+Maven/JUnit/Jenkins/Sonar/Git
+%%\vspace{6pt}
+Conference Speaker JUG Summer Camp 20, Attendance at FOSDEM20, FIC17, BotConf15..\\
+\emph{Belgium/Brazil/Italy/France}
+\emph{Laboratory of Distributed Systems/Laboratory of Information Systems - Campinas, Brazil}
+\item [{\noun{Mother~tongue:}}] \noindent French
+\fi
+
+\end{document}
