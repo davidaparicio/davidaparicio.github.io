@@ -30,7 +30,11 @@ links:
 #- icon: youtube
 #  icon_pack: fab
 #  name: Youtube
-#  url: https://www.youtube.com/watch?v=PlqPI8ZYAK8&t=2897s
+#  url: https://youtu.be/DkY1BA6M93g
+- icon: twitch
+  icon_pack: fab
+  name: Twitch
+  url: https://www.twitch.tv/videos/1474926387
 - icon: twitter
   icon_pack: fab
   name: Twitter
