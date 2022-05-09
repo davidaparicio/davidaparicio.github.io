@@ -34,6 +34,10 @@ image:
   focal_point: Right
 
 links:
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://roti.express/share-survey/My24T9f4SPHD8xjTp
 url_code: ""
 url_pdf: ""
 url_slides: "talks/SnowCamp2022_PereCastor.pdf"

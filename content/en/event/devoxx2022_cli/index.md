@@ -44,7 +44,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_Cli.pdf"
-url_video: ""
+url_video: "https://youtu.be/Gn5hmC0hQzM"
 
 slides: ""
 projects: []
