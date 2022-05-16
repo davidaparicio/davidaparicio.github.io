@@ -29,8 +29,7 @@ item:
   description: "Golang seduces people by its simplicity, its native competition features, its versatility, its stability, its performance. You will learn techniques to improve your code in terms of correctness, maintainability, testability, performance and security (3 days)"
   organization: Human Coders
   organization_url: https://www.humancoders.com/
-  url: "https://www.humancoders.com/formations/go-avance"
-  #url: "https://app.livestorm.co/solo-io/fundamentals-for-ebpf-workshop-with-certification-option-emea-033022"
+  url: "https://www.humancoders.com/diplomas/953342eb7be6"
 - title: Foundation for eBPF
   #date_end: "2022-03-30"
   date_start: "2022-04-08"

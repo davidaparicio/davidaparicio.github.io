@@ -29,7 +29,7 @@ item:
   description: "Go séduit du monde par sa simplicité, ses fonctionnalités de concurrence natives, sa polyvalence, sa stabilité, sa performance. Vous apprendrez des techniques visant à améliorer votre code en terme d'exactitude, de maintenabilité, de testabilité, de performance et de sécurité (3 days)"
   organization: Human Coders
   organization_url: https://www.humancoders.com/
-  url: "https://www.humancoders.com/formations/go-avance"
+  url: "https://www.humancoders.com/diplomas/953342eb7be6"
 - title: eBPF Fondamentaux
   #date_end: "2022-03-30"
   date_start: "2022-04-08"
