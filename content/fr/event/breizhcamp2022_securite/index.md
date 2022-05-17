@@ -12,7 +12,7 @@ address:
   postcode: '35700'
   country: France
 
-summary: Penser une démarche préventive dès la phase de conception d'un projet
+summary: Lors de la conception d'un projet, mettons en des outils sur la sécurité
 abstract: "En 2020, le nombre de cyberattaques a explosé dans le monde. Selon un récent rapport de l'Agence nationale de la sécurité des systèmes d’information (ANSSI), les opérations de l'ANSSI en 2020 ont été multipliées par 4, par rapport à l'année précédente.
 
 

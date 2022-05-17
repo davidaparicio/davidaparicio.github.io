@@ -12,7 +12,7 @@ address:
   postcode: '35700'
   country: France
 
-summary: Since the entry into force of the GDPR, the protection of personal data (PII) as well as security "by design" become central topics
+summary: At the start of the project, let's put tools for security "by design"
 abstract: "In 2020, the number of cyberattacks has exploded worldwide. According to a recent report from the French National Agency for Information Systems Security (ANSSI), ANSSI operations in 2020 have increased fourfold, compared to the previous year.
 
 
