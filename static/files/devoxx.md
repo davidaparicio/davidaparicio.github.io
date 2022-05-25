@@ -126,6 +126,8 @@ Improve your Mac Terminal
 
 ## C++ tooling
 
+### taskwarrior (todo list)
+
 ### pv (pipe viewer)
 
 ### lnav / multitail (log navigator)
@@ -171,6 +173,8 @@ Improve your Mac Terminal
 ### GoAccess (web log)
 
 ### inlets/ngrok (port tunneling)
+
+### zed (jq)
 
 ### fq (bin jq)
 
