@@ -6,14 +6,14 @@ event_url: https://twitter.com/HackerNewsCafe
 
 location: En ligne
 
-summary: 🎤 Discussion quotidienne sur les actualités techno du moment ! | Veille technologique
+summary: 🎤 Discussion sur l'actu du moment ! Top pour sa veille technologique
 abstract: "On discute entre développeurs des top stories Hacker News du jour pendant 30 minutes avant d'aller manger, chaque jour à 12h sur @TwitterSpaces (backup sur clubhouse si besoin)! Plus informations sur https://twitter.com/HackerNewsCafe"
 
 date: "2022-12-31T12:00:00Z"
 date_end: "2022-12-31T12:30:00Z"
 all_day: false
 
-publishDate: "2022-05-25T12:00:00Z"
+publishDate: "2022-05-24T12:00:00Z"
 
 authors: [David Aparicio]
 tags: [Hacker News, Quickie, Twitter Spaces, Live, Clubhouse]
