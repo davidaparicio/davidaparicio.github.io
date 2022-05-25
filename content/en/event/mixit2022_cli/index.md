@@ -37,13 +37,13 @@ links:
   icon_pack: fas
   name: Description
   url: https://mixitconf.org/2022/reprenez-le-controle-de-votre-bash-en-devant-un-ninja-de-la-cli-
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://openfeedback.io/ccc3T1AYxWjl8tVAOq0x/2022-03-17/RbvD53UfoTpfWE5xmW99
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://openfeedback.io/6wuom22QpUr2cApwWlIl/2022-05-25/idWbm48bAXKkAaxYKlNU
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/MiXiT2022_Cli.pdf"
 url_video: ""
 
 slides: ""
