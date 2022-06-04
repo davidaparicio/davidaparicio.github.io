@@ -124,7 +124,9 @@ How to move FAST in the Linux Terminal
 ### Catalins.tech
 Improve your Mac Terminal
 
-## C++ tooling
+## C/C++ tooling
+
+### yank (pipe to clipboard)
 
 ### taskwarrior (todo list)
 
