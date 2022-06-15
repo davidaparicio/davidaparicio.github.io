@@ -34,6 +34,10 @@ image:
   focal_point: Right
 
 links:
+- icon: file-alt
+  icon_pack: fas
+  name: Post
+  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
 - icon: comments
   icon_pack: fas
   name: Feedback
