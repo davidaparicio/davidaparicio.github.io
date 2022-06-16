@@ -33,9 +33,13 @@ image:
   focal_point: Right
 
 links:
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://s.42l.fr/cafedevlyon
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CafeDevOps2022_Cli.pdf"
 url_video: ""
 
 slides: ""
