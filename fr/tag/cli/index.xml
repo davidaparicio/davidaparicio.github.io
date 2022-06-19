@@ -82,7 +82,7 @@
 &lt;p>J&amp;rsquo;ai envie d&amp;rsquo;essayer &lt;code>direnv&lt;/code>, &lt;code>btm&lt;/code>, &lt;code>z&lt;/code>, &lt;code>xsv&lt;/code> et &lt;code>duf&lt;/code>, mais je pense que l&amp;rsquo;outil le plus intéressant que j&amp;rsquo;ai découvert est &lt;code>vidir&lt;/code>.&lt;/p>
 &lt;h1 id="ma-touche-spéciale">Ma touche spéciale&lt;/h1>
 &lt;blockquote>
-&lt;p>David Aparicio: Mes outils préférés que j&amp;rsquo;utilise au quotidien sont &lt;code>zoxide&lt;/code>, &lt;code>, `git-delta`, &lt;/code>, &lt;code>bat&lt;/code> et &lt;code>jq&lt;/code>. Voici mes alias dans mon ~/.zprofile&lt;/p>
+&lt;p>David Aparicio: Mes outils préférés que j&amp;rsquo;utilise au quotidien sont &lt;code>zoxide&lt;/code>, &lt;code>exa&lt;/code>, &lt;code>dstp&lt;/code>, &lt;code>difft&lt;/code>, &lt;code>bat&lt;/code> et &lt;code>jq&lt;/code>. Voici mes alias dans mon ~/.zprofile&lt;/p>
 &lt;/blockquote>
 &lt;pre>&lt;code>alias cat=&amp;quot;bat -pp&amp;quot;
 alias catl=&amp;quot;bat --style=grid&amp;quot;
@@ -97,10 +97,21 @@ alias top=&amp;quot;gotop&amp;quot; #&amp;quot;ytop&amp;quot;
 alias catl=&amp;quot;bat --style=grid&amp;quot;
 alias sysup='brew update &amp;amp;&amp;amp; brew upgrade; brew cleanup'
 &lt;/code>&lt;/pre>
-&lt;h2 id="grande-mindmap">Grande MindMap&lt;/h2>
+&lt;h2 id="mindmap">MindMap&lt;/h2>
+&lt;p>&lt;a href="https://davidaparicio.gitlab.io/website/files/devoxx.png" target="_blank" rel="noopener">
+&lt;figure id="figure-voici-ma-mindmap-pour-la-conf-devoxxfr">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://davidaparicio.github.io/website/files/devoxx.png" alt="Une grande Mindmap avec plus d&amp;amp;rsquo;une centaine d&amp;amp;rsquo;outils" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Voici ma MindMap pour la conf DevoxxFR
+&lt;/figcaption>&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;h2 id="conférence-à-devoxxfr">Conférence à DevoxxFR&lt;/h2>
+&lt;p>Voici une &lt;a href="https://youtu.be/Gn5hmC0hQzM" target="_blank" rel="noopener">présentation rapide &amp;amp; illustrée&lt;/a> des outils de la ligne de commande, présentée durant le &lt;a href="https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/">Tools-in-Action &amp;ldquo;Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎&amp;rdquo;&lt;/a> à la 10ème édition de &lt;a href="https://www.devoxx.fr/" target="_blank" rel="noopener">DevoxxFR&lt;/a> (2022)&lt;/p>
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gn5hmC0hQzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/website/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/website/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://twitter.com/b0rk/" target="_blank" rel="noopener">Gitlab&lt;/a>.&lt;/p>
-&lt;p>Si vous souhaitez partager vos outils favoris, ou laisser un commentaire sur &lt;a href="https://twitter.com/dadideo/" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
+&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/website/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/website/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
+&lt;p>Si vous souhaitez partager vos outils favoris, ou laisser un commentaire sur &lt;a href="https://twitter.com/dadideo/status/1538540734151786497" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
 &lt;/div>
 &lt;/div></description></item><item><title>Reprenez le contrôle de votre bash en étant un ninja de la CLI ! (meetup)</title><link>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-etant-un-ninja-de-la-cli-meetup/</link><pubDate>Thu, 16 Jun 2022 19:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-etant-un-ninja-de-la-cli-meetup/</guid><description/></item><item><title>Reprenez le contrôle de votre bash en étant un ninja de la CLI ! 😎</title><link>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-etant-un-ninja-de-la-cli/</link><pubDate>Wed, 25 May 2022 17:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-etant-un-ninja-de-la-cli/</guid><description/></item><item><title>Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎</title><link>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/</link><pubDate>Wed, 20 Apr 2022 09:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/</guid><description/></item></channel></rss>
