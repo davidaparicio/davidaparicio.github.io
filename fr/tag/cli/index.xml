@@ -101,13 +101,13 @@ alias sysup='brew update &amp;amp;&amp;amp; brew upgrade; brew cleanup'
 &lt;p>&lt;a href="https://davidaparicio.gitlab.io/website/files/devoxx.png" target="_blank" rel="noopener">
 &lt;figure id="figure-voici-ma-mindmap-pour-la-conf-devoxxfr">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://davidaparicio.github.io/website/files/devoxx.png" alt="Une grande Mindmap avec plus d&amp;amp;rsquo;une centaine d&amp;amp;rsquo;outils" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://davidaparicio.github.io/website/website/files/devoxx.png" alt="Une grande Mindmap avec plus d&amp;amp;rsquo;une centaine d&amp;amp;rsquo;outils" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Voici ma MindMap pour la conf DevoxxFR
 &lt;/figcaption>&lt;/figure>
 &lt;/a>&lt;/p>
 &lt;h2 id="conférence-à-devoxxfr">Conférence à DevoxxFR&lt;/h2>
-&lt;p>Voici une &lt;a href="https://youtu.be/Gn5hmC0hQzM" target="_blank" rel="noopener">présentation rapide &amp;amp; illustrée&lt;/a> des outils de la ligne de commande, présentée durant le &lt;a href="https://davidaparicio.github.io/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/">Tools-in-Action &amp;ldquo;Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎&amp;rdquo;&lt;/a> à la 10ème édition de &lt;a href="https://www.devoxx.fr/" target="_blank" rel="noopener">DevoxxFR&lt;/a> (2022)&lt;/p>
+&lt;p>Voici une &lt;a href="https://youtu.be/Gn5hmC0hQzM" target="_blank" rel="noopener">présentation rapide &amp;amp; illustrée&lt;/a> des outils de la ligne de commande, présentée durant le &lt;a href="https://davidaparicio.github.io/website/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/">Tools-in-Action &amp;ldquo;Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎&amp;rdquo;&lt;/a> à la 10ème édition de &lt;a href="https://www.devoxx.fr/" target="_blank" rel="noopener">DevoxxFR&lt;/a> (2022)&lt;/p>
 &lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gn5hmC0hQzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;div class="alert alert-note">
 &lt;div>
