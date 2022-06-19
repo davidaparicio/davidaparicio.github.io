@@ -130,7 +130,7 @@ J'ai envie d'essayer `direnv`, `btm`, `z`, `xsv` et `duf`, mais je pense que l'o
 
 # Ma touche spéciale
 
->David Aparicio: Mes outils préférés que j'utilise au quotidien sont `zoxide`, ``, `git-delta`, ``, `bat` et `jq`. Voici mes alias dans mon ~/.zprofile
+>David Aparicio: Mes outils préférés que j'utilise au quotidien sont `zoxide`, `exa`, `dstp`, `difft`, `bat` et `jq`. Voici mes alias dans mon ~/.zprofile
 
 ```
 alias cat="bat -pp"
@@ -147,11 +147,19 @@ alias catl="bat --style=grid"
 alias sysup='brew update && brew upgrade; brew cleanup'
 ```
 
-## Grande MindMap 
+## MindMap 
+
+[![Une grande Mindmap avec plus d'une centaine d'outils](/files/devoxx.png "Voici ma MindMap pour la conf DevoxxFR")](https://davidaparicio.gitlab.io/website/files/devoxx.png)
+
+## Conférence à DevoxxFR
+
+Voici une [présentation rapide & illustrée](https://youtu.be/Gn5hmC0hQzM) des outils de la ligne de commande, présentée durant le [Tools-in-Action "Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎"](/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/) à la 10ème édition de [DevoxxFR](https://www.devoxx.fr/) (2022)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gn5hmC0hQzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% callout note %}}
 
-Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une [issue](https://gitlab.com/davidaparicio/website/-/issues) ou une [MR/PR](https://gitlab.com/davidaparicio/website/-/merge_requests) sur [Gitlab](https://twitter.com/b0rk/).
+Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une [issue](https://gitlab.com/davidaparicio/website/-/issues) ou une [MR/PR](https://gitlab.com/davidaparicio/website/-/merge_requests) sur [le fichier Gitlab](https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md).
 
-Si vous souhaitez partager vos outils favoris, ou laisser un commentaire sur [Twitter](https://twitter.com/dadideo/).
+Si vous souhaitez partager vos outils favoris, ou laisser un commentaire sur [Twitter](https://twitter.com/dadideo/status/1538540734151786497).
 {{% /callout %}}
