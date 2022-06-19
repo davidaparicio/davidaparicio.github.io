@@ -149,11 +149,11 @@ alias sysup='brew update && brew upgrade; brew cleanup'
 
 ## MindMap 
 
-[![Une grande Mindmap avec plus d'une centaine d'outils](/files/devoxx.png "Voici ma MindMap pour la conf DevoxxFR")](https://davidaparicio.gitlab.io/website/files/devoxx.png)
+[![Une grande Mindmap avec plus d'une centaine d'outils](/website/files/devoxx.png "Voici ma MindMap pour la conf DevoxxFR")](https://davidaparicio.gitlab.io/website/files/devoxx.png)
 
 ## Conférence à DevoxxFR
 
-Voici une [présentation rapide & illustrée](https://youtu.be/Gn5hmC0hQzM) des outils de la ligne de commande, présentée durant le [Tools-in-Action "Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎"](/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/) à la 10ème édition de [DevoxxFR](https://www.devoxx.fr/) (2022)
+Voici une [présentation rapide & illustrée](https://youtu.be/Gn5hmC0hQzM) des outils de la ligne de commande, présentée durant le [Tools-in-Action "Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎"](/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/) à la 10ème édition de [DevoxxFR](https://www.devoxx.fr/) (2022)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gn5hmC0hQzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
