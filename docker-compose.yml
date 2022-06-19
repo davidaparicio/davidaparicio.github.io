@@ -11,7 +11,8 @@ services:
       - "--name=iamfoo"
       - "--port=8080"
   hugo-academic:
-    image: "klakegg/hugo:edge-ext-alpine" #"klakegg/hugo:0.91.2-ext-alpine"
+    # https://hub.docker.com/r/klakegg/hugo/tags?page=1&name=edge-ext-alpine
+    image: "klakegg/hugo:edge-ext-alpine" #"klakegg/hugo:0.95.0-ext-alpine"
     container_name: "hugo"
     restart: "no"
     environment:
@@ -20,4 +21,4 @@ services:
       - .:/src
     ports: [ "1313:1313", ]
     command:
-    - server --disableFastRender --i18n-warnings --bind 0.0.0.0
+    - server --disableFastRender --bind 0.0.0.0 --printI18nWarnings
