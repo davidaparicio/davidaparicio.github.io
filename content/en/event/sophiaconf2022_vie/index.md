@@ -40,8 +40,8 @@ links:
   name: Feedback
   url: https://s.42l.fr/sc22castor
 url_code: ""
-url_pdf: "talks/SophiaConf2022_PereCastor.pdf"
-url_slides: ""
+url_pdf: ""
+url_slides: "talks/SophiaConf2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""
