@@ -26,14 +26,14 @@ I will present the techniques used and I will also talk about the management's a
 Indeed, even being in the internal network of a datacenter, we are not safe from an intrusion. The 0 risk does not exist.
 ~ Security By Design 101"
 
-date: "2022-06-29T18:00:00Z"
-date_end: "2022-07-01T20:00:00Z"
+date: "2022-06-30T10:30:00Z"
+date_end: "2022-06-30T11:25:00Z"
 all_day: false
 
 publishDate: "2022-05-17T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [Security, Quickie]
+tags: [Security]
 
 featured: false
 
@@ -46,13 +46,13 @@ links:
 #  icon_pack: fas
 #  name: Description
 #  url: https://cfp.devoxx.fr/2022/talk/LDA-6791
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://s.42l.fr/devoxxcli
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://s.42l.fr/breizh2022sec
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/BreizhCamp2022_La_securite_des_la_conception.pdf"
 url_video: ""
 
 slides: ""
