@@ -47,13 +47,17 @@ item:
   organization_url: https://www.solo.io/
   url: "https://www.credly.com/badges/69945842-15e4-4aca-ae51-56e0854a666c/public_url"
   #url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
-- title: Google Cloud Fundamentals Core Infrastructure training
+- title: Training GCP Fundamentals Core Infrastructure + Big Data & ML (GCP100B)
   #date_end: "2021-05-20"
-  date_start: "2021-05-20"
-  description: "Introduces you to important concepts, terminology for working with Google Cloud Platform (GCP) and compare many of the computing/storage services available: App/Compute/Container Engine (1 day)"
-  organization: Zenika
+  #date_start: "2021-05-20"
+  #description: "Introduces you to important concepts, terminology for working with Google Cloud Platform (GCP) and compare many of the computing/storage services available: App/Compute/Container Engine (1 day)"
+  date_start: "2022-06-23"
+  description: "May 2021: Introduces you to important concepts, terminology for working with Google Cloud Platform (GCP) and compare all computing/storage services available: App/Compute/Container Engine (1 day)
+
+  June 2022: Introduction to Big Data and Machine Learning on GCP, through 4 labs on Qwiklabs (1 day)"
+  organization: Zenika+SFEIR (Google Authorized Trainers)
   organization_url: https://zenika.com
-  url: "https://training.zenika.com/fr-fr/training/gcp-core-infra/description"
+  url: "https://www.credential.net/af625ac2-fc11-4194-a423-da98771c4e84#gs.5e6tz2"
   #"https://www.coursera.org/learn/gcp-fundamentals-fr" "https://learndigital.withgoogle.com/digitalgarage/course/google-cloud-fundamentals-infrastructure"
 - title: RedHat Automation with Ansible I training (DO407)
   #certificate_url: https://www.redhat.com/en/services/training/do407-automation-ansible-i
@@ -67,10 +71,11 @@ item:
   #certificate_url: https://mapr.com/
   #date_end: "2017-10-04"
   date_start: "2017-10-02"
-  description: "Understand the big data pipeline and the MapR Converged Data Platform, how to install, configure, and maintain a cluster (3 days)"
+  description: "Certifies technical knowledge, skill, and ability to configure, deploy, maintain, and secure a Hadoop cluster. This training covers the architecture of a cluster including preparing the nodes, data ingestion, disaster recovery (DRP), availability, management and monitoring (3 days)"
+  #description: "Understand the big data pipeline and the MapR Converged Data Platform, how to install, configure, and maintain a cluster (3 days)"
   organization: MapR (Think Big Academy)
   organization_url: https://mapr.com/
-  url: ""
+  url: "/files/mapr_curriculum.jpg"
 # - certificate_url: https://www.datacamp.com
 #   date_end: "2020-12-21"
 #   date_start: "2020-07-01"
