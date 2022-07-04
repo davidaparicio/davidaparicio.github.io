@@ -38,7 +38,7 @@ tags: [Security]
 featured: false
 
 image:
-  caption: 'Image credit: [**Breizhcamp 2022**](https://www.breizhcamp.org/)'
+  caption: 'Image credit: [**Clément Motreff**](https://fr.linkedin.com/in/cl%C3%A9ment-motreff-85a67211b)'
   focal_point: Right
 
 links:
