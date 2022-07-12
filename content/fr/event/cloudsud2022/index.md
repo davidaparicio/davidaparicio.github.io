@@ -32,6 +32,7 @@ links:
   icon_pack: fas
   name: Avis
   url: https://openfeedback.io/J85DO0iwp4Fr59wWsLRR/2022-03-24/HH2TEY7nwTCrZIieE754
+  #url: https://blog.devrel.ovh/2022-03-25-cloudsud-2022/
 url_code: ""
 url_pdf: ""
 url_slides: "talks/CloudSud2022_PereCastor.pdf"

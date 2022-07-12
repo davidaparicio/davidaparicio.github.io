@@ -38,6 +38,7 @@ links:
   icon_pack: fas
   name: Article
   url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
+  #url: https://blog.devrel.ovh/2022-01-24-touraine-tech/
 - icon: comments
   icon_pack: fas
   name: Avis

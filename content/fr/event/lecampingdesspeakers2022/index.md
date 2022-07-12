@@ -37,6 +37,7 @@ links:
   icon_pack: fas
   name: Avis
   url: "talks/LeCampingDesSpeakers2022_feedback.jpg"
+  #url: https://blog.devrel.ovh/2022-O6-15-camping-des-speakers-2022/
   #url: https://photos.google.com/share/AF1QipOeD0tqBofRgWoDSWBxBhSjjwkYHaj66U58VNLGSWF9Xjkqins7b3ilZBFhAqBEdw/photo/AF1QipPsgUePn-gcIRAhK07P3I3zJM6PRbb4l_4Dvv9F?key=a0dBSWptN0c1Wk9FVEwzdWhXM0hEa0hwTzVBZXJR
 url_code: ""
 url_pdf: ""

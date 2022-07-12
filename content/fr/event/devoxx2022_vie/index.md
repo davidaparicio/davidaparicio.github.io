@@ -38,6 +38,7 @@ links:
   icon_pack: fas
   name: Description
   url: https://cfp.devoxx.fr/2022/talk/BJV-2519
+  #url: https://blog.devrel.ovh/2022-04-29-devoxx-fr-2022/
 - icon: comments
   icon_pack: fas
   name: Avis

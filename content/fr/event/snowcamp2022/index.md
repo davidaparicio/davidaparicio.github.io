@@ -38,6 +38,7 @@ links:
   icon_pack: fas
   name: Article
   url: https://blog.ovhcloud.com/ovhcloud-at-snowcamp-2022/
+  #url: https://blog.devrel.ovh/2022-02-08-snowcampio-2022/
 - icon: comments
   icon_pack: fas
   name: Feedback
