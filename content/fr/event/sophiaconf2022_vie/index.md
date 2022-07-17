@@ -43,7 +43,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/SophiaConf2022_PereCastor.pdf"
-url_video: ""
+url_video: "https://youtu.be/p_PDZvbD54o"
 
 slides: ""
 projects: []

@@ -7,7 +7,7 @@ variables:
   #HUGO_VERSION: "0.75.1"
   HUGO_ENABLEGITINFO: "true"
   HUGO_ENV: "production"
-  BASE_URL: "https://davidaparicio.gitlab.io/website/"
+  BASE_URL: "https://davidaparicio.gitlab.io/website"
 
 pages:
   script:

@@ -53,7 +53,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/SophiaConf2022_La_securite_des_la_conception.pdf"
-url_video: ""
+url_video: "https://youtu.be/TqZZOXb3xP4"
 
 slides: ""
 projects: []
