@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité | David Aparicio</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link><atom:link href="https://davidaparicio.github.io/website/fr/tag/securite/index.xml" rel="self" type="application/rss+xml"/><description>Sécurité</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© 2022 David Aparicio</copyright><lastBuildDate>Tue, 08 Oct 2019 18:00:00 +0000</lastBuildDate><image><url>https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>Sécurité</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link></image><item><title>Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos</title><link>https://davidaparicio.github.io/website/fr/slides/ssc2019/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/slides/ssc2019/</guid><description>&lt;h2 id="agilité-et-sécurité-numériques-cas-concret-avec-la-sauvegarde-automatisée-de-kerberos">Agilité et sécurité numériques: Cas concret avec la sauvegarde automatisée de Kerberos&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité | David Aparicio</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link><atom:link href="https://davidaparicio.github.io/website/fr/tag/securite/index.xml" rel="self" type="application/rss+xml"/><description>Sécurité</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© 2022 David Aparicio</copyright><lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://davidaparicio.github.io/website/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>Sécurité</title><link>https://davidaparicio.github.io/website/fr/tag/securite/</link></image><item><title>Les hackers n'en ont rien à f**tre !</title><link>https://davidaparicio.github.io/website/fr/post/kiwicon/</link><pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/post/kiwicon/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>Publié originalement en anglais par &lt;a href="https://kiwicon.org" target="_blank" rel="noopener">Kiwicon&lt;/a> à l’adresse &lt;a href="https://kiwicon.org/site_media/poster_shit.pdf" target="_blank" rel="noopener">https://kiwicon.org/site_media/poster_shit.pdf&lt;/a>&lt;/p>
+&lt;p>Traduit et publié le 17 juillet 2022 par &lt;a href="https://twitter.com/dadideo/" target="_blank" rel="noopener">@dadideo&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="les-hackers-nen-ont-rien-à-faire">Les hackers n&amp;rsquo;en ont rien à &amp;ldquo;faire&amp;rdquo;&lt;/h2>
+&lt;ul>
+&lt;li>À propos du scope de votre projet&lt;/li>
+&lt;li>Il soit géré par une tierce partie / sous-traitant&lt;/li>
+&lt;li>C&amp;rsquo;est un système ancien (Legacy)&lt;/li>
+&lt;li>TPCM / &amp;quot; Touche pas ! C&amp;rsquo;est magique &amp;quot;&lt;/li>
+&lt;li>C&amp;rsquo;est &amp;ldquo;trop critique pour être réparé&amp;rdquo;&lt;/li>
+&lt;li>A propos de vos périodes de maintenance&lt;/li>
+&lt;li>A propos de votre budget&lt;/li>
+&lt;li>Vous l&amp;rsquo;avez toujours fait de cette façon&lt;/li>
+&lt;li>À propos de votre date de mise en service&lt;/li>
+&lt;li>Il s&amp;rsquo;agit seulement d&amp;rsquo;un pilote/PoC&lt;/li>
+&lt;li>À propos des accords de non-divulgation&lt;/li>
+&lt;li>Ce n&amp;rsquo;était pas une exigence dans le contrat&lt;/li>
+&lt;li>C&amp;rsquo;est un système interne&lt;/li>
+&lt;li>Il est vraiment difficile de modifier / changer&lt;/li>
+&lt;li>Vous n&amp;rsquo;êtes pas sûr de savoir comment y remédier&lt;/li>
+&lt;li>Il doit être remplacé&lt;/li>
+&lt;li>C&amp;rsquo;est géré dans le Cloud&lt;/li>
+&lt;li>À propos de votre inscription au registre des risques&lt;/li>
+&lt;li>L&amp;rsquo;éditeur ne prend pas en charge cette configuration&lt;/li>
+&lt;li>C&amp;rsquo;est une solution provisoire&lt;/li>
+&lt;li>Il est conforme à [insérer la norme ici]&lt;/li>
+&lt;li>Il est crypté sur disque&lt;/li>
+&lt;li>Le rapport coût-bénéfice ne scale pas&lt;/li>
+&lt;li>&amp;ldquo;Personne d&amp;rsquo;autre ne pouvait le comprendre&amp;rdquo;&lt;/li>
+&lt;li>Vous ne pouvez pas expliquer le risque au &amp;ldquo;Business&amp;rdquo;&lt;/li>
+&lt;li>Vous avez d&amp;rsquo;autres priorités&lt;/li>
+&lt;li>Sur votre foi dans la compétence de vos utilisateurs internes&lt;/li>
+&lt;li>Vous n&amp;rsquo;avez pas de justification commerciale&lt;/li>
+&lt;li>❏ Vous ne pouvez pas montrer le retour sur investissement&lt;/li>
+&lt;li>Vous avez sous-traité ce risque&lt;/li>
+&lt;li>C&amp;rsquo;était à la mode [insérer la technologie hype ici]&lt;/li>
+&lt;li>De vos certifications&lt;/li>
+&lt;/ul>
+&lt;p>Voici une &amp;ldquo;petite&amp;rdquo; liste de 32 raisons, la grande majorité traduite de la version anglaise, complété par quelques unes qui ont été entendues.&lt;/p>
+&lt;h2 id="conférence-à-codeurs-en-seine-2020">Conférence à Codeurs en Seine 2020&lt;/h2>
+&lt;p>Cette liste en français a été &lt;a href="https://youtu.be/2URdbU5nMcs?t=5919" target="_blank" rel="noopener">présenté la première fois&lt;/a> durant le talk &lt;a href="https://davidaparicio.github.io/website/website/fr/talk/la-securite-des-la-conception-du-projet/">&amp;ldquo;La sécurité dès la conception du projet&amp;rdquo;&lt;/a> à la 8ème édition de &lt;a href="https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/programme" target="_blank" rel="noopener">Codeurs en Seine&lt;/a> (2020)&lt;/p>
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2URdbU5nMcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/website/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/website/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
+&lt;p>Si vous souhaitez partager vos raisons improbables, ou laisser un commentaire sur &lt;a href="https://twitter.com/dadideo/status/1548780763809808385" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Agilité et sécurité numériques, Cas concret avec la sauvegarde automatisée de Kerberos</title><link>https://davidaparicio.github.io/website/fr/slides/ssc2019/</link><pubDate>Tue, 08 Oct 2019 18:00:00 +0000</pubDate><guid>https://davidaparicio.github.io/website/fr/slides/ssc2019/</guid><description>&lt;h2 id="agilité-et-sécurité-numériques-cas-concret-avec-la-sauvegarde-automatisée-de-kerberos">Agilité et sécurité numériques: Cas concret avec la sauvegarde automatisée de Kerberos&lt;/h2>
 &lt;p>&lt;a href="https://david.aparicio.eu" target="_blank" rel="noopener">David Aparicio&lt;/a>&lt;/p>
 &lt;p>&lt;em>DevOps Cloud and Bigdata&lt;/em>&lt;/p>
 &lt;h6 id="3ème-édition-sophia-security-camp-08-octobre-2019">3ème édition Sophia Security Camp (08 Octobre 2019)&lt;/h6>
