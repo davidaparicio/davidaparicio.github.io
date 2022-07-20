@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/swcraftlyon #https://twitter.com/Chlorhydrique/status/1506921891264708609
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://youtu.be/DBK9HYWJS-I"
 
 slides: ""
 projects: []
