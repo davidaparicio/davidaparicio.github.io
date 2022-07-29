@@ -53,7 +53,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/BreizhCamp2022_La_securite_des_la_conception.pdf"
-url_video: ""
+url_video: "https://youtu.be/h2-fZzkfK28"
 
 slides: ""
 projects: []
