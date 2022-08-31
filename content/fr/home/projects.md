@@ -27,8 +27,10 @@ content:
   filter_button:
   - name: Tous
     tag: '*'
-  - name: Apprentisage profond
-    tag: Deep Learning
+  - name: Sécurité
+    tag: Sécurité
+  #- name: Apprentisage profond
+  #  tag: Deep Learning
   - name: Autre
     tag: Demo
 
