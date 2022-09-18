@@ -1,6 +1,7 @@
 # David Aparicio's website
 
 [![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/davidaparicio/website)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdavidaparicio%2Fwebsite.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdavidaparicio%2Fwebsite?ref=badge_shield)
 
 [![Gitlab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=brightgreen&message=main&style=flat-square)](https://gitlab.com/davidaparicio/website)
 [![Github](https://img.shields.io/static/v1?label=github&logo=github&color=green&message=mirrored&style=flat-square)](https://github.com/davidaparicio/website)
@@ -22,3 +23,6 @@ The website is based on **[Hugo](https://gohugo.io/)** + [Academic Resumé Templ
 [frogg.it repo]: <> (https://lab.frogg.it/davidaparicio/website)
 [fontawesome icon]: <> (https://fontawesome.com/v5/icons/file-alt?s=solid)
 [main language]: <> (https://github.com/davidaparicio/website/search?l=go)
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdavidaparicio%2Fwebsite.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdavidaparicio%2Fwebsite?ref=badge_large)
