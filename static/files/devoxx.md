@@ -150,6 +150,8 @@ Improve your Mac Terminal
 
 ## Python tooling
 
+### picosnitch (BPF/network history)
+
 ### httpie (API curl)
 
 ### vd (VisiData)
@@ -161,6 +163,8 @@ Improve your Mac Terminal
 ## Go tooling
 
 ### duf (du)
+
+### coroot (monitor/troubleshoot µ-services)
 
 ### hey (HTTP benchmark)
 
@@ -183,6 +187,8 @@ Improve your Mac Terminal
 ### gjo (jo)
 
 ### restic (backup like git)
+
+### jqp (jq playground)
 
 ## Rust tooling
 
@@ -242,4 +248,6 @@ Improve your Mac Terminal
 ### rg (ack)
 
 ### atuin (SQLite CTRL+R)
+
+### dog/lud (dig)
 
