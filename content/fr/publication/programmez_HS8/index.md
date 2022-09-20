@@ -29,6 +29,7 @@ links:
   icon_pack: fab
   name: Twitter
   url: https://twitter.com/francoistonic/status/1568152549043093506 #https://twitter.com/francoistonic/status/1567184719070089219
+  # https://www.linkedin.com/posts/neferit_programmez-100-s%C3%A9curit%C3%A9-d%C3%A9veloppeurs-activity-6973935615700516864-beUX
 
 url_pdf: 'https://programmez.com/magazine/article/la-securite-des-la-conception-secure-design'
 url_code: ''
