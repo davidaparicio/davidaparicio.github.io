@@ -1,5 +1,5 @@
 ---
-title: Father Castor 🐻, tell us some OPS stories (BBK)
+title: Father Castor 🐻, tell us some OPS stories (BBL)
 
 event: BBL @ Worldline
 event_url: https://worldline.com/
@@ -19,12 +19,13 @@ all_day: false
 publishDate: "2022-09-20T00:00:00Z"
 
 authors: [David Aparicio]
-tags: [Brown Bag Lunch, Cloud, SRE, BBL, Meetup]
+tags: [Brown Bag Lunch, Cloud, SRE, BBL, Meetup, Lunch & Learn]
 
 featured: false
 
 image:
-  caption: 'Image credit: [**Auchan**](https://worldline.com/)'
+  caption: 'Crédits: [**charlesdeluvio/unsplash**](https://unsplash.com/photos/wn7dOzUh3Rs)'
+  #'Photo by [charlesdeluvio](https://unsplash.com/@charlesdeluvio) on [Unsplash](https://unsplash.com/photos/wn7dOzUh3Rs)'
   focal_point: Right
 
 links:
