@@ -6,7 +6,7 @@ event_url: https://www.ovhcloud.com
 
 location: En ligne (Interne)
 
-summary: Quoi de neuf au niveau des outils du terminal
+summary: Découverte des nouveaux outils pour le terminal
 abstract: "Développeurs, nous passons plus de 50% de notre temps sur la conception et la revue de code. L'autre partie se passe sur l'interface en ligne de commande de l'IDE ou le terminal de l'OS: pour lancer l'application, débugger, lire les logs, mettre à jour les dépendances, analyser les trames réseau... Est-il possible de gagner du temps ? Avez-vous pris le temps de configurer votre terminal ? C'est ce que nous allons voir. Je vais partager un ensemble de bonnes pratiques et d'alias pour votre ligne de commande favorite.
 
 A vos marques, prêt ? Kaizen ! kaizen = amélioration continue"
