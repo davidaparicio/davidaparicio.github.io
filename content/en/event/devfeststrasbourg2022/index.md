@@ -4,7 +4,7 @@ title: Take back control of your Bash!
 event: DevFest Strasbourg 2022
 event_url: https://devfest.gdgstrasbourg.fr/
 
-location: Campus CCI
+location: Strasbourg (Campus CCI)
 address:
   street: 234 Avenue de Colmar
   city: Strasbourg

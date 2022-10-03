@@ -4,7 +4,7 @@ title: Au secours 😨 ! J'ai un homonyme !! 😱
 event: Le Camping des Speakers
 event_url: https://camping-speakers.fr/
 
-location: Camping Mané Guernehué 5*, Golfe du Morbihan
+location: Vannes (Camping Mané Guernehué 5*, Golfe du Morbihan)
 address:
   street: 52 Rue Mané er Groez
   city: Baden

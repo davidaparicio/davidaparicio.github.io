@@ -4,7 +4,7 @@ title: Reprenez le contrôle de votre bash en étant un ninja de la CLI ! (mee
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/286450995/
 
-location: EPITECH
+location: Lyon (EPITECH)
 address:
   street: 2 Rue du Professeur Charles Appleton
   city: Lyon
