@@ -27,9 +27,13 @@ image:
   focal_point: Right
 
 links:
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://openfeedback.io/cA67UrN9jU6glxRGVmmW/2022-09-30/i58uf8ZC1SWWFRk9WwVI
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/OVHcloud22_Cli.pdf"
 url_video: ""
 
 slides: ""
