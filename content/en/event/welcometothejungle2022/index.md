@@ -9,21 +9,30 @@ location: On-site (Internal)
 summary: OVHcloud, the European leader in cloud computing, with a presence in 15 countries and customers in 100, provides secure, reliable and accessible hosting and cloud solutions.
 abstract: "OVHcloud, the European leader in cloud computing, with a presence in 15 countries and customers in 100, provides secure, reliable and accessible hosting and cloud solutions.
 
+
 In a world where digital technology is predominant and constantly evolving, we at OVHcloud believe that the future lies in an open cloud ecosystem, which allows users to fully choose how they want to manage their data.
+
 
 We always favour the collective, which is why we work closely with and for our ecosystem, which is made up of our customers, our partners, institutional players and of course our employees.
 
+
 Founded in 1999
+
 
 5 continents
 
+
 2,500 employees in 19 countries
+
 
 30 data centers
 
+
 7.9 million websites hosted
 
+
 1.6 million customers in 140 countries
+
 
 1.1 million servers produced"
 
