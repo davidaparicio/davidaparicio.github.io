@@ -14,11 +14,17 @@ In a world where digital technology is predominant and constantly evolving, we a
 We always favour the collective, which is why we work closely with and for our ecosystem, which is made up of our customers, our partners, institutional players and of course our employees.
 
 Founded in 1999
+
 5 continents
+
 2,500 employees in 19 countries
+
 30 data centers
+
 7.9 million websites hosted
+
 1.6 million customers in 140 countries
+
 1.1 million servers produced"
 
 date: "2022-07-11T09:00:00Z"

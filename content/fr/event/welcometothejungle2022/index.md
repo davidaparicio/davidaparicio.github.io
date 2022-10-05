@@ -14,11 +14,17 @@ Dans un monde où le numérique occupe une place prédominante et est en constan
 Nous privilégions toujours le collectif, c’est pourquoi nous travaillons de manière rapprochée avec et pour notre écosystème composé de nos clients, de nos partenaires, d’acteurs institutionnels et bien évidemment de nos collaborateurs.
 
 Fondée en 1999
+
 5 continents
+
 2 500 collaborateurs dans 19 pays
+
 30 data centres
+
 7,9 millions de sites Web hébergés
+
 1,6 million de clients dans 140 pays
+
 1,1 million de serveurs produits"
 
 date: "2022-07-11T09:00:00Z"
