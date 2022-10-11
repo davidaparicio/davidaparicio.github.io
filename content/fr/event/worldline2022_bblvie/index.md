@@ -33,7 +33,7 @@ links:
   name: Avis
   url: https://s.42l.fr/worldbbl
 url_code: ""
-url_pdf: ""
+url_pdf: "talks/WorldlineBBL2022_PereCastor.pdf"
 url_slides: ""
 url_video: ""
 

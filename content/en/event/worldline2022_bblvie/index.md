@@ -35,7 +35,7 @@ links:
   url: https://s.42l.fr/worldbbl
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/WorldlineBBL2022_PereCastor.pdf"
 url_video: ""
 
 slides: ""
