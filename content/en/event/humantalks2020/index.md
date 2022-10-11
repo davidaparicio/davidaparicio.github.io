@@ -4,7 +4,7 @@ title: Security By Design
 event: Human Talks Février 2020
 event_url: https://humantalks.com/cities/lyon/events/533
 
-location: Now Coworking Lyon
+location: Lyon (Now Coworking)
 address:
   street: 35 rue de Marseille
   city: Lyon

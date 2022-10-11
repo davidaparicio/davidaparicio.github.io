@@ -4,7 +4,7 @@ title: IaaS, talk only (no slides)
 event: Riviera DEV 2021
 event_url: https://2021.rivieradev.fr/session/1028
 
-location: Lac Perrin (Base nautique)
+location: Fréjus (Lac Perrin, Base nautique)
 address:
   street: 131 Chemin du Lac
   city: Roquebrune sur Argens

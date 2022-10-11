@@ -4,7 +4,7 @@ title: IaaS (Interruption as a Sageness)
 event: JUG SummerCamp 2021
 event_url: https://www.jugsummercamp.org/edition/12/presentations/xBamRFdmcpte0HCR5YjW
 
-location: Espace Encan
+location: La Rochelle (Espace Encan)
 address:
   street: Quai Louis Prunier
   city: La Rochelle

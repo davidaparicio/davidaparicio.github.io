@@ -4,7 +4,7 @@ title: Security at the design stage (quickie)
 event: JUG SummerCamp 2020
 event_url: https://www.jugsummercamp.org/edition/11/presentations/JxaAbqezLIFaLJvOn6FN
 
-location: Espace Encan
+location: La Rochelle (Espace Encan)
 address:
   street: Quai Louis Prunier
   city: La Rochelle

@@ -4,7 +4,7 @@ title: IaaS, Interruption as a Sageness (meetup)
 event: Café DevOps
 event_url: https://www.meetup.com/cafe-devops-lyon/events/281097147
 
-location: Zenika Lyon
+location: Lyon (Zenika)
 address:
   street: 6 place Jules Ferry
   city: Lyon

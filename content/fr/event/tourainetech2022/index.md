@@ -4,7 +4,7 @@ title: Père Castor 🐻, raconte nous une histoire OPS
 event: Touraine Tech 22
 event_url: https://touraine.tech/
 
-location: Polytech'Tours
+location: Tours (Polytech')
 address:
   street: 64 Av. Jean Portalis
   city: Tours

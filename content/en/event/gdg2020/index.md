@@ -4,7 +4,7 @@ title: Kerberos backup
 event: GDG Cloud & Iot Lyon
 event_url: https://www.meetup.com/GDG-Cloud-Lyon/events/lpnvdpybcdbrb/
 
-location: Zenika Lyon
+location: Lyon (Zenika)
 address:
   street: 6 place Jules Ferry
   city: Lyon

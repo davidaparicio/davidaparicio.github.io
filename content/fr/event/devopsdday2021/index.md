@@ -4,7 +4,7 @@ title: Interruption as a Sageness (DEVOPS D-DAY)
 event: DEVOPS D-DAY, 6 edition
 event_url: https://www.2021-devops-dday.com/
 
-location: Orange Velodrome
+location: Marseille (Orange Velodrome)
 address:
   street: 3 Boulevard Michelet
   city: Marseille

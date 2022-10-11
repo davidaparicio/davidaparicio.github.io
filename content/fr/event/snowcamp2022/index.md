@@ -4,7 +4,7 @@ title: Père Castor 🐻, raconte nous une histoire (d'OPS)
 event: SnowCamp 2022
 event_url: https://snowcamp.io/
 
-location: WTC World Trade Center Grenoble
+location: Grenoble (WTC World Trade Center)
 address:
   street: 5 - 7, place Robert Schuman
   city: Grenoble
