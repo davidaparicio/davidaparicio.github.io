@@ -162,6 +162,8 @@ Improve your Mac Terminal
 
 ## Go tooling
 
+### direnv (workspace helper)
+
 ### duf (du)
 
 ### coroot (monitor/troubleshoot µ-services)
@@ -182,13 +184,19 @@ Improve your Mac Terminal
 
 ### zed (jq)
 
+### jid (interactive jq)
+
+### jqp (jq playground)
+
 ### fq (bin jq)
 
 ### gjo (jo)
 
 ### restic (backup like git)
 
-### jqp (jq playground)
+### dsq (SQL query json/csv/excel/parquet)
+
+### lazygit (terminal UI for git)
 
 ## Rust tooling
 
