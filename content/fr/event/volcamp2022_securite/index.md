@@ -42,17 +42,17 @@ image:
   focal_point: Right
 
 links:
-#- icon: binoculars
-#  icon_pack: fas
-#  name: Description
-#  url: https://cfp.devoxx.fr/2022/talk/LDA-6791
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://s.42l.fr/devoxxcli
+- icon: binoculars
+  icon_pack: fas
+  name: Description
+  url: https://www.volcamp.io/talks/22d1t4s3
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://s.42l.fr/secvolcamp #https://openfeedback.io/TFLMZgjvWiu7YEqED1rO/2022-10-13/b7amWwjZhtVw59VzM854
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/Volcamp2022_La_securite_des_la_conception.pdf"
 url_video: ""
 
 slides: ""
