@@ -2,18 +2,15 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_ENABLEGITINFO: "true"
+  HUGO_ENV: "production"
+  BASE_URL: "" #"https://davidaparicio.gitlab.io"
 
 pages:
   script:
-  - hugo
+  - hugo --cleanDestinationDir --minify #--baseURL $BASE_URL
   artifacts:
     paths:
     - public
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-# https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/#configure-gitlab-cicd
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-# https://discourse.gohugo.io/t/hugo-starter-error/28550/2
-#image: registry.gitlab.com/pages/hugo:latest
-#image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+  only:
+  - master
