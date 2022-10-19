@@ -1,30 +1,18 @@
-image:
-  name: klakegg/hugo:edge-ext-alpine
-  entrypoint: [""] #https://github.com/klakegg/docker-hugo/issues/13
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  #HUGO_VERSION: "0.75.1"
-  HUGO_ENABLEGITINFO: "true"
-  HUGO_ENV: "production"
-  BASE_URL: "https://davidaparicio.gitlab.io/website"
 
 pages:
   script:
-  - hugo --cleanDestinationDir --minify --baseURL $BASE_URL
+  - hugo
   artifacts:
     paths:
     - public
-  only:
-  - master
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-# - hugo --cleanDestinationDir --minify --debug --baseURL $BASE_URL
-# test:
-#   script:
-#   - hugo
-#   except:
-#   - master
-
+# https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/#configure-gitlab-cicd
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
 # https://discourse.gohugo.io/t/hugo-starter-error/28550/2
 #image: registry.gitlab.com/pages/hugo:latest

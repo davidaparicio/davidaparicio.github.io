@@ -24,7 +24,7 @@ jobs:
           extended: true # need the Hugo extended version to build SCSS/SASS.
 
       - name: Build
-        run: hugo --cleanDestinationDir --minify --baseURL https://davidaparicio.github.io/website/
+        run: hugo --cleanDestinationDir --minify --baseURL "" #https://davidaparicio.github.io
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

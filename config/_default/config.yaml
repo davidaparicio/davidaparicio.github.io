@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: David Aparicio # Website name
-baseurl: 'https://davidaparicio.gitlab.io/website/' # Website URL
+baseurl: '' # Website URL
 #'https://davidaparicio.gitlab.io/website/'
 #'https://github.com/davidaparicio/website'
 #'https://david.aparicio.eu'
