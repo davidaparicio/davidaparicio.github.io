@@ -2,9 +2,9 @@
 
 [![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/davidaparicio/website)
 
-[![Gitlab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=brightgreen&message=main&style=flat-square)](https://gitlab.com/davidaparicio/website)
-[![Github](https://img.shields.io/static/v1?label=github&logo=github&color=green&message=mirrored&style=flat-square)](https://github.com/davidaparicio/website)
-[![froggit](https://img.shields.io/static/v1?label=froggit&logo=froggit&color=yellowgreen&message=mirrored&style=flat-square)](https://lab.frogg.it/davidaparicio/website)
+[![Gitlab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=brightgreen&message=main&style=flat-square)](https://davidaparicio.gitlab.io/)
+[![Github](https://img.shields.io/static/v1?label=github&logo=github&color=green&message=mirrored&style=flat-square)](https://davidaparicio.github.io/)
+[![froggit](https://img.shields.io/static/v1?label=froggit&logo=froggit&color=yellowgreen&message=mirrored&style=flat-square)](https://davidaparicio.froggit.page/)
 [![Stack](https://img.shields.io/static/v1?label=stack&logo=hugo&color=343d46&message=go%20(hugo)&style=flat-square)](https://gohugo.io/)
 [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)](https://gitlab.com/davidaparicio/website/-/commits/master)
 
