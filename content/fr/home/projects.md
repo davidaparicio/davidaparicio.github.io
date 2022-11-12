@@ -27,6 +27,10 @@ content:
   filter_button:
   - name: Tous
     tag: '*'
+  - name: DevOps
+    tag: DevOps
+  - name: Multi-cloud
+    tag: Multi-cloud
   - name: Sécurité
     tag: Sécurité
   #- name: Apprentisage profond

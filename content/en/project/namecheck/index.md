@@ -4,6 +4,7 @@ summary: DevSecOps / Security by design applied to a Go project.
 tags:
 - Cybersecurity
 - Security
+- DevOps
 - DevSecOps
 date: "2022-08-31T00:00:00Z"
 

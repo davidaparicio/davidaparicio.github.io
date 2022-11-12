@@ -5,6 +5,7 @@ summary: DevSecOps / La sécurité dès la conception appliquée à un projet Go
 tags:
 - Cybersécurité
 - Sécurité
+- DevOps
 - DevSecOps
 date: "2022-08-31T00:00:00Z"
 

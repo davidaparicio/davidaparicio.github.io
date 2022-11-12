@@ -26,7 +26,7 @@ item:
 - title: Go Advanced training
   #date_end: "2022-05-13"
   date_start: "2022-05-06"
-  description: "Golang seduces people by its simplicity, its native competition features, its versatility, its stability, its performance. You will learn techniques to improve your code in terms of correctness, maintainability, testability, performance and security (3 days)"
+  description: "Golang seduces people by its simplicity, its native competition features, its versatility, its stability, its performance. You will learn techniques to improve your code in terms of correctness, maintainability, testability, performance and security (3 days) After this training, I read 'Cloud Native Go' by O'Reilly. It shows you how to use Go's strengths to develop cloud native services that are scalable and resilient, even in an unpredictable environment."
   organization: Human Coders
   organization_url: https://www.humancoders.com/
   url: "https://www.humancoders.com/diplomas/953342eb7be6"

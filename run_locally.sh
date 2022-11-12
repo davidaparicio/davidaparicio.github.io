@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 HUGO_DEBUG="" #--debug
-BASE_URL="localhost/website"
+BASE_URL=""
+#BASE_URL="localhost/website"
 #HUGO_DESTINATION="public"
 
 #echo "--- BUILDING ---"

@@ -26,7 +26,7 @@ item:
 - title: Formation Go Avancé
   #date_end: "2022-05-13"
   date_start: "2022-05-06"
-  description: "Go séduit du monde par sa simplicité, ses fonctionnalités de concurrence natives, sa polyvalence, sa stabilité, sa performance. Vous apprendrez des techniques visant à améliorer votre code en terme d'exactitude, de maintenabilité, de testabilité, de performance et de sécurité (3 days)"
+  description: "Go séduit du monde par sa simplicité, ses fonctionnalités de concurrence natives, sa polyvalence, sa stabilité, sa performance. Vous apprendrez des techniques visant à améliorer votre code en terme d'exactitude, de maintenabilité, de testabilité, de performance et de sécurité (3 days) Après j'ai lu 'Cloud Native Go' de O'Reilly, qui montre comment utiliser les points forts de Go pour développer des services cloud native qui sont évolutifs et résilients, même dans un environnement imprévisible."
   organization: Human Coders
   organization_url: https://www.humancoders.com/
   url: "https://www.humancoders.com/diplomas/953342eb7be6"

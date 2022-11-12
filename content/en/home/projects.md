@@ -27,6 +27,10 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: DevOps
+    tag: DevOps
+  - name: Multicloud
+    tag: Multicloud
   - name: Security
     tag: Security
   - name: Other
