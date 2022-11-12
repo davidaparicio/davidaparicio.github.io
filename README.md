@@ -19,6 +19,6 @@ The website is based on **[Hugo](https://gohugo.io/)** + [Academic Resumé Templ
 
 [comment]: <> (Languages i18n retrieved from https://github.com/wowchemy/wowchemy-hugo-themes/tree/main/wowchemy/i18n)
 [todo_update]: <> (https://github.com/wowchemy/starter-hugo-academic/commit/d99a03a46fe59269e23a272c996184d2df0ef884)
-[frogg.it repo]: <> (https://lab.frogg.it/davidaparicio/website)
+[frogg.it repo]: <> (https://lab.frogg.it/davidaparicio/davidaparicio.froggit.page)
 [fontawesome icon]: <> (https://fontawesome.com/v5/icons/file-alt?s=solid)
 [main language]: <> (https://github.com/davidaparicio/website/search?l=go)
