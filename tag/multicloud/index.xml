@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multicloud | David Aparicio</title><link>/tag/multicloud/</link><atom:link href="/tag/multicloud/index.xml" rel="self" type="application/rss+xml"/><description>Multicloud</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 David Aparicio</copyright><lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>Multicloud</title><link>/tag/multicloud/</link></image><item><title>Voivi</title><link>/project/voivi/</link><pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate><guid>/project/voivi/</guid><description>&lt;p>This multi-cloud project was created to put into practice SMPC (Secure Multiparty Computation) techniques, TOR (Onion Routing) network as well as privacy preservation mechanisms (Zero-trust) to test the hypotheses of the thesis. The application was used during the &lt;a href="https://en.wikipedia.org/wiki/2016_United_States_presidential_debates" target="_blank" rel="noopener">2016 U.S. Presidential Debates&lt;/a> by measuring in real time, all the tweets on the Twitter platform on the topic (analysis of topics/themes and favorable or unfavorable sentiment towards one of the candidates). During the second debate, in the space of 48 hours, the service processed 1.78 billion tweets, representing more than 15GB, spread across AWS/GCP/Azure/Heroku clouds. To handle this volume with little latency, an auto-scaling mechanism was implemented. Finally, I have scripted the deployment and execution in order to facilitate the DevOps method.&lt;/p>
+&lt;p>Technical Stack Details:&lt;/p>
+&lt;ul>
+&lt;li>AWS, GCP, Azure and Heroku&lt;/li>
+&lt;li>Vert.X 3.3.3, with Hazelcast 3.7.2&lt;/li>
+&lt;li>Maven 3.5.1 and SLJF4j 1.7.21&lt;/li>
+&lt;li>JUnit 4.12, REST-assured 3.0, Assertj 3.5.1&lt;/li>
+&lt;li>JClouds 1.9.2&lt;/li>
+&lt;li>Kubernetes 1.14 (May 2019) and the first tests of Ubernetes (K8s Federation)&lt;/li>
+&lt;li>MongoDB 1.50.5&lt;/li>
+&lt;li>Stanford NLP 3.6&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-note">
+&lt;div>
+Nowadays, reputation systems are crucial for distributed applications in which users have to be made accountable for their actions, such as e-commerce websites or voting electronic. However, existing systems often disclose the identity of the raters, which might deter honest users from posting reviews, out of fear of retaliation from the ratees. While many privacy-preserving reputation systems have been proposed, none of them was at the same time truly decentralized, trustless, and suitable for real world usage in, for example, e-commerce applications. After discussing the weaknesses and shortcoming of existing solutions, we will present our own blockchain-based trustless reputation system, and analyze its correctness and the security guarantees it promises.[&amp;hellip;]
+&lt;/div>
+&lt;/div></description></item></channel></rss>
