@@ -41,11 +41,11 @@
 &lt;/ul>
 &lt;p>Voici une &amp;ldquo;petite&amp;rdquo; liste de 32 raisons, la grande majorité traduite de la version anglaise, complété par quelques unes qui ont été entendues.&lt;/p>
 &lt;h2 id="conférence-à-codeurs-en-seine-2020">Conférence à Codeurs en Seine 2020&lt;/h2>
-&lt;p>Cette liste en français a été &lt;a href="https://youtu.be/2URdbU5nMcs?t=5919" target="_blank" rel="noopener">présenté la première fois&lt;/a> durant le talk &lt;a href="/website/fr/talk/la-securite-des-la-conception-du-projet/">&amp;ldquo;La sécurité dès la conception du projet&amp;rdquo;&lt;/a> à la 8ème édition de &lt;a href="https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/programme" target="_blank" rel="noopener">Codeurs en Seine&lt;/a> (2020)&lt;/p>
+&lt;p>Cette liste en français a été &lt;a href="https://youtu.be/2URdbU5nMcs?t=5919" target="_blank" rel="noopener">présenté la première fois&lt;/a> durant le talk &lt;a href="/fr/talk/la-securite-des-la-conception-du-projet/">&amp;ldquo;La sécurité dès la conception du projet&amp;rdquo;&lt;/a> à la 8ème édition de &lt;a href="https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/programme" target="_blank" rel="noopener">Codeurs en Seine&lt;/a> (2020)&lt;/p>
 &lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2URdbU5nMcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/website/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/website/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
+&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
 &lt;p>Si vous souhaitez partager vos raisons improbables, ou laisser un commentaire sur &lt;a href="https://twitter.com/dadideo/status/1548780763809808385" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
 &lt;/div>
 &lt;/div></description></item><item><title>Une liste de nouveaux outils en ligne de commande</title><link>/fr/post/cli/</link><pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate><guid>/fr/post/cli/</guid><description>&lt;div class="alert alert-note">
@@ -148,20 +148,20 @@ alias catl=&amp;quot;bat --style=grid&amp;quot;
 alias sysup='brew update &amp;amp;&amp;amp; brew upgrade; brew cleanup'
 &lt;/code>&lt;/pre>
 &lt;h2 id="mindmap">MindMap&lt;/h2>
-&lt;p>&lt;a href="https://davidaparicio.gitlab.io/website/files/devoxx.png" target="_blank" rel="noopener">
+&lt;p>&lt;a href="https://davidaparicio.gitlab.io/files/devoxx.png" target="_blank" rel="noopener">
 &lt;figure id="figure-voici-ma-mindmap-pour-la-conf-devoxxfr">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="/website/files/devoxx.png" alt="Une grande Mindmap avec plus d&amp;amp;rsquo;une centaine d&amp;amp;rsquo;outils" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="/files/devoxx.png" alt="Une grande Mindmap avec plus d&amp;amp;rsquo;une centaine d&amp;amp;rsquo;outils" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Voici ma MindMap pour la conf DevoxxFR
 &lt;/figcaption>&lt;/figure>
 &lt;/a>&lt;/p>
 &lt;h2 id="conférence-à-devoxxfr">Conférence à DevoxxFR&lt;/h2>
-&lt;p>Voici une &lt;a href="https://youtu.be/Gn5hmC0hQzM" target="_blank" rel="noopener">présentation rapide &amp;amp; illustrée&lt;/a> des outils de la ligne de commande, présentée durant le &lt;a href="/website/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/">Tools-in-Action &amp;ldquo;Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎&amp;rdquo;&lt;/a> à la 10ème édition de &lt;a href="https://www.devoxx.fr/" target="_blank" rel="noopener">DevoxxFR&lt;/a> (2022)&lt;/p>
+&lt;p>Voici une &lt;a href="https://youtu.be/Gn5hmC0hQzM" target="_blank" rel="noopener">présentation rapide &amp;amp; illustrée&lt;/a> des outils de la ligne de commande, présentée durant le &lt;a href="/fr/talk/reprenez-le-controle-de-votre-bash-en-devenant-un-ninja-de-la-cli/">Tools-in-Action &amp;ldquo;Reprenez le contrôle de votre bash en devenant un ninja de la CLI ! 😎&amp;rdquo;&lt;/a> à la 10ème édition de &lt;a href="https://www.devoxx.fr/" target="_blank" rel="noopener">DevoxxFR&lt;/a> (2022)&lt;/p>
 &lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gn5hmC0hQzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/website/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/website/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
+&lt;p>Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/issues" target="_blank" rel="noopener">issue&lt;/a> ou une &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> sur &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/blob/master/content/fr/post/cli/index.md" target="_blank" rel="noopener">le fichier Gitlab&lt;/a>.&lt;/p>
 &lt;p>Si vous souhaitez partager vos outils favoris, ou laisser un commentaire sur &lt;a href="https://twitter.com/dadideo/status/1538540734151786497" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
 &lt;/div>
 &lt;/div></description></item></channel></rss>
