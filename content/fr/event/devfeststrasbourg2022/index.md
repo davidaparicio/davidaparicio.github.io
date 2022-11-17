@@ -31,12 +31,12 @@ image:
   focal_point: Right
 
 links:
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://s.42l.fr/cafedevlyon
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://s.42l.fr/devs22 #https://openfeedback.io/V7BjEGqKkMtI9L5hlJqP/2022-11-18/hlgChPIubZP5VxO8EkJb
 url_code: ""
-url_pdf: ""
+url_pdf: "talks/DevFestStrasbourg2022_Cli.pdf"
 url_slides: ""
 url_video: ""
 
