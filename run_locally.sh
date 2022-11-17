@@ -2,7 +2,6 @@
 
 HUGO_DEBUG="" #--debug
 BASE_URL=""
-#BASE_URL="localhost/website"
 #HUGO_DESTINATION="public"
 
 #echo "--- BUILDING ---"

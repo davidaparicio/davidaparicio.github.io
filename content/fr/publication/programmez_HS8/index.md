@@ -14,7 +14,7 @@ publication_types: ["6"]
 publication: Dans le magazine *Programmez!*  Hors série 8
 publication_short: Dans *Programmez! HS8*
 
-abstract: En pleine pandémie, le nombre de cyberattaques a explosé dans le monde. L’Agence nationale de la sécurité des systèmes d’information (ANSSI) confirme ce constat dans son dernier rapport. De plus, depuis l’entrée en vigueur du RGPD, la protection des données personnelles ainsi que la sécurité “by design” deviennent des sujets intournables dans nos projets. Voici un ensemble d’outils pour sécuriser vos applications. ![Approche du cycle de vie DevSecOps pour l'ensemble du ministère américain de la défense](https://davidaparicio.gitlab.io/website/files/devsecops_software_lifecycle.jpg)
+abstract: En pleine pandémie, le nombre de cyberattaques a explosé dans le monde. L’Agence nationale de la sécurité des systèmes d’information (ANSSI) confirme ce constat dans son dernier rapport. De plus, depuis l’entrée en vigueur du RGPD, la protection des données personnelles ainsi que la sécurité “by design” deviennent des sujets intournables dans nos projets. Voici un ensemble d’outils pour sécuriser vos applications. ![Approche du cycle de vie DevSecOps pour l'ensemble du ministère américain de la défense](https://davidaparicio.gitlab.io/files/devsecops_software_lifecycle.jpg)
 
 summary: Cet article présente un ensemble d’outils pour sécuriser vos applications, suivant les méthodologies La Sécurité dès la conception/DevSecOps.
 

@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_URI} ^/website/(.*)
-RewriteRule ^website/(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]

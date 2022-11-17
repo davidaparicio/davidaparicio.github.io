@@ -151,7 +151,7 @@
 - id: cookie_learn
   translation: En savoir plus
 - id: published_with
-  translation: Publié à la manière <a href="https://gitlab.com/davidaparicio/website" target="_blank" rel="noopener">GitOps</a> avec <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>+{wowchemy}
+  translation: Publié à la manière <a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io" target="_blank" rel="noopener">GitOps</a> avec <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>+{wowchemy}
 
 - id: feedback
   translation: Avis

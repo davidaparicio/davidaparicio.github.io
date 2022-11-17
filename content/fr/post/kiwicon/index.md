@@ -85,13 +85,13 @@ Voici une "petite" liste de 32 raisons, la grande majorité traduite de la versi
 
 ## Conférence à Codeurs en Seine 2020
 
-Cette liste en français a été [présenté la première fois](https://youtu.be/2URdbU5nMcs?t=5919) durant le talk ["La sécurité dès la conception du projet"](/website/fr/talk/la-securite-des-la-conception-du-projet/) à la 8ème édition de [Codeurs en Seine](https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/programme) (2020)
+Cette liste en français a été [présenté la première fois](https://youtu.be/2URdbU5nMcs?t=5919) durant le talk ["La sécurité dès la conception du projet"](/fr/talk/la-securite-des-la-conception-du-projet/) à la 8ème édition de [Codeurs en Seine](https://archives-codeurs-en-seine.netlify.app/archive-2020/2020/programme) (2020)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2URdbU5nMcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% callout note %}}
 
-Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une [issue](https://gitlab.com/davidaparicio/website/-/issues) ou une [MR/PR](https://gitlab.com/davidaparicio/website/-/merge_requests) sur [le fichier Gitlab](https://gitlab.com/davidaparicio/website/-/blob/master/content/fr/post/cli/index.md).
+Merci pour votre lecture, si vous remarquez une erreur, une typo, faites une [issue](https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/issues) ou une [MR/PR](https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/merge_requests) sur [le fichier Gitlab](https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/blob/master/content/fr/post/cli/index.md).
 
 Si vous souhaitez partager vos raisons improbables, ou laisser un commentaire sur [Twitter](https://twitter.com/dadideo/status/1548780763809808385).
 {{% /callout %}}

@@ -1,6 +1,6 @@
 import qrcode
 
-websiteurl = 'https://davidaparicio.gitlab.io/website/'
+websiteurl = 'https://davidaparicio.gitlab.io'
 filename = 'website.png'
 
 versions   = 1  #1 to 40
