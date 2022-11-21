@@ -259,3 +259,5 @@ Improve your Mac Terminal
 
 ### dog/lud (dig)
 
+### trustfall (query almost everything)
+
