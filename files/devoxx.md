@@ -160,6 +160,8 @@ Improve your Mac Terminal
 
 ### thefuck (autocorrect)
 
+### cht.sh (THE cheatsheet)
+
 ## Go tooling
 
 ### direnv (workspace helper)
