@@ -9,8 +9,8 @@ location: Online
 summary: 🎤 Daily discussion on the latest tech news! | Technology Watch
 abstract: "We discuss between developers the top Hacker News stories of the day for 30 minutes before going to lunch, every day at 12pm on @TwitterSpaces (backup on clubhouse if needed)! More information on https://twitter.com/HackerNewsCafe"
 
-date: "2022-12-31T12:00:00Z"
-date_end: "2022-12-31T12:30:00Z"
+date: "2023-12-31T12:00:00Z"
+date_end: "2023-12-31T12:30:00Z"
 all_day: false
 
 publishDate: "2022-05-24T12:00:00Z"
