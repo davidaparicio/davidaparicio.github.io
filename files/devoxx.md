@@ -124,6 +124,10 @@ How to move FAST in the Linux Terminal
 ### Catalins.tech
 Improve your Mac Terminal
 
+### Ioannis Arapis
+Nvim en tant que IDE
+github.com/voltux/nvim_ide_presentation
+
 ## C/C++ tooling
 
 ### yank (pipe to clipboard)
@@ -148,6 +152,8 @@ Improve your Mac Terminal
 
 ### ag (ack=Perl)
 
+### btop (htop, CPU/GPU/net/disk usage)
+
 ## Python tooling
 
 ### picosnitch (BPF/network history)
@@ -161,6 +167,10 @@ Improve your Mac Terminal
 ### thefuck (autocorrect)
 
 ### cht.sh (THE cheatsheet)
+
+### bpytop (bashtop->X->btop)
+
+### ranger (file explorer like vim)
 
 ## Go tooling
 
@@ -264,4 +274,6 @@ Improve your Mac Terminal
 ### trustfall (query almost everything)
 
 ### zenith (htop, CPU/GPU/net/disk usage)
+
+### joshuto (ranger like, VIM file explorer)
 
