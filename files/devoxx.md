@@ -263,3 +263,5 @@ Improve your Mac Terminal
 
 ### trustfall (query almost everything)
 
+### zenith (htop, CPU/GPU/net/disk usage)
+
