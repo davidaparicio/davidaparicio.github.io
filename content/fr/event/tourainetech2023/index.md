@@ -36,13 +36,13 @@ links:
 #  name: Article
 #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
 #  #url: https://blog.devrel.ovh/2022-01-24-touraine-tech/
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://openfeedback.io/O0JgOh7607hrFK6xomd6/2022-01-21/SIE6sm17zZIewvX5vO9G
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/GTVNWpmqpXR1cOXkVh8u/2023-01-20/txsbzctz75bYv2CHpoit
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/TNT2023_WS_La_securite_Install_Party.pdf"
 url_video: ""
 
 slides: ""
