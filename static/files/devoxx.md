@@ -128,6 +128,8 @@ Improve your Mac Terminal
 Nvim en tant que IDE
 github.com/voltux/nvim_ide_presentation
 
+### Picocli, a Java framework to create CLIs
+
 ## C/C++ tooling
 
 ### yank (pipe to clipboard)
@@ -153,6 +155,10 @@ github.com/voltux/nvim_ide_presentation
 ### ag (ack=Perl)
 
 ### btop (htop, CPU/GPU/net/disk usage)
+
+## Ruby tooling
+
+### YouPlot (like VisiData)
 
 ## Python tooling
 
