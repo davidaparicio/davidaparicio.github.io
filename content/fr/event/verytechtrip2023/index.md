@@ -45,7 +45,7 @@ links:
 #  url: https://openfeedback.io/O0JgOh7607hrFK6xomd6/2022-01-21/SIE6sm17zZIewvX5vO9G
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/VTT2023_Mythes_du_cloud.pdf"
 url_video: ""
 
 slides: ""
