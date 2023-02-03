@@ -130,6 +130,75 @@ github.com/voltux/nvim_ide_presentation
 
 ### Picocli, a Java framework to create CLIs
 
+### Alicia Sykes: 50 CLI Tools
+https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
+
+- 
+    terminals-are-sexy by Nikolaos Kamarinakis
+    awesome-shell by Caleb Xu
+    awesome-cli-apps by Adam Garrett-Harris
+
+
+## Bash tooling
+
+### neofetch (MOTD)
+
+## Python tooling
+
+### picosnitch (BPF/network history)
+
+### asciinema (terminal recording)
+
+### bpytop (htop, top)
+
+### httpie (API curl)
+
+### glances (web log, monitor)
+
+### vd (VisiData)
+
+### yq (jq for yaml/xml/toml)
+
+### thefuck (autocorrect)
+
+### cht.sh (THE cheatsheet)
+
+### bpytop (bashtop->X->btop)
+
+### ranger (file explorer like vim)
+
+### speedtest-cli
+
+### buku (bookmark manager)
+
+### ddgr (googler, DuckDuckGo search)
+
+### khal (calendar)
+
+### tuir (reddit)
+
+### gdp-dashboard (C/C++ debugger)
+
+### wttr.in (weather)
+
+- curl wttr.in/Paris
+
+## Javascript tooling
+
+### browsh (CLI web browser)
+
+### surge(.sh) (deploy static website) 
+
+## Perl tooling
+
+### diff-so-fancy (diff)
+
+### exiftool (R/W metadata)
+
+## Ruby tooling
+
+### YouPlot (like VisiData)
+
 ## C/C++ tooling
 
 ### yank (pipe to clipboard)
@@ -156,27 +225,23 @@ github.com/voltux/nvim_ide_presentation
 
 ### btop (htop, CPU/GPU/net/disk usage)
 
-## Ruby tooling
+### jdupes (fdupes fork, find duplicates)
 
-### YouPlot (like VisiData)
+### aria2 (wget, SFTP, Torrent)
 
-## Python tooling
+### entr (watch file changes)
 
-### picosnitch (BPF/network history)
+### rsync (backup/sync local/remote)
 
-### httpie (API curl)
+### xsel (clipboard)
 
-### vd (VisiData)
+### cmus (music browser player)
 
-### yq (jq for yaml/xml/toml)
+### mutt (email client)
 
-### thefuck (autocorrect)
+### newsboat (RSS ATOM reader)
 
-### cht.sh (THE cheatsheet)
-
-### bpytop (bashtop->X->btop)
-
-### ranger (file explorer like vim)
+### tmate (tmux sharing)
 
 ## Go tooling
 
@@ -216,6 +281,24 @@ github.com/voltux/nvim_ide_presentation
 
 ### lazygit (terminal UI for git)
 
+### scc (count languages)
+
+### ctop (htop, top)
+
+### cointop (cryto price tracker)
+
+- ssh cointop.sh
+
+### micro (nano editor)
+
+### rclone (rsync cloud storage)
+
+### lazydocker (docker mgmt)
+
+### lazygit (git mgmt)
+
+### transfer.sh (file sharing)
+
 ## Rust tooling
 
 ### A modern replacement for 
@@ -231,7 +314,7 @@ github.com/voltux/nvim_ide_presentation
 
 ### zoxide (cd)
 
-### dust (du)
+### dust / dua-cli (du)
 
 ### ripgrep (grep)
 
@@ -243,7 +326,7 @@ github.com/voltux/nvim_ide_presentation
 
 ### navi (dynamic tldr)
 
-### broot (tree)
+### broot / tre (tree)
 
 ### grex (generate regex)
 
@@ -275,11 +358,21 @@ github.com/voltux/nvim_ide_presentation
 
 ### atuin (SQLite CTRL+R)
 
-### dog/lud (dig)
+### dog / lud (dig)
 
 ### trustfall (query almost everything)
 
 ### zenith (htop, CPU/GPU/net/disk usage)
 
 ### joshuto (ranger like, VIM file explorer)
+
+### just (make)
+
+### rip (rm)
+
+### bandwhich (bandwidth)
+
+### gping (ping)
+
+### kdash (k8s dashboard)
 
