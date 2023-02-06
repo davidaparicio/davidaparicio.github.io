@@ -53,7 +53,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/Volcamp2022_La_securite_des_la_conception.pdf"
-url_video: ""
+url_video: "https://youtu.be/m12Sa2fB308"
 
 slides: ""
 projects: []
