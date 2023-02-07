@@ -40,10 +40,6 @@
 
 ### zellij
 
-### nvm (full shell script)
-
-### vcsh (save .dotfiles)
-
 ## Choose our weapon
 Powerful shell (plug)
 
@@ -142,6 +138,12 @@ https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
 ## Bash tooling
 
 ### neofetch (MOTD)
+
+### goenv/gvm (pyenv/rbenv, Go version mgmt)
+
+### nvm (pyenv/rbenv, Node.js version manager)
+
+### vcsh (git for .dotfiles, config manager)
 
 ## Python tooling
 
@@ -245,7 +247,7 @@ https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
 
 ## Go tooling
 
-### direnv (workspace helper)
+### direnv (workspace helper, env .profile)
 
 ### duf (du)
 
