@@ -1,5 +1,5 @@
 ---
-title: WS Security, where to start? Install party 🎉 
+title: WS Security, Install party 🎉 
 
 event: Devoxx FR 2023
 event_url: https://devoxx.fr/
