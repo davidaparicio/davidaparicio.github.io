@@ -22,10 +22,10 @@
 <body>
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
-                  id="securite-intro"
+                  id="devoxxfr23"
                   title="La sécurité, par où commencer ? Install party 🎉"
                   environment="web"
-                  feedback-link="https://davidaparicio.gitlab.io/">
+                  feedback-link="https://github.com/davidaparicio/davidaparicio.github.io/issues">
     
       <google-codelab-step label="Présentation" duration="3">
         <p>Votre entreprise a connu une croissance inattendue, des carnets de commandes qui débordent, un tas d&#39;idées nouvelles de projets, et avec la crise actuelle outre-atlantique touchant les GAFAM, la conjecture n&#39;est pas favorable à recruter massivement.</p>
@@ -226,6 +226,7 @@
       <google-codelab-step label="Compilation" duration="3">
         <h2 is-upgraded>Compilation : Tests statiques de sécurité des applications</h2>
 <p>Le podium des SAST est <a href="https://checkmarx.com/" target="_blank">Checkmarx</a>, <a href="https://www.sonarsource.com/products/sonarqube/" target="_blank">SonarQube</a>, <a href="https://www.veracode.com/" target="_blank">Veracode</a>, suivi de <a href="https://www.open-scap.org/" target="_blank">OpenSCAP</a>, <a href="https://github.com/insidersec/insider" target="_blank">Insider CLI</a> (couvrant OWASP Top 10), <a href="https://pmd.github.io/" target="_blank">PMD - Don&#39;t shoot the messenger</a>, <a href="https://mend.io/" target="_blank">Mend Advise (ex-WhiteSource)</a>, <a href="https://www.argon.io/" target="_blank">Argon Supply Chain</a> qui a rejoint <a href="https://blog.aquasec.com/argon-supply-chain-security" target="_blank">Aqua</a>, <a href="https://brakemanscanner.org/" target="_blank">Brakeman</a>, <a href="https://www.codacy.com/" target="_blank">Codacy</a>, <a href="https://www.contrastsecurity.com/" target="_blank">Contrast Security</a>, <a href="https://www.microfocus.com/en-us/cyberres" target="_blank">CyberRes</a>, <a href="https://find-sec-bugs.github.io/" target="_blank">Find Security Bugs</a> (Java), <a href="https://www.grammatech.com/" target="_blank">Grammatech</a>, <a href="https://www.hcltechsw.com/appscan" target="_blank">HCL AppScan</a>, <a href="https://www.jit.io/" target="_blank">JIT.io</a>, <a href="https://www.perforce.com/products/klocwork" target="_blank">Klocwork</a>, <a href="https://lgtm.com/" target="_blank">LGTM.com</a> racheté par <a href="https://github.blog/2022-08-15-the-next-step-for-lgtm-com-github-code-scanning/" target="_blank">Github</a>, <a href="https://www.perforce.com/blog/kw/what-is-sast" target="_blank">Perforce SAST</a>, Redshift renommé récemment en <a href="https://www.softwaresecured.com/" target="_blank">Software Secured</a> probablement pour un différent juridique avec AWS, <a href="https://snyk.io/" target="_blank">Snyk</a>, <a href="https://spectralops.io/" target="_blank">SpectralOps</a>, <a href="https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html" target="_blank">Synopsys Coverity</a>, <a href="https://slscan.io/" target="_blank">slscan.io</a>, <a href="https://42crunch.com/free-tools/" target="_blank">42Crunch API SAST</a>.</p>
+<p><img alt="Gitlab - SAST" src="img/c7ee230c7ddabfba.jpg"> Exemple: lorsqu&#39;on crée un nouveau projet sur Gitlab. Ce dernier nous propose dès l&#39;<a href="https://gitlab.com/projects/new#blank_project" target="_blank">initiation du projet</a>, d&#39;activer le GitLab SAST.</p>
 <p>Pour compléter, nous vous recommandons de visiter le site de la <a href="https://owasp.org/www-community/Vulnerability_Scanning_Tools" target="_blank">Fondation OWASP qui a un tableau (en anglais)</a> sur ce sujet</p>
 <p>Au niveau des systèmes de contrôle de version pour la gestion du code source, <a href="https://docs.gitlab.com/ee/user/application_security/sast/" target="_blank">GitLab a son propre SAST intégré</a>: principalement gratuit (à quelques fonctionnalités près) depuis la version GitLab 13.3.</p>
 <p>Github a son équivalent avec <a href="https://codeql.github.com/" target="_blank">CodeQL</a> (ou vous pouvez intégrer un outil tiers à travers de la <a href="https://github.com/marketplace?type=" target="_blank">Marketplace</a>). Il est activable facilement à partir du lien : <code>https://github.com/MON_USER/MON_REPO/security/code-scanning</code></p>
@@ -298,6 +299,21 @@ jobs:
 
       </google-codelab-step>
     
+      <google-codelab-step label="Ex: Corriger une erreur" duration="2">
+        <h2 is-upgraded>Tenter de corriger une erreur remontée</h2>
+<p>Visible directement sur <a href="https://github.com/davidaparicio/namecheck/security/code-scanning/3" target="_blank">Github</a> ou sur l&#39;image ci-dessous.</p>
+<p class="image-container"><img alt="Exemple avec gosec" src="img/add97893272263c1.jpg"></p>
+<p><strong>Objectifs de cette étape</strong>:</p>
+<ul>
+<li>Si vous avez le temps,</li>
+<li>Fixer une des erreurs éventuelles remontées par CodeQL</li>
+<li>Committer dans une nouvelle branche, et créer une PR</li>
+<li>Vérifier que votre action a corrigé l&#39;alerte remontée dans <code>https://github.com/VOTRE_PSEUDO/VOTRE_REPO/security/code-scanning/1</code></li>
+</ul>
+
+
+      </google-codelab-step>
+    
       <google-codelab-step label="Ex: Test E2E" duration="10">
         <h2 is-upgraded>Compilation : Tests basiques de sécurité des applications (de bout en bout)</h2>
 <p class="image-container"><img alt="NewsBlur - Logo" src="img/13781bbbb2005845.jpg"></p>
@@ -330,6 +346,8 @@ jobs:
       <google-codelab-step label="Pentest" duration="3">
         <h2 is-upgraded>Test : Pentest</h2>
 <p>Sauf si vous avez une équipe de pentesteurs en interne, ou vous êtes experts des outils <a href="https://www.kali.org/" target="_blank">Kali Linux</a>, <a href="https://www.parrotsec.org/" target="_blank">Parrot Security</a>, <a href="https://hetty.xyz/" target="_blank">hetty</a> ou <a href="https://portswigger.net/burp/" target="_blank">Burp Suite Pro</a>, <a href="https://github.com/ElSicarius/SuperTruder" target="_blank">SuperTruder</a>, <a href="https://github.com/ffuf/ffuf" target="_blank">ffuf</a>, <a href="https://www.metasploit.com/" target="_blank">Metasploit</a>..., il est possible de demander à une entreprise spécialisée de réaliser les pentests ou vous pouvez participer à un programme de <a href="https://geekflare.com/bug-bounty-platforms/" target="_blank">Bug Bounty</a>: <a href="https://www.yeswehack.com/" target="_blank">YesWeHack</a>, <a href="https://yogosha.com/" target="_blank">Yogosha</a>, <a href="https://www.openbugbounty.org/" target="_blank">Open Bug Bounty</a>, <a href="https://www.hackerone.com/" target="_blank">Hackerone</a>, <a href="https://www.bugcrowd.com/" target="_blank">Bugcrowd</a>, <a href="https://app.safehats.com/enterprises/programs" target="_blank">SafeHats</a>, <a href="https://www.intigriti.com/" target="_blank">Intigriti</a>, <a href="https://www.synack.com/" target="_blank">Synack</a>.</p>
+<p>Même les grands groupes utilisent ces techniques. En effet, Google a annoncé récemment (Février 2023) avoir attribué plus de 12 millions de dollars de récompenses en 2022 pour l&#39;identification de plus de 2 900 problèmes de sécurité (cf <a href="https://www.zdnet.fr/actualites/google-s-aligne-financierement-sur-microsoft-pour-son-programme-de-bug-bounty-39954634.htm" target="_blank">ZDNet</a> et le tweet de <a href="https://twitter.com/Stormshield/status/1630206661167050754" target="_blank">Stormshield</a>).</p>
+<p class="image-container"><img alt="Google - Tweet de Stormshield" src="img/89eb3bc82a7b11be.jpg"></p>
 
 
       </google-codelab-step>
