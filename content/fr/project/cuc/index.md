@@ -1,6 +1,6 @@
 ---
 title: Cuc
-summary: Une simple projet de CLI en Go.
+summary: CLI / Un simple projet de CLI en Go.
 tags:
 - CLI
 - Cybersécurité
