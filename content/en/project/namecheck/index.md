@@ -32,4 +32,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
 A very simple command line tool and server to check the availability of a nickname/handle on Twitter and GitHub. This toyproject is used for my demos at conferences like [Security from the beginning of the design of a project](/talk/la-securite-des-le-debut-de-la-conception-dun-projet/) as well as for the article Programmez! Hors série #8. This Go application is a fork of the opensource project of [@jub0bs](https://github.com/jub0bs/), also available on [GitHub](https://github.com/jub0bs/namecheck).

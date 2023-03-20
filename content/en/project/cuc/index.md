@@ -1,6 +1,6 @@
 ---
-title: Cuc
-summary: CLI / Simple CLI Go project.
+title: URL Checker
+summary: DevSecOps / Efficient CLI Go project.
 tags:
 - CLI
 - Cybersecurity
@@ -27,6 +27,7 @@ url_slides: ""
 url_video: ""
 
 ---
+
 CUC (English pronunciation: [_cuc_] / λευκός) is a very simple CLI tool to check various HTTP status for example if a webpage is available (200) or not found (404).
 
 > It's delicious like a [TUC](https://en.wikipedia.org/wiki/TUC_(cracker)) (cracker), Biscuit of the French company LU, but with a C, for the [Console](https://en.wikipedia.org/wiki/Command-line_interface).
