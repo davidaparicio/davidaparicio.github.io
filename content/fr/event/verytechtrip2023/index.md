@@ -46,7 +46,8 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/VTT2023_Mythes_du_cloud.pdf"
-url_video: ""
+url_video: "https://player.vimeo.com/video/804590693"
+# https://verytechtrip.ovhcloud.com/fr/media/oembed/32ebbb299b076e41c0a5ce02bdbb4afc/
 
 slides: ""
 projects: []
