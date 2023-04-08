@@ -22,7 +22,7 @@
 <body>
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
-                  id="devoxxfr23"
+                  id="securite-intro"
                   title="La sécurité, par où commencer ? Install party 🎉"
                   environment="web"
                   feedback-link="https://github.com/davidaparicio/davidaparicio.github.io/issues">
@@ -173,9 +173,11 @@
       <google-codelab-step label="Virage à gauche toute" duration="4">
         <h2 is-upgraded>Développer : Sécurité comme Code</h2>
 <p>D&#39;après O&#39;Reilly, SaC (Security as Code) consiste à intégrer la sécurité dans les flux DevOps, alias CI/CD. Néanmoins, si l&#39;outil n&#39;est pas trop gourmand en ressources, il peut être installé dans l&#39;éditeur. Car nous avons des ordinateurs plus puissants, grâce à l&#39;apparition des puces ARM ou les IDE en ligne, comme AWS Cloud9, Gitpod, ou GitHub Codespaces. Au niveau des containers sécurisés, des implémentations existent avec <a href="https://gvisor.dev/" target="_blank">gVisor</a>, les <a href="https://katacontainers.io/" target="_blank">Kata Containers</a> et les <a href="https://youtu.be/G0SwSWKGyuM" target="_blank">Confidential containers</a>.</p>
-<p>D&#39;une part, l&#39;application de la configuration (HBAC, RBAC, règle pare-feu) peut-être une opération critique en cas d&#39;oubli ([bucket S3 accessible en public sur Internet, <a href="https://blog.newsblur.com/2021/06/28/story-of-a-hacking/" target="_blank">base de données sans mot de passe</a>). Il est préférable de déclarer son besoin avec des fichiers et de laisser l&#39;orchestrateur les réaliser plutôt qu&#39;agir de manière impérative sur le système.</p>
+<p>D&#39;une part, l&#39;application de la configuration (HBAC, RBAC, règle pare-feu) peut-être une opération critique en cas d&#39;oubli (<a target="_blank">bucket S3 accessible en public sur Internet</a>, <a href="https://blog.newsblur.com/2021/06/28/story-of-a-hacking/" target="_blank">base de données sans mot de passe</a>). Il est préférable de déclarer son besoin avec des fichiers et de laisser l&#39;orchestrateur les réaliser plutôt qu&#39;agir de manière impérative sur le système.</p>
 <p>Par exemple, le projet <a href="https://cilium.io/" target="_blank">Cilium</a> permet d&#39;interagir avec le réseau et d&#39;appliquer des politiques de sécurité. De plus, les maillage de services (services-mesh) comme Istio, Traefik maesh ou Solo.io avec GlooEdge génèrent automatiquement des certificats SSL et ne laissent passer ainsi que les communications sécurisées entre vos containers. D&#39;<a href="https://platform9.com/blog/the-ultimate-guide-to-using-calico-flannel-weave-and-cilium/" target="_blank">autres projets</a> existent comme: <a href="https://github.com/flannel-io/flannel" target="_blank">Flannel</a>, <a href="https://github.com/projectcalico/calico" target="_blank">Calico</a> ou <a href="https://github.com/weaveworks/weave" target="_blank">Weave</a>.</p>
 <p>D&#39;autre part, les commandes <code>docker scan</code>, <code>trivy image mon_Image_Docker:tag</code> analysent les vulnérabilités connues de votre Dockerfile. Avant de pousser du code contenant des secrets, un hook peut-être installé avec <a href="https://gitguardian.com/" target="_blank">GitGuardian</a>, <a href="https://github.com/GitGuardian/ggshield" target="_blank">ggshield</a>, <a href="https://github.com/aquasecurity/trivy" target="_blank">Trivy</a> (<code>trivy fs —security-checks secret ./</code>) ou le projet <a href="https://github.com/awslabs/git-secrets" target="_blank">awslabs/git-secrets</a>. Comme l&#39;erreur est humaine, il est préférable d&#39;automatiser toutes ces actions et analyses.</p>
+<p>Au final, en plus de la modélisation de l&#39;attaquant et des risques, il faut aussi prendre en compte les différents flux, avoir des diagrammes d&#39;architecture, comme celui ci-dessous... justement, c&#39;est notre prochain sujet.</p>
+<p class="image-container"><img alt="Exemple d&amp;rsquo;architecture (cloudcraft.co)" src="img/6354ca6168ac64c2.png"></p>
 
 
       </google-codelab-step>
@@ -496,6 +498,12 @@ jobs:
 <li><a href="https://otx.alienvault.com/" target="_blank">AlienVault OTX</a></li>
 </ul>
 <p>avec des logins spécialement créés pour DevoxxFR 2023</p>
+<p>(DISCLAMER: ne pas rentrer d&#39;informations &#34;sensibles&#34; vu que ce sont des comptes partagés ;-D )</p>
+<ul>
+<li>OpenCVE.io, login: devoxx@zici.fr/devoxxFR2023</li>
+<li>otx.alienvault.com, login: devoxxFR2023/devoxxFR2023</li>
+</ul>
+<p class="image-container"><img alt="alienvault logo" src="img/736aa4fa4697cb91.jpg"></p>
 
 
       </google-codelab-step>
@@ -595,6 +603,58 @@ jobs:
 <p>Nous vous souhaitons un excellent DevoxxFR 2023 !! ;-)</p>
 <p class="image-container"><img alt="Lien OpenFeedBack" src="img/aefb6fcfa3a81ba9.png"></p>
 <p>S&#39;il vous plaît, laissez-nous votre note et vos commentaires sur <a href="https://openfeedback.io/2M9FzZ6xSI2POKX1TrXM/2023-04-13/iWUCq9jRftwiLuxrqhdl" target="_blank">OpenFeedBack</a></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="E1 - Utip" duration="5">
+        <h2 is-upgraded>Utip et Mongopay</h2>
+<p class="image-container"><img alt="DevoxxGPT scale" src="img/ee0fecccb43c4744.jpg"></p>
+<p>DevoxxGPT connait une croissance incroyable, comme l&#39;illustre le graphique: de nombreux articles en parlent, des directs sur les plateaux télévisés, et même l&#39;<a href="https://www.bbc.com/news/technology-65139406" target="_blank">Italie</a> menace de vous bloquer, pour des raisons de vie privée.</p>
+<p>Mais votre CEO découvre cette <a href="https://www.numerama.com/tech/1325518-utip-ferme-pourquoi-la-plateforme-francaise-de-financement-disparait-elle-si-abruptement.html" target="_blank">nouvelle</a> avec effroi : &#34;uTip, la plateforme de financement participatif française (Cocorico) concurrente de Tipeee, vient fermer. L&#39;entreprise a été placée en liquidation judiciaire le 23 mars 2023, et son activité s&#39;est arrêtée le 4 avril 2023&#34; (<a href="https://www.numerama.com/tech/1325518-utip-ferme-pourquoi-la-plateforme-francaise-de-financement-disparait-elle-si-abruptement.html" target="_blank">Source</a>). uTip ferme à cause d&#39;un intermédiaire financier, Mangopay, qui a décidé de mettre fin à leur contrat. Vous avez pour objectif, de le rasurer face à cette triste annonce, ébranlant toute la <a href="https://lafrenchtech.com/fr/" target="_blank">French Tech</a>.</p>
+<p><strong>Objectifs de cette étape</strong>:</p>
+<ul>
+<li>Identifier le problème rencontré par uTip, le formaliser</li>
+<li>Pour un de vos assets de votre projet, trouver ce genre de problème éventuel et une résolution possible</li>
+<li>Bonus: Pour tous vos prestataires, ou fournisseurs de services (Cloud par exemple), trouvez des alernatives possibles pour éviter de faire banqueroute comme uTip, et ainsi, rassurer votre CEO</li>
+</ul>
+<p class="image-container"><img alt="uTip licorne" src="img/5acd68690348faf5.jpg"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="E2 - MitM" duration="5">
+        <h2 is-upgraded>Man In The Middle, or not MitM ? (Avons-nous une attaque de type MitM)</h2>
+<p class="image-container"><img alt="Star Realms Event" src="img/c75d7b269f1e4742.jpg"></p>
+<p>Vos développeur.se.s sont inquiet.e.s. Depuis ce vendredi matin, 24 Mars 2023, elles &amp; ils obtiennent ce message d&#39;erreur lors des déploiements CI/CD ou de simples commits sur GitHub.</p>
+<pre><code language="language-Bash" class="language-Bash">myuser@tatooine ~&gt; git pull origin main
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s.
+Please contact your system administrator.
+Add correct host key in /Users/myuser/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /Users/myuser/.ssh/known_hosts:5
+RSA host key for github.com has changed and you have requested strict checking.
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+</code></pre>
+<p>Votre CEO ainsi que votre CTO s&#39;inquiètent. Car ces messages sont bloquants pour les développements ainsi que les déploiements. En tant que Champion de la sécurité, ielles vous demandent d&#39;investiguer sur la cause de ce message d&#39;erreur. Est-ce que votre startup s&#39;est-elle faite attaquée depuis le live sur XFM, hier soir, au JT du 20h ?</p>
+<p><strong>Objectifs de cette étape</strong>:</p>
+<ul>
+<li>Identifier la cause de ce message d&#39;erreur (Avez-vous trouvé un article qui parle de ce souci ?)</li>
+<li>Etes-vous familié avec le terme <code>Man In The Middle</code> ? (<a href="https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu" target="_blank">Attaque de l&#39;homme du milieu</a>)</li>
+<li>Faut-il accepter cette nouvelle clé ?</li>
+<li>Bonus: Préparer un script qui va, pour une fois (unique), permettre la résolution de l&#39;incident</li>
+</ul>
+<p>PS: C&#39;est un évènement daté ^^</p>
 
 
       </google-codelab-step>
