@@ -3,13 +3,13 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2023-02-27T22:53:19+01:00",
-  "id": "devoxxfr23",
-  "duration": 172,
+  "updated": "2023-04-08T18:43:11+02:00",
+  "id": "securite-intro",
+  "duration": 182,
   "title": "La sécurité, par où commencer ? Install party 🎉",
-  "authors": "David Aparicio, Christopher Aparicio",
+  "authors": "David Aparicio",
   "summary": "La sécurité, par où commencer ? Install party",
-  "source": "devoxxfr23.md",
+  "source": "securite-intro.md",
   "theme": "",
   "status": [
     "published"
@@ -23,5 +23,5 @@
     "gbu-7756"
   ],
   "feedback": "https://github.com/davidaparicio/davidaparicio.github.io/issues",
-  "url": "devoxxfr23"
+  "url": "securite-intro"
 }
