@@ -6,7 +6,7 @@
 [![Github](https://img.shields.io/static/v1?label=github&logo=github&color=green&message=mirrored&style=flat-square)](https://davidaparicio.github.io/)
 [![froggit](https://img.shields.io/static/v1?label=froggit&logo=froggit&color=yellowgreen&message=mirrored&style=flat-square)](https://davidaparicio.froggit.page/)
 [![Stack](https://img.shields.io/static/v1?label=stack&logo=hugo&color=343d46&message=go%20(hugo)&style=flat-square)](https://gohugo.io/)
-[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)](https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/commits/master)
+[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)](https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/commits/master)
 
 The website is based on **[Hugo](https://gohugo.io/)** + [Academic Resumé Template by Wowchemy](https://wowchemy.com/docs/) to publish my online resumé and showcase my conference presentations.
 

@@ -81,12 +81,12 @@ math: false
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
+  repo_url: 'https://github.com/davidaparicio/davidaparicio.github.io'
   content_dir: ''
-  repo_branch: main
+  repo_branch: master
   editable:
-    page: false
-    post: false
+    page: true
+    post: true
     book: false
 show_related:
   book: true

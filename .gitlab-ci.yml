@@ -1,31 +1,13 @@
-image:
-  # https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/
-  # name: registry.gitlab.com/pages/hugo/hugo_extended:latest
-  name: klakegg/hugo:edge-ext-alpine #https://gitlab.com/hydroqc/hydroqc-docs
-  entrypoint: [""] #https://github.com/klakegg/docker-hugo/issues/13
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  #HUGO_VERSION: "0.75.1"
-  HUGO_ENABLEGITINFO: "true"
-  HUGO_ENV: "production"
-  #BASE_URL: "https://davidaparicio.gitlab.io"
 
 pages:
   script:
-  - hugo --cleanDestinationDir --minify #--baseURL $BASE_URL
+  - hugo
   artifacts:
     paths:
     - public
-  only: #rules:
-  - master #- if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-#test:
-#  stage: test
-#  script:
-#    - bundle exec jekyll build -d test
-#  artifacts:
-#    paths:
-#    - test
-#  rules:
-#    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH #"main"
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
