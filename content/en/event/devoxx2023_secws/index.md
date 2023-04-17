@@ -31,17 +31,21 @@ image:
   focal_point: Right
 
 links:
+- icon: binoculars
+  icon_pack: fas
+  name: Description
+  url: https://cfp.devoxx.fr/2023/talk/GBU-7756/La_securite,_par_ou_commencer_%3F_Install_party_%F0%9F%8E%89
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://openfeedback.io/2M9FzZ6xSI2POKX1TrXM/2023-04-13/iWUCq9jRftwiLuxrqhdl
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Post
 #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
-#- icon: comments
-#  icon_pack: fas
-#  name: Feedback
-#  url: https://openfeedback.io/GTVNWpmqpXR1cOXkVh8u/2023-01-20/txsbzctz75bYv2CHpoit
-url_code: ""
+url_code: "https://github.com/davidaparicio/devsecops-workshop-devoxxfr23"
 url_pdf: ""
-url_slides: "" #"talks/TNT2023_WS_La_securite_Install_Party.pdf"
+url_slides: "content/fr/codelabs/devoxxfr23"
 url_video: ""
 
 slides: ""
