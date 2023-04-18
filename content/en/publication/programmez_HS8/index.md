@@ -25,16 +25,24 @@ tags: #[]
 featured: true
 
 links:
+- icon: book
+  icon_pack: fas
+  name: PDF
+  url: https://programmez.com/magazine/article/la-securite-des-la-conception-secure-design
+- icon: file
+  icon_pack: fas
+  name: Code
+  url: https://github.com/davidaparicio/namecheck
 - icon: twitter
   icon_pack: fab
   name: Twitter
   url: https://twitter.com/francoistonic/status/1568152549043093506 #https://twitter.com/francoistonic/status/1567184719070089219
 
-url_pdf: 'https://programmez.com/magazine/article/la-securite-des-la-conception-secure-design'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://github.com/davidaparicio/namecheck'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
