@@ -65,6 +65,8 @@ links:
 #  icon_pack: fab
 #  name: Youtube
 #  url: https://www.youtube.com/watch?v=PlqPI8ZYAK8&t=2897s
+- name: Vidéo
+  url: https://youtu.be/PlqPI8ZYAK8?t=2390
 - icon: twitter
   icon_pack: fab
   name: Twitter
@@ -72,7 +74,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://youtu.be/PlqPI8ZYAK8?t=2390"
+url_video: ""
 
 slides: ""
 projects: []

@@ -31,10 +31,12 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/P_lnXgy8mNU
 url_code: ""
 url_pdf: ""
 url_slides: "talks/CloudEst2021_La_securite_des_la_conception.pdf"
-url_video: "https://www.youtube.com/watch?v=P_lnXgy8mNU"
+url_video: ""
 
 slides: ""
 projects: []

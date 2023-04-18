@@ -33,6 +33,8 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/Gn5hmC0hQzM
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -44,7 +46,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_Cli.pdf"
-url_video: "https://youtu.be/Gn5hmC0hQzM"
+url_video: ""
 
 slides: ""
 projects: []

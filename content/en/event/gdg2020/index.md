@@ -40,9 +40,11 @@ image:
   focal_point: Right
 
 links:
+- name: Slides
+  url: https://davidaparicio.gitlab.io/200213-gdglyon/
 url_code: ""
 url_pdf: ""
-url_slides: "https://davidaparicio.gitlab.io/200213-gdglyon/"
+url_slides: ""
 url_video: ""
 
 slides: ""

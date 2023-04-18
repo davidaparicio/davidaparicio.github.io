@@ -33,6 +33,8 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://mixitconf.org/2022/reprenez-le-controle-de-votre-bash-en-devant-un-ninja-de-la-cli-
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -44,7 +46,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/MiXiT2022_Cli.pdf"
-url_video: "https://mixitconf.org/2022/reprenez-le-controle-de-votre-bash-en-devant-un-ninja-de-la-cli-"
+url_video: ""
 # https://twitter.com/mixitconf/status/1549725811820871686
 
 slides: ""

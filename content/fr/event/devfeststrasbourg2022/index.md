@@ -31,6 +31,8 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://youtu.be/ELdOO-08-AE
 - icon: comments
   icon_pack: fas
   name: Avis

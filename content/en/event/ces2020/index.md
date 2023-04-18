@@ -29,10 +29,12 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/2URdbU5nMcs
 url_code: ""
 url_pdf: ""
 url_slides: "talks/CeS2020_La_securite_des_la_conception.pdf"
-url_video: "https://youtu.be/2URdbU5nMcs" #https://www.youtube.com/watch?v=2URdbU5nMcs&t=5285s
+url_video: "" #https://www.youtube.com/watch?v=2URdbU5nMcs&t=5285s
 
 slides: ""
 projects: []

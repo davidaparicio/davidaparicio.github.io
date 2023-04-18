@@ -28,10 +28,12 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://youtu.be/J5SOD97nxWk
 url_code: ""
 url_pdf: ""
 url_slides: "talks/CloudNord2021_PereCastor.pdf"
-url_video: "https://www.youtube.com/watch?v=J5SOD97nxWk"
+url_video: ""
 
 slides: ""
 projects: []

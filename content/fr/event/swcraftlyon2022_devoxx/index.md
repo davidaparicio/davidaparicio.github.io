@@ -27,10 +27,8 @@ image:
   focal_point: Right
 
 links: 
-#- icon: youtube
-#  icon_pack: fab
-#  name: Youtube
-#  url: https://youtu.be/DkY1BA6M93g
+- name: Vidéo
+  url: https://youtu.be/DBK9HYWJS-I
 - icon: twitch
   icon_pack: fab
   name: Twitch
@@ -41,7 +39,7 @@ links:
   url: https://twitter.com/swcraftlyon #https://twitter.com/Chlorhydrique/status/1506921891264708609
 url_pdf: ""
 url_slides: ""
-url_video: "https://youtu.be/DBK9HYWJS-I"
+url_video: ""
 
 slides: ""
 projects: []

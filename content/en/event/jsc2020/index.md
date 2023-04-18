@@ -37,10 +37,12 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/eQ58Y5gLyN4
 url_code: ""
 url_pdf: ""
 url_slides: "talks/JSC2020_La_securite_des_la_conception.pdf"
-url_video: "https://youtu.be/eQ58Y5gLyN4"
+url_video: ""
 
 slides: ""
 projects: []

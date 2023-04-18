@@ -25,6 +25,8 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/8Tr8xnU_ZHw
 - icon: comments
   icon_pack: fas
   name: Feedback

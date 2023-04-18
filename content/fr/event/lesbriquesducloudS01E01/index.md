@@ -54,7 +54,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://youtu.be/DkY1BA6M93g"
+url_video: ""
 
 slides: ""
 projects: []

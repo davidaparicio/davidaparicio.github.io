@@ -32,10 +32,8 @@ image:
   focal_point: Right
 
 links:
-#- icon: binoculars
-#  icon_pack: fas
-#  name: Description
-#  url: https://cfp.devoxx.fr/2022/talk/BJV-2519
+- name: Vidéo
+  url: https://youtu.be/p_PDZvbD54o
 - icon: comments
   icon_pack: fas
   name: Avis
@@ -43,7 +41,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/SophiaConf2022_PereCastor.pdf"
-url_video: "https://youtu.be/p_PDZvbD54o"
+url_video: ""
 
 slides: ""
 projects: []

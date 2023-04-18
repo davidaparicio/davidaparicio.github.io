@@ -34,6 +34,8 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/au6qYFjZI2Q
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -45,7 +47,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevoxxFR2022_PereCastor.pdf"
-url_video: "https://youtu.be/au6qYFjZI2Q"
+url_video: ""
 
 slides: ""
 projects: []

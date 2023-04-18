@@ -34,11 +34,20 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://youtu.be/pjv1Jic7VLM
+  #icon: youtube
+  #icon_pack: fab
+- icon: binoculars
+  icon_pack: fas
+  name: Description
+  url: https://2022.touraine.tech/talk/1ii3MtY8M6p4lwM2VKDx
 - icon: file-alt
   icon_pack: fas
   name: Article
   url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
   #url: https://blog.devrel.ovh/2022-01-24-touraine-tech/
+  # https://mobile.twitter.com/tourainetech/status/1484450863850696706
 - icon: comments
   icon_pack: fas
   name: Avis
@@ -46,7 +55,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/TNT2022_PereCastor.pdf"
-url_video: "https://youtu.be/pjv1Jic7VLM"
+url_video: "" #https://youtu.be/pjv1Jic7VLM
 
 slides: ""
 projects: []

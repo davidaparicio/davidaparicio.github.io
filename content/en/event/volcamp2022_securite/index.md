@@ -42,6 +42,8 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/m12Sa2fB308
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -53,7 +55,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/Volcamp2022_La_securite_des_la_conception.pdf"
-url_video: "https://youtu.be/m12Sa2fB308"
+url_video: ""
 
 slides: ""
 projects: []

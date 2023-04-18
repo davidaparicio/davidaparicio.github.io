@@ -34,6 +34,8 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://player.vimeo.com/video/804590693
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Article
@@ -46,7 +48,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/VTT2023_Mythes_du_cloud.pdf"
-url_video: "https://player.vimeo.com/video/804590693"
+url_video: ""
 # https://verytechtrip.ovhcloud.com/fr/media/oembed/32ebbb299b076e41c0a5ce02bdbb4afc/
 
 slides: ""

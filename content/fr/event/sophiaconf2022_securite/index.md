@@ -42,10 +42,8 @@ image:
   focal_point: Right
 
 links:
-#- icon: binoculars
-#  icon_pack: fas
-#  name: Description
-#  url: https://cfp.devoxx.fr/2022/talk/LDA-6791
+- name: Vidéo
+  url: https://youtu.be/TqZZOXb3xP4
 - icon: comments
   icon_pack: fas
   name: Avis
@@ -53,7 +51,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "talks/SophiaConf2022_La_securite_des_la_conception.pdf"
-url_video: "https://youtu.be/TqZZOXb3xP4"
+url_video: ""
 
 slides: ""
 projects: []

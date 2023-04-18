@@ -50,6 +50,8 @@ image:
   focal_point: Right
 
 links:
+- name: Video
+  url: https://youtu.be/JSJHDIkkiKQ
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -57,7 +59,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://youtu.be/JSJHDIkkiKQ"
+url_video: ""
 
 slides: ""
 projects: []

@@ -28,6 +28,8 @@ image:
   focal_point: Right
 
 links:
+- name: Vidéo
+  url: https://youtu.be/aT4tcib2p44
 - icon: comments
   icon_pack: fas
   name: Avis

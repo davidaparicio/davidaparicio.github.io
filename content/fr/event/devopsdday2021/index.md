@@ -33,10 +33,13 @@ image:
   caption: 'Crédits: [**DEVOPS D-DAY #6**](https://www.2021-devops-dday.com/)'
   focal_point: Right
 
+links:
+- name: Vidéo
+  url: https://youtu.be/tll9gsDLuLM
 url_code: ""
 url_pdf: ""
 url_slides: "talks/DevOpsDDay2021_IaaS.pdf"
-url_video: "https://www.youtube.com/watch?v=tll9gsDLuLM"
+url_video: ""
 
 slides: ""
 projects: []
