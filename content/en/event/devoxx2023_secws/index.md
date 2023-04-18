@@ -31,6 +31,10 @@ image:
   focal_point: Right
 
 links:
+- icon: file #th-list #list-alt
+  icon_pack: fas
+  name: Code
+  url: https://github.com/davidaparicio/devsecops-workshop-devoxxfr23
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -43,9 +47,9 @@ links:
 #  icon_pack: fas
 #  name: Post
 #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
-url_code: "https://github.com/davidaparicio/devsecops-workshop-devoxxfr23"
+url_code: ""
 url_pdf: ""
-url_slides: "content/fr/codelabs/devoxxfr23"
+url_slides: "fr/codelabs/devoxxfr23"
 url_video: ""
 
 slides: ""
