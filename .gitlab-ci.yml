@@ -1,13 +1,21 @@
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+image:
+  # https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/
+  # name: registry.gitlab.com/pages/hugo/hugo_extended:latest
+  name: klakegg/hugo:edge-ext-alpine #https://gitlab.com/hydroqc/hydroqc-docs
+  entrypoint: [""] #https://github.com/klakegg/docker-hugo/issues/13
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  #HUGO_VERSION: "v0.111.3"
+  HUGO_ENABLEGITINFO: "true"
+  HUGO_ENV: "production"
+  #BASE_URL: "https://davidaparicio.gitlab.io"
 
 pages:
   script:
-  - hugo
+  - hugo --cleanDestinationDir --minify #--baseURL $BASE_URL
   artifacts:
     paths:
     - public
-  rules:
-  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  only: #rules:
+  - master #- if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
