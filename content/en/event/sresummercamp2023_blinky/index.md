@@ -35,17 +35,21 @@ image:
 links:
 #- name: Video
 #  url: https://youtu.be/Gn5hmC0hQzM
-#- icon: binoculars
-#  icon_pack: fas
-#  name: Description
-#  url: https://cfp.devoxx.fr/2022/talk/LDA-6791
-#- icon: comments
-#  icon_pack: fas
-#  name: Feedback
-#  url: https://s.42l.fr/devoxxcli
+- icon: file #th-list #list-alt
+  icon_pack: fas
+  name: Code
+  url: https://github.com/davidaparicio/ambari-to-opsgenie/
+- icon: binoculars
+  icon_pack: fas
+  name: Description
+  url:  https://summercamp.srefrance.org/sessions/cheri-e-j-ai-blinky-la-prod/
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://openfeedback.io/XOoDrX46BuJoKPDjN598/2023-09-03/iiguWX2aZLYLRxxa5IyB
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/SRESummerCamp2023_Blinky.pdf"
 url_video: ""
 
 slides: ""

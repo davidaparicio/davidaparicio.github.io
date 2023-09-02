@@ -33,25 +33,25 @@ image:
   focal_point: Right
 
 links:
-#- icon: file #th-list #list-alt
-#  icon_pack: fas
-#  name: Code
-#  url: https://github.com/davidaparicio/devsecops-workshop-devoxxfr23
-#- icon: binoculars
-#  icon_pack: fas
-#  name: Description
-#  url:  https://www.volcamp.io/talks/23d1t4s5
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://openfeedback.io/2M9FzZ6xSI2POKX1TrXM/2023-04-13/iWUCq9jRftwiLuxrqhdl
+- icon: file #th-list #list-alt
+  icon_pack: fas
+  name: Code
+  url: https://github.com/davidaparicio/ambari-to-opsgenie/
+- icon: binoculars
+  icon_pack: fas
+  name: Description
+  url:  https://summercamp.srefrance.org/sessions/cheri-e-j-ai-blinky-la-prod/
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/XOoDrX46BuJoKPDjN598/2023-09-03/iiguWX2aZLYLRxxa5IyB
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Article
 #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/SRESummerCamp2023_Blinky.pdf"
 url_video: ""
 
 slides: ""
