@@ -39,10 +39,10 @@ links:
   icon_pack: fas
   name: Description
   url:  https://www.volcamp.io/talks/23d1t4s5
-#- icon: comments
-#  icon_pack: fas
-#  name: Avis
-#  url: https://openfeedback.io/2M9FzZ6xSI2POKX1TrXM/2023-04-13/iWUCq9jRftwiLuxrqhdl
+- icon: comments
+  icon_pack: fas
+  name: Avis
+  url: https://openfeedback.io/JVBw5TL2fcGc8Mf3QNCE/2023-10-12/tQZH2XDdZHAobTGOPBdM
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Article
