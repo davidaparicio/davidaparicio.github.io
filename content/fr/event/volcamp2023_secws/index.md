@@ -34,7 +34,7 @@ links:
 - icon: file #th-list #list-alt
   icon_pack: fas
   name: Code
-  url: https://github.com/davidaparicio/devsecops-workshop-devoxxfr23
+  url: https://github.com/davidaparicio/devsecops-workshop/tree/conf/volcamp2023
 - icon: binoculars
   icon_pack: fas
   name: Description
@@ -49,7 +49,7 @@ links:
 #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
 url_code: ""
 url_pdf: ""
-url_slides: "fr/codelabs/devoxxfr23"
+url_slides: "fr/codelabs/volcamp23"
 url_video: ""
 
 slides: ""
