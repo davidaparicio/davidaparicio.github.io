@@ -42,7 +42,7 @@ links:
 - icon: comments
   icon_pack: fas
   name: Feedback
-  url: https://openfeedback.io/2M9FzZ6xSI2POKX1TrXM/2023-04-13/iWUCq9jRftwiLuxrqhdl
+  url: https://openfeedback.io/BVJQLdpKqfl1IBPtWpRR/0/installparty
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Post

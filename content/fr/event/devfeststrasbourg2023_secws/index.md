@@ -42,7 +42,7 @@ links:
 - icon: comments
   icon_pack: fas
   name: Avis
-  url: https://openfeedback.io/JVBw5TL2fcGc8Mf3QNCE/2023-10-12/tQZH2XDdZHAobTGOPBdM
+  url: https://openfeedback.io/BVJQLdpKqfl1IBPtWpRR/0/installparty
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Article

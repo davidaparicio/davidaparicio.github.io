@@ -1,6 +1,6 @@
 import qrcode
 
-websiteurl = 'https://davidaparicio.gitlab.io'
+websiteurl = 'https://openfeedback.io/BVJQLdpKqfl1IBPtWpRR/0/installparty'
 filename = 'website.png'
 
 versions   = 1  #1 to 40
