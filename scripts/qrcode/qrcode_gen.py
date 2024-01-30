@@ -1,6 +1,6 @@
 import qrcode
 
-websiteurl = 'https://openfeedback.io/BVJQLdpKqfl1IBPtWpRR/0/installparty'
+websiteurl = 'https://openfeedback.io/o7zyKdkdRulRnrtU3DZo/2024-01-31/d83195ad7c5a6422c2caf7d3d444e27c'
 filename = 'website.png'
 
 versions   = 1  #1 to 40
