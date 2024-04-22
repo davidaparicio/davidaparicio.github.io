@@ -1,5 +1,6 @@
 ---
-version: "3.8" #https://docs.docker.com/compose/compose-file/
+# WARN[0000] ./docker-compose.yml: `version` is obsolete
+#version: "3.8" #https://docs.docker.com/compose/compose-file/
 
 services:
   simple:
@@ -20,5 +21,6 @@ services:
     volumes:
       - .:/src
     ports: [ "1313:1313", ]
-    command:
-    - server --disableFastRender --bind 0.0.0.0 --printI18nWarnings
+    # https://forum.gitlab.com/t/error-command-error-unknown-command-sh-for-hugo/95376
+    entrypoint: [""] # FIX for Error: unknown command "hugo --help" for "hugo"
+    command: hugo server --disableFastRender --bind 0.0.0.0 --printI18nWarnings

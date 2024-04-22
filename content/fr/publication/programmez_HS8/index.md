@@ -28,6 +28,11 @@ links:
 - icon: book
   icon_pack: fas
   name: PDF
+  url: "files/programmez_hs08.pdf"
+  #url: https://programmez.com/magazine/article/la-securite-des-la-conception-secure-design
+- icon: shopping-cart
+  icon_pack: fas
+  name: Acheter
   url: https://programmez.com/magazine/article/la-securite-des-la-conception-secure-design
 - icon: file
   icon_pack: fas
