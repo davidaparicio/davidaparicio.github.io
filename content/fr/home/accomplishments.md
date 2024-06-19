@@ -7,7 +7,7 @@ widget: accomplishments
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 89
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'Réalisations'
@@ -23,6 +23,13 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- title: Kubernetes Avancé (M4) + Opérer K8s/Helm/ArgoCD (M3/M5)
+  date_end: "2024-06-12"
+  date_start: "2024-05-28"
+  description: "Kubernetes est partout. Cette formation permet de maîtriser le packaging d'applications en utilisant Helm, Kustomize, YTT et des outils GitOps comme Flux ou ArgoCD (3 jours). Ensuite, nous effectuons un DeepDive sur Kubernetes en bootstrapant le cluster à la dure sans kubeadm ou kubespray (3 jours). Enfin, nous avons passé en revue toutes les politiques de réseau, les aspects de sécurité, CRD, Opérateurs, Quotas, Autoscaling, PV/PVC, Failovers, Finalizers et la gestion des ressources afin de concevoir notre propre opérateur (4 jours)"
+  organization: ENIX
+  organization_url: https://enix.io/en/formation-kubernetes/
+  url: "files/DavidAparicio-ENIX.pdf"
 - title: Formation Go Avancé
   #date_end: "2022-05-13"
   date_start: "2022-05-06"

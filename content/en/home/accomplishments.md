@@ -7,7 +7,7 @@ widget: accomplishments
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 89
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'Accomplish&shy;ments'
@@ -23,19 +23,26 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- title: Kubernetes Advanced (M3/M4/M5)
+  date_end: "2024-06-12"
+  date_start: "2024-05-28"
+  description: "Kubernetes is everywhere. This training enables mastery of application packaging using Helm, Kustomize, YTT and GitOps tools like Flux or ArgoCD (3 days). After we performed a deep dive on Kubernetes by bootstraping the cluster in the hard way without scripts as kubeadm or kubespray (3 days). Finally, we review all network policies, security aspects, CRD, Operators, quotas, autoscaling, PV/PVC, Failovers, Finalizers and resource management in order to design our own operator (4 days)."
+  organization: ENIX
+  organization_url: "https://enix.io/fr/formation-kubernetes/"
+  url: "files/DavidAparicio-ENIX.pdf"
 - title: Go Advanced training
   #date_end: "2022-05-13"
   date_start: "2022-05-06"
   description: "Golang seduces people by its simplicity, its native competition features, its versatility, its stability, its performance. You will learn techniques to improve your code in terms of correctness, maintainability, testability, performance and security (3 days) After this training, I read 'Cloud Native Go' by O'Reilly. It shows you how to use Go's strengths to develop cloud native services that are scalable and resilient, even in an unpredictable environment."
   organization: Human Coders
-  organization_url: https://www.humancoders.com/
+  organization_url: "https://www.humancoders.com/"
   url: "https://www.humancoders.com/diplomas/953342eb7be6"
 - title: Foundation for eBPF
   #date_end: "2022-03-30"
   date_start: "2022-04-08"
   description: "eBPF (Extended Berkeley Packet Filter) is a revolutionary Linux technology that can run sandboxed programs in an OS kernel to safely and efficiently extend the capabilities of the kernel without requiring changes to kernel source code or load kernel modules (2h)"
   organization: Solo.io
-  organization_url: https://www.solo.io/
+  organization_url: "https://www.solo.io/"
   url: "https://www.credly.com/badges/f6dcb7e0-5534-451e-9f14-52e4066ea615/public_url"
   #url: "https://app.livestorm.co/solo-io/fundamentals-for-ebpf-workshop-with-certification-option-emea-033022"
 - title: Foundation for Istio
@@ -44,7 +51,7 @@ item:
   description: "Istio is the most popular service mesh deployed into production across the cloud-native ecosystem. It provides the foundational pieces to implement zero-trust networking, get deeper observability into a distributed system, and smart routing control for safer software releases. This certification validates that you possess the introductory skills, to install, secure services and interservices communication into the Mesh, control traffic, resiliency and implement Chaos Testing (2h30)"
   #description: "Certifies that you possess the introductory skills, to install, secure services, add services to the Mesh, secure interservices communication, control traffic, resiliency and Chaos Testing (2h30) Skill list: Kubernetes, Microservices, Envoy Proxy, Istio, Service Mesh, Operate Service Mesh, Secure Istio, Secure Microservices"
   organization: Solo.io
-  organization_url: https://www.solo.io/
+  organization_url: "https://www.solo.io/"
   url: "https://www.credly.com/badges/69945842-15e4-4aca-ae51-56e0854a666c/public_url"
   #url: "https://app.livestorm.co/solo-io/get-started-with-istio-workshop-with-certification-option-us-030222"
 - title: Training GCP Fundamentals Core Infrastructure + Big Data & ML (GCP100B)
@@ -65,8 +72,8 @@ item:
   date_start: "2018-07-08"
   description: Designed for system administrators who are intending to use Ansible for automation, configuration, and management. You will learn how to install and configure Ansible, create and run playbooks to configure systems, and learn to manage inventories (4 days)
   organization: RedHat
-  organization_url: https://www.redhat.com
-  url: https://www.redhat.com/en/services/training/do407-automation-ansible-i
+  organization_url: "https://www.redhat.com"
+  url: "https://www.redhat.com/en/services/training/do407-automation-ansible-i"
 - title: MapR Cluster Administration ADM2000 training (MCCA 5.1)
   #certificate_url: https://mapr.com/
   #date_end: "2017-10-04"
