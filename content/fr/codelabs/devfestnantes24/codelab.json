@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-10-17T15:31:14+02:00",
+  "id": "devfest24",
+  "duration": 200,
+  "title": "La sécurité, par où commencer ? Install party 🎉",
+  "authors": "David Aparicio",
+  "summary": "La sécurité, par où commencer ? Install party",
+  "source": "devfest24.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "devsecops",
+    "security"
+  ],
+  "tags": [
+    "devfest"
+  ],
+  "feedback": "https://github.com/davidaparicio/devsecops-workshop/issues",
+  "url": "devfest24"
+}
