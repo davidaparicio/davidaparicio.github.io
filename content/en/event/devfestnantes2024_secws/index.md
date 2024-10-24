@@ -42,7 +42,7 @@ links:
 - icon: comments
   icon_pack: fas
   name: Feedback
-  url: https://devfest.gdgnantes.com/sessions/la_securite__par_ou_commencer___install_party___/
+  url: https://openfeedback.io/devfestnantes24/2024-10-17/lasecuriteparoucommencerinstallparty #?hideHeader=true&forceColorScheme=dark
 #- icon: file-alt
 #  icon_pack: fas
 #  name: Post
