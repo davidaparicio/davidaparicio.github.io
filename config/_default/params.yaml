@@ -145,6 +145,7 @@ map:
   api_key: ''
   zoom: 15
 marketing:
+  #analytics:
   google_analytics: ''
   google_tag_manager: ''
   google_site_verification: ''
@@ -156,3 +157,6 @@ cms:
 icon:
   pack:
     ai: true
+# services:
+#   googleAnalytics:
+#     id: 'G-XXXXXXXXXX'
