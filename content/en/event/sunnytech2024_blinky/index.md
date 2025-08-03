@@ -33,8 +33,8 @@ image:
   focal_point: Right
 
 links:
-#- name: Video
-#  url: https://youtu.be/Gn5hmC0hQzM
+- name: Video
+  url: https://youtu.be/8VReKau5kIU
 - icon: file #th-list #list-alt
   icon_pack: fas
   name: Code
