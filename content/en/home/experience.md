@@ -22,16 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Senior DevSecOps and Integration Engineer
+    company: Sopht
+    company_url: 'https://sopht.com/'
+    company_logo: sopht
+    location: Lyon (Hybrid)
+    date_start: '2024-11-04'
+    date_end: ''
+    description: |2-
+        Onboard customers faster from months to weeks. Streamlit Auth., Kubernetes/Keycloak updates for ISO 27001 compliance.
+        Elastic Serverless PoC. Roadmap from Scaleway to AWS
+
   - title: DataOps
     company: OVHcloud
     company_url: 'https://www.ovhcloud.com/'
-    company_logo: org-x
-    location: Lyon
+    company_logo: ovhcloud
+    location: Lyon (Full Remote)
     date_start: '2019-07-01'
-    date_end: ''
+    date_end: '2024-07-22'
     description: |2-
         Hortonworks datalake on OpenStack (Public Cloud), Replication agent from Mesos Marathon to Kubernetes,
-        Legacy infrastructure migration, ITIL Change management, Industrialization
+        Legacy infrastructure migration, ITIL Change management, Industrialization, Shift Left Security
         
         Conference speaker:
         
@@ -42,17 +53,17 @@ experience:
   - title: DevOps consultant
     company: AMADEUS / Altran
     company_url: 'https://www.amadeus.com/'
-    company_logo: org-gc
-    location: Nice (Sophia-Antipolis)
+    company_logo: amadeus
+    location: Sophia-Antipolis (Nice, On-Site)
     date_start: '2017-05-01'
     date_end: '2019-06-30'
-    description: BigData MapR deployment platform on hybrid clouds with CI/CD workflows and Terraform/Vault, following Twelve factor & ITIL principles. Migration from Puppet to Ansible, and MapR 3 to 5
+    description: BigData MapR on hybrid clouds with CI/CD workflows & Terraform/Vault, following Twelve factors & ITIL principles. Migration Puppet to Ansible, MapR 3 to 5, PCI-DSS compliance
 
   - title: PhD Fast,Verifiable,Secure compute for decentralized systems
     company: INSA de Lyon (L.I.R.I.S. CNRS)
     company_url: 'https://liris.cnrs.fr/'
-    company_logo: org-x
-    location: Lyon (La Doua)
+    company_logo: liris
+    location: Lyon (La Doua, On-Site)
     date_start: '2014-09-01'
     date_end: '2017-04-30'
     description: |2-
