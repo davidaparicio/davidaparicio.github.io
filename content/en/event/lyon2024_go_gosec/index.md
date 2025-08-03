@@ -29,7 +29,7 @@ tags: [Go, Gosec, Cybersecurity, DevSecOps, Security, SecurityByDesign]
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/people-sitting-on-chair-5U_28ojjgms)'
+  caption: 'Image credit: [**Meetup Golang Lyon**](https://www.meetup.com/golang-lyon/events/304507272/)'
   focal_point: Right
 
 links:

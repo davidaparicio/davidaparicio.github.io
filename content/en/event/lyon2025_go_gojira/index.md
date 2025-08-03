@@ -29,7 +29,7 @@ tags: [Go, AI, Artifical Intelligence, LLM, Anthropic, Claude Code]
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/people-playing-arcade-games-ihb1YmHlpuQ)'
+  caption: 'Image credit: [**Meetup Golang Lyon**](https://www.meetup.com/golang-lyon/events/308083715/)'
   focal_point: Right
 
 links:
