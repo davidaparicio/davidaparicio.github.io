@@ -20,7 +20,7 @@ feature:
   #description: 90%
   icon: server
   icon_pack: fas #fab
-- name: Scalability & Big Data
+- name: Scalabilité & Big Data
   icon: chart-line
   icon_pack: fas
 - name: Cybersecurité
