@@ -17,7 +17,7 @@ fr:
   params:
     description: 'David Aparicio, DevSecOps @OVHcloud'
     address:
-      street: Quelque part à Lyon
+      street: Quelque part à
       region: Rhône-Alpes, FR
     appointment_url: 'https://cal.com/dadideo'
     contact_links:
