@@ -27,6 +27,8 @@ content:
   filter_button:
   - name: Tous
     tag: '*'
+  - name: IA
+    tag: IA
   - name: DevOps
     tag: DevOps
   - name: Multi-cloud
@@ -35,8 +37,8 @@ content:
     tag: Sécurité
   #- name: Apprentisage profond
   #  tag: Deep Learning
-  - name: Autre
-    tag: Demo
+  # - name: Autre
+  #   tag: Demo
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

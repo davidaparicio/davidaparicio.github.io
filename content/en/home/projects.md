@@ -27,14 +27,16 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: AI
+    tag: AI
   - name: DevOps
     tag: DevOps
   - name: Multicloud
     tag: Multicloud
   - name: Security
     tag: Security
-  - name: Other
-    tag: Demo
+  # - name: Other
+  #   tag: Demo
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
