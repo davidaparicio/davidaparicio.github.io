@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04 #20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest' #'0.88.0'
+          hugo-version: '0.111.3' #'latest' #'0.88.0'
           extended: true # need the Hugo extended version to build SCSS/SASS.
 
       - name: Build
