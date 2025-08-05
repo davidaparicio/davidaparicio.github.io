@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-07-04T09:13:45+02:00",
+  "id": "sunnytech24",
+  "duration": 200,
+  "title": "La sécurité, par où commencer ? Install party 🎉",
+  "authors": "David Aparicio",
+  "summary": "La sécurité, par où commencer ? Install party",
+  "source": "sunnytech2024.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "devsecops",
+    "security"
+  ],
+  "tags": [
+    "sunnytech"
+  ],
+  "feedback": "https://github.com/davidaparicio/devsecops-workshop/issues",
+  "url": "sunnytech24"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM | David Aparicio</title><link>/tag/llm/</link><atom:link href="/tag/llm/index.xml" rel="self" type="application/rss+xml"/><description>LLM</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 David Aparicio</copyright><lastBuildDate>Mon, 16 Jun 2025 08:30:00 +0000</lastBuildDate><image><url>/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>LLM</title><link>/tag/llm/</link></image><item><title>Vibe Coding &amp; Go (meetup)</title><link>/talk/vibe-coding-go-meetup/</link><pubDate>Mon, 16 Jun 2025 08:30:00 +0000</pubDate><guid>/talk/vibe-coding-go-meetup/</guid><description/></item><item><title>1st prize at the Dust/Qonto AI agent hackathon</title><link>/post/dust_hackathon2025/</link><pubDate>Fri, 11 Apr 2025 23:00:00 +0000</pubDate><guid>/post/dust_hackathon2025/</guid><description>&lt;h2 id="team">Team&lt;/h2>
+&lt;p>Team 12 composed by: Simon Cleriot, Khaled Khebbeb, Jarek Ecke and David Aparicio.&lt;/p>
+&lt;h2 id="pitch">Pitch&lt;/h2>
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_nifTEl5JXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;div class="alert alert-note">
+&lt;div>
+More information on the &lt;a href="/project/dust_hackathon2025/">project&lt;/a> and the &lt;a href="https://dusthq.substack.com/i/162575165/long-live-the-builders-ai-agents-hackathon-winners" target="_blank" rel="noopener">hackathon Dust&lt;/a> &amp;ldquo;AI agents hackathon winners, enhance your debating skills, AI agents in Ops, marketing, customer success and more&amp;rdquo;..
+&lt;/div>
+&lt;/div>
+&lt;h2 id="final-demo">Final Demo&lt;/h2>
+&lt;p>Starting at the timebox: 47:33&lt;/p>
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jeaFGRyie2M?t=2853" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;h2 id="interview">Interview&lt;/h2>
+&lt;ul>
+&lt;li>Kevin Straszburger (Dust): can you intro yourself?&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m David Aparicio, Software Engineer graduated from INSA de Lyon and UNICAMP (Brazil). I have worked for Facebook on the MIT AppInventor project as a graduation project.
+I did a 2-year thesis where I discovered Docker, Kubernetes and DevOps. Then I worked for big players like AMADEUS (2 years) and OVHcloud (5 years). I&amp;rsquo;m now working as Senior DevSecOps at Sopht, the Green ITOps tool to reduce your IT carbon footprint.&lt;/p>
+&lt;ul>
+&lt;li>Kevin: how did you hear about the hackathon? Was it your first one?&lt;/li>
+&lt;/ul>
+&lt;p>I didn&amp;rsquo;t count my hackathon participation, but I think I&amp;rsquo;m slowly approaching ten. My last prize was in 2014, at Facebook São Paulo, my team won an honorable mention for the project that used Facebook as a tool to find missing people.&lt;/p>
+&lt;ul>
+&lt;li>what were your intentions when signing up?&lt;/li>
+&lt;/ul>
+&lt;p>First of all, so that I can get to grips with the major shift that is Artificial Intelligence. It&amp;rsquo;s probably as impactful a technology as the Internet was. And, of course, discover the features that Dust offers for using this technology. And last but not least, it&amp;rsquo;s a truly outstanding event, meeting exceptional people with extraordinary backgrounds and contagious energy. In a nutshell, I can only recall one memory: the hackathons at Facebook in the movie, the Social Network!&lt;/p>
+&lt;ul>
+&lt;li>how would you describe your experience?&lt;/li>
+&lt;/ul>
+&lt;p>Before the quick but in-depth Alban Dumouilla&amp;rsquo;s presentation the same morning, I had no idea what Dust had to offer, given that there&amp;rsquo;s no trial offer (which is understandable, given the cost of the GPUs that run IAs).&lt;/p>
+&lt;ul>
+&lt;li>can you describe -with your own words- what you built? (i plan on sharing your demo too, so people will also have access to your video)&lt;/li>
+&lt;/ul>
+&lt;p>Imagine a world where non-technical team members can seamlessly contribute to development projects without waiting for tickets to move into the sprint. Our Dust Agent bridges the gap between the two teams. Let&amp;rsquo;s break down the silos!&lt;/p>
+&lt;ul>
+&lt;li>why did you decide to work on this?&lt;/li>
+&lt;/ul>
+&lt;p>This comes from an observation we&amp;rsquo;ve made in all the companies where we work. Non-tech people can&amp;rsquo;t develop, they don&amp;rsquo;t know our tools (like Cursor, Windsurf or Roo Code) so they have to create a ticket, wait, wait and wait for that ticket to leave the backlog to get into a sprint and try a quick resolution.&lt;/p>
+&lt;p>Let&amp;rsquo;s give them the means to help developers by communicating to the AI the changes to be made, the bugs to be resolved, so that the AI documents itself in the specifications, processes the request and creates a pull request that will be reviewed by a human developer. If the CI/CD pipeline performs well, all the tests will be carried out, and eventually an ephemeral environment will be available, to help the developer validate the resolution of the problem.&lt;/p>
+&lt;ul>
+&lt;li>let&amp;rsquo;s get into the weeds shall we: walk us through your day/ your tech stack/ your demo. be as detailed as you want.&lt;/li>
+&lt;/ul>
+&lt;p>Not being familiar with the Dust tool, I started with Alban Dumouilla&amp;rsquo;s introductory workshop. After this galvanizing session, I was impressed and went back to my team (all of whom had been unaware of each other just a few hours earlier). Meanwhile, my team had debated the ideas, and only two remained. A very interesting topic, but impossible to finalize in less than six hours, and this second, promising topic, and an MVP may be born before the demo time runs out. An architecture diagram was quickly drawn up, with 4 major blocks. Each chooses its performance domain, in order to deliver as quickly as possible. Indeed, even if the AI models become high-performance, we still need to integrate the systems, resolve the remaining bugs and optimize the whole project (because AI often misses these performance optimization phases).&lt;/p>
+&lt;p>We were able to start integrating the project an hour and a half before the deadline, making the necessary changes and correcting the few bugs to get the system up and running. Only 35 minutes remained to prepare the demo and, above all, record it. And that&amp;rsquo;s when the stress suddenly mounts: it&amp;rsquo;s impossible to use Loom, so we quickly make a backup demo using Google Meet. Everything went smoothly, but Google never sent us the recording of the meeting&amp;hellip; Only fifteen minutes to go, we&amp;rsquo;re looking for a Mac with basic screen recording and a high-performance headset. But it&amp;rsquo;s slow going, we have to edit the video and upload it to Youtube before we can hope to make the cut. The upload goes well, but the processing takes a long time. It&amp;rsquo;s as if other teams had the same idea&amp;hellip; only a few minutes left&amp;hellip; anxiety sets in&amp;hellip; Will we be able to submit anything? Or have we done it all in vain&amp;hellip; Video link sent, we&amp;rsquo;ll have to make the video modification as soon as possible! That&amp;rsquo;s it, it&amp;rsquo;s over, it&amp;rsquo;s time to enjoy the hackathon, have a drink and chat with the other participants&amp;hellip; Phew, what a story! Ah, we got a notification, Google finally sent the recording.. Too late Mr Sundar Pichai!&lt;/p>
+&lt;ul>
+&lt;li>with the benefit of insights, what would you do differently? (re: this project and your day at the hackathon)&lt;/li>
+&lt;/ul>
+&lt;p>Looking back, I think we were pretty efficient in less than six hours. I can only congratulate the other team members on this great achievement! Apart from the mishaps with the recording of the demo, which would be our major area for improvement (to avoid unnecessary stress). The other point could be, to iterate quickly, consider using technologies like Microsoft&amp;rsquo;s TinyGroups, N8N: an agent orchestrator (with MCP) or Manus.im to work with a team of developers, architects and AI designers.&lt;/p>
+&lt;ul>
+&lt;li>how did this day change your perspective on AI?&lt;/li>
+&lt;/ul>
+&lt;p>The ease of the tool, a few weeks later, I had a company seminar with a three-hour workshop on AI, which I had to lead. In just a few dozen minutes, I had three professional use cases to demonstrate the value of AI: a technical documentation expert from Notion, an assistant who lists customer problems from Slack, and finally, an agent who summarizes what&amp;rsquo;s happened since we&amp;rsquo;ve been away from the office (very handy for retrieving important information after a company seminar in the French Alps). This enabled the startup&amp;rsquo;s employees to come up with ideas for the last remaining hour. Thank you Dust for this valuable hand!&lt;/p>
+&lt;ul>
+&lt;li>what are you most excited about?&lt;/li>
+&lt;/ul>
+&lt;p>As Microsoft said at TechDays 2011, Computing is becoming ubiquitous: technology is everywhere, like electricity, we no longer wonder how the switch works, how electricity is produced and delivered to our homes. Computing and AI are becoming ubiquitous, but there will always be a need for computer engineers to understand and maintain these tools, infrastructures, and design tomorrow&amp;rsquo;s
+The ability to reduce time-space by accelerating our productivity, expanding our knowledge, mastering new technologies quickly, having an assistant, an expert at the ready, and the only limitation is that of our imagination. Can&amp;rsquo;t wait to embrace this new facet of computing. softwares.&lt;/p>
+&lt;ul>
+&lt;li>any news/ links you&amp;rsquo;d wanna share?&lt;/li>
+&lt;/ul>
+&lt;p>I will improve the February AI Agent Hackathon project (maybe add a little bit of Dust.tt), more information coming in: &lt;a href="https://www.newspresso.fr/" target="_blank" rel="noopener">https://www.newspresso.fr/&lt;/a>
+My website is : &lt;a href="https://david.aparicio.eu" target="_blank" rel="noopener">https://david.aparicio.eu&lt;/a>, my LinkedIn profile: &lt;a href="https://www.linkedin.com/in/davidaparicio1/" target="_blank" rel="noopener">https://www.linkedin.com/in/davidaparicio1/&lt;/a> and finally @dadideo.bsky.social|X|framapiaf.org&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>Thank you for reading. If you notice an error or typo, please create an &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/issues" target="_blank" rel="noopener">issue&lt;/a> or &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/merge_requests" target="_blank" rel="noopener">MR/PR&lt;/a> on &lt;a href="https://gitlab.com/davidaparicio/davidaparicio.gitlab.io/-/blob/master/content/post/dust_hackathon2025/index.md" target="_blank" rel="noopener">the Gitlab file&lt;/a>.&lt;/p>
+&lt;p>If you want to share your unlikely reasons, or leave a comment on &lt;a href="https://x.com/dadideo/status/1912135683013070891" target="_blank" rel="noopener">Twitter&lt;/a>.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Bugfixer (1st place Hackathon Dust AI Agent)</title><link>/project/dust_hackathon2025/</link><pubDate>Fri, 11 Apr 2025 23:00:00 +0000</pubDate><guid>/project/dust_hackathon2025/</guid><description>&lt;p>Groundbreaking demo showcasing our innovative AI agent, designed to streamline bug fixes and enhance productivity! 🚀&lt;/p>
+&lt;p>In this project, we dive into the capabilities of our AI agent, built during the Echathan event. This agent is a game-changer for non-technical users like Project Managers (PMs) and Customer Success Managers (CSMs), empowering them to fix functional bugs without involving the engineering team.&lt;/p>
+&lt;p>Why This Matters:&lt;/p>
+&lt;pre>&lt;code>Time-Saving: Reduce the workload on your engineering team.
+Customer Satisfaction: Fix bugs faster and keep your customers happy.
+Efficiency: Streamline your workflow and minimize frustration.
+&lt;/code>&lt;/pre>
+&lt;p>Join us on this journey as we make bug fixing smarter, faster, and more efficient. Stay tuned for more updates and innovations! 🌟&lt;/p>
+&lt;p>Technical Stack Details:&lt;/p>
+&lt;ul>
+&lt;li>Smolagents&lt;/li>
+&lt;li>MCP (GitHub)&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;li>Dust.tt API&lt;/li>
+&lt;li>Notion&lt;/li>
+&lt;/ul>
+&lt;p>Team12 composed by: Simon Cleriot, Khaled Khebbeb, Jarek Ecke &amp;amp; David Aparicio.&lt;/p>
+&lt;h2 id="project-demonstration">Project demonstration&lt;/h2>
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_nifTEl5JXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;div class="alert alert-note">
+&lt;div>
+More information on my &lt;a href="/post/dust_hackathon2025/">blog post&lt;/a> or the &lt;a href="https://dusthq.substack.com/i/162575165/long-live-the-builders-ai-agents-hackathon-winners" target="_blank" rel="noopener">Dust.tt newsletter&lt;/a>.
+&lt;/div>
+&lt;/div></description></item><item><title>Father Castor 🐻, tell us a Python story (meetup)</title><link>/talk/father-castor-tell-us-a-python-story-meetup/</link><pubDate>Thu, 13 Feb 2025 18:30:00 +0000</pubDate><guid>/talk/father-castor-tell-us-a-python-story-meetup/</guid><description/></item></channel></rss>
