@@ -1,0 +1,3 @@
+[submodule "static/wheel"]
+	path = static/wheel
+	url = https://github.com/davidaparicio/wheel-of-misfortune/
