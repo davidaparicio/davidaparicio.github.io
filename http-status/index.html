@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- Bootstrap CSS -->
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
+    <!--This tag instructs DHC to provide api to this page-->
+    <meta name="dhc-aware-page" data-console-debug="true" data-indicator-element-id="testDhc">
+
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <link rel="stylesheet" href="css/jquery.tagit.css"/>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" type="text/css">
+
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/base_grid.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" href="css/slider_pips.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css"/>
+    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="css/editor.css"/>
+    <link rel="stylesheet" href="css/map.css"/>
+    <script src="js/modernizr.js"></script>
+
+    <title>HTTP Status Codes Map</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">HTTP Status Codes Map</h1>
+    <h3 style="text-align: center;"><a href="https://david.aparicio.eu" class="link"> → Return to the website</a></h3>
+
+    <div id="map">
+        <svg enable-background="new 0 60 1700.9 1045.4" viewbox="0 60 1700.9 1045.4" x="0px" y="0px"><rect height="1105.4" style="fill: rgb(230, 230, 230);" width="1700.9" x="0" y="0"></rect><rect height="390" rx="25" ry="25" style="fill: white;" width="705" x="450" y="290"></rect><rect height="390" rx="25" ry="25" style="fill: white;" width="410" x="745" y="470"></rect><rect height="12.5" style="fill: white;" width="12.5" x="735" y="680"></rect><rect height="25" rx="25" ry="25" style="fill: rgb(230, 230, 230);" width="25" x="720" y="680"></rect><g id="line1xx"><path class="line" d="M639.4,255.8L584.8,315.8" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><path class="line" d="M584.8,315.8 C554.8,345.8 583.8,394.4 583.8,394.4" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><circle class="station" cx="584.8" cy="315.8" id="code-100" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x31_00_Continue"><rect height="10.9" style="fill: none;" width="121.3" x="448.8" y="448.8"></rect><text style="fill: rgb(31, 64, 71); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 504.2665 309.6649)"><tspan style="font-weight: bold;">100</tspan><tspan> Continue</tspan></text></g><path class="line" d="M583.8,394.4 C613.8,424.4 649.4,420.3 639.4,410.3" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><path class="line" d="M639.4,414.3 C650.4,430.3 722.1,357 722.1,357" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><circle class="station" cx="583.8" cy="394.4" id="code-101" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x31_01_Switching__x0D_Protocols"><rect height="41.6" style="fill: none;" width="121.3" x="453.8" y="453.8"></rect><text style="fill: rgb(31, 64, 71); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 509.9668 416.225)"><tspan style="font-weight: bold;" x="0" y="0">101</tspan><tspan> Switching </tspan><tspan style="fill: rgb(31, 64, 71); font-family: Helvetica; font-size: 12px;" x="16.2" y="12">Protocols</tspan></text></g><path class="line" d="M722.1,357L849.8,357" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><path class="line" d="M849.8,357 C929.8,357 921.5,335.8 921.5,255.8" style="stroke: rgb(31, 64, 71); stroke-width: 5;"></path><circle class="station" cx="849.8" cy="357" id="code-102" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x31_02_Processing"><rect height="10.9" style="fill: none;" width="121.3" x="759.8" y="759.8"></rect><text style="fill: rgb(31, 64, 71); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 808.7514 334.8643)"><tspan style="font-weight: bold;">102</tspan><tspan> Processing</tspan></text></g></g><g id="line2xx"><path class="line" d="M829.9,485.5 C829.9,495.5 820.5,550.3 860.5,570.3" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><path class="line" d="M860.5,570.3 C870.5,580.3 889.6,591.8 919.6,591.8" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="860.5" cy="570.3" id="code-200" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_00_OK"><rect height="25.4" style="fill: none;" width="154.1" x="697.5" y="697.5"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 813.3548 588.1849)"><tspan style="font-weight: bold;">200</tspan><tspan> OK</tspan></text></g><path class="line" d="M919.6,591.8L1000.9,591.8" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><path class="line" d="M1000.9,591.8 C1050.9,591.8 1050.9,635 1050.9,665" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="1000.9" cy="591.8" id="code-201" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_01_Created"><rect height="25.4" style="fill: none;" width="154.1" x="878.9" y="878.9"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 972.8831 574.705)"><tspan style="font-weight: bold;">201</tspan><tspan> Created</tspan></text></g><path class="line" d="M1050.9,665L1050.9,745.5" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><path class="line" d="M1050.9,745.5 C1050.9,835.5 1073.8,820 893.8,820" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="1050.9" cy="665" id="code-202" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_02_Accepted"><rect height="22.6" style="fill: none;" width="173.7" x="963.9" y="963.9"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1068.5227 668.8253)"><tspan style="font-weight: bold;">202</tspan><tspan> Accepted</tspan></text></g><path class="line" d="M893.8,820L803.9,820" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><path class="line" d="M803.9,820L710.6,820" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="893.8" cy="820" id="code-203" r="4.5" style="cursor: pointer; fill: white;"></circle><g class="station-label" id="_x32_03_Non-Authoritative_Information_1_"><rect height="66.9" style="fill: none;" width="195.4" x="803.8" y="803.8"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 845.3557 841.5056)"><tspan style="font-weight: bold;" x="0" y="0">203</tspan><tspan> Non-Authoritative </tspan><tspan style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px;" x="27" y="12">Information</tspan></text></g><path class="line" d="M710.6,820L588,820" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="710.6" cy="820" id="code-204" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_04_No_Content"><rect height="69.1" style="fill: none;" width="103.9" x="690.6" y="690.6"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 690.5602 841.8654)"><tspan style="font-weight: bold;" x="0" y="0">204</tspan><tspan> No</tspan><tspan style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px;" x="-2" y="12">Content</tspan></text></g><path class="line" d="M588,820L446.8,820" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="588" cy="820" id="code-205" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_05_Reset_Content"><rect height="37.7" style="fill: none;" width="189.6" x="538" y="538"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 537.96 840.9054)"><tspan style="font-weight: bold;">205</tspan><tspan> Reset Content</tspan></text></g><path class="line" d="M446.8,820L378.7,743.8" style="stroke: rgb(129, 186, 118); stroke-width: 5;"></path><circle class="station" cx="446.8" cy="820" id="code-206" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x32_06_Partial_Content"><rect height="40.3" style="fill: none;" width="79.1" x="406.8" y="406.8"></rect><text style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 419.0219 838.9856)"><tspan style="font-weight: bold;" x="0" y="0">206</tspan><tspan> Partial </tspan><tspan style="fill: rgb(129, 186, 118); font-family: Helvetica; font-size: 12px;" x="6.2" y="12">Content</tspan></text></g></g><g id="line3xx"><path class="line" d="M570.6,173.1L639.4,255.8" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><path class="line" d="M639.4,255.8L722.1,357" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="570.6" cy="173.1" id="code-300" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_00_Multiple_Choices"><rect height="92.4" style="fill: none;" width="147.1" x="513.6" y="513.6"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 513.6003 155.9445)"><tspan style="font-weight: bold;">300</tspan><tspan> Multiple Choices</tspan></text></g><path class="line" d="M722.1,357L769.6,415.6" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><path class="line" d="M769.6,415.6L829.9,485.5" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><path class="line" d="M829.9,485.5L919.6,591.8" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="769.6" cy="415.6" id="code-301" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_01_Moved_Permanently"><rect height="10.9" style="fill: none;" width="133.8" x="789.6" y="789.6"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 789.6003 418.5046)"><tspan style="font-weight: bold;">301</tspan><tspan> Moved Permanently</tspan></text></g><path class="line" d="M919.6,591.8L985.4,667.6" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><path class="line" d="M985.4,667.6L1050.9,745.5" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><path class="line" d="M1050.9,745.5 C1060.9,765.5 1165.2,840.4 1115.2,890.4" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="985.4" cy="667.6" id="code-302" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_02_Found"><rect height="10.9" style="fill: none;" width="79.1" x="891.4" y="891.4"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 918.0586 675.4254)"><tspan style="font-weight: bold;">302</tspan><tspan> Found</tspan></text></g><path class="line" d="M1115.2,890.4L1053,950.2" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="1115.2" cy="890.4" id="code-303" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_03_See_Other"><rect height="10.9" style="fill: none;" width="121.3" x="1087.2" y="1087.2"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1134.7587 894.3052)"><tspan style="font-weight: bold;">303</tspan><tspan> See Other</tspan></text></g><path class="line" d="M1053,950.2 C1023,970.2 1000.6,980.2 970.6,980.2" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="1053" cy="950.2" id="code-304" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_04_Not_Modified"><rect height="131.6" style="fill: none;" width="225" x="1073" y="1073"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1073.0397 953.1048)"><tspan style="font-weight: bold;">304</tspan><tspan> Not Modified</tspan></text></g><path class="line" d="M970.6,980.2L869.8,980.2" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="970.6" cy="980.2" id="code-305" r="4.5" style="cursor: pointer; fill: white;"></circle><g class="station-label" id="_x33_05_Use_Proxy"><rect height="23.7" style="fill: none;" width="121.3" x="890.6" y="890.6"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 938.8137 1003.0256)"><tspan style="font-weight: bold;">305</tspan><tspan> Use Proxy</tspan></text></g><path class="line" d="M869.8,980.2L755.6,980.2" style="stroke: rgb(78, 166, 216); stroke-width: 5;"></path><circle class="station" cx="869.8" cy="980.2" id="code-307" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_07_Temporary__x0D_Redirect"><rect height="48.3" style="fill: none;" width="121.3" x="809.8" y="809.8"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 831.7792 1003.0256)"><tspan style="font-weight: bold;" x="0" y="0">307</tspan><tspan> Temporary </tspan><tspan style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px;" x="17.1" y="12">Redirect</tspan></text></g><circle class="station" cx="755.6" cy="980.2" id="code-308" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x33_08_Permanent__x0D_Redirect"><rect height="48.3" style="fill: none;" width="121.3" x="699.6" y="699.6"></rect><text style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 722.3728 1003.0256)"><tspan style="font-weight: bold;" x="0" y="0">308</tspan><tspan> Permanent </tspan><tspan style="fill: rgb(78, 166, 216); font-family: Helvetica; font-size: 12px;" x="16.4" y="12">Redirect</tspan></text></g></g><g id="line4xx"><path class="line" d="M265.3,190.4L356,190.4" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="265.3" cy="190.4" id="code-400" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_00_Bad_Request"><rect height="10.9" style="fill: none;" width="121.3" x="191.3" y="191.3"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 226.9135 175.2651)"><tspan style="font-weight: bold;">400</tspan><tspan> Bad Request</tspan></text></g><path class="line" d="M356,190.4 C376,190.4 375.2,205.8 375.2,255.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M375.2,255.8L375.2,313" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="356" cy="190.4" id="code-401" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_01_Unauthorized"><rect height="10.9" style="fill: none;" width="121.3" x="311" y="311"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 344.8591 175.9845)"><tspan style="font-weight: bold;">401</tspan><tspan> Unauthorized</tspan></text></g><path class="line" d="M375.2,313L375.2,405.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="375.2" cy="313" id="code-403" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_03_Forbidden"><rect height="10.9" style="fill: none;" width="121.3" x="235.2" y="235.2"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 284.3856 316.8643)"><tspan style="font-weight: bold;">403</tspan><tspan> Forbidden</tspan></text></g><path class="line" d="M375.2,405.2L375.2,485.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M375.2,485.5 C375.2,515.5 390.9,550.9 410.9,570.9" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="375.2" cy="405.2" id="code-404" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_04_Not_Found"><rect height="10.9" style="fill: none;" width="121.3" x="236.4" y="236.4"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 282.7148 409.0246)"><tspan style="font-weight: bold;">404</tspan><tspan> Not Found</tspan></text></g><path class="line" d="M410.9,570.9 C410.9,570.9 462.6,615.9 502.6,615.9" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="410.9" cy="570.9" id="code-405" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_05_Method__x0D_Not_Allowed"><rect height="28" style="fill: none;" width="121.3" x="278.9" y="278.9"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 339.6157 588.7852)"><tspan style="font-weight: bold;" x="0" y="0">405</tspan><tspan> Method </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Not Allowed</tspan></text></g><path class="line" d="M502.6,615.9 C562.6,615.9 578.7,590.9 598.7,570.9" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="502.6" cy="615.9" id="code-406" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_06_Not__x0D_Acceptable"><rect height="35.4" style="fill: none;" width="121.3" x="442.6" y="442.6"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 482.4265 636.7852)"><tspan style="font-weight: bold;" x="0" y="0">406</tspan><tspan> Not </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="-8.2" y="12">Acceptable</tspan></text></g><path class="line" d="M598.7,570.9 C618.7,550.9 639.4,505.5 639.4,485.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M639.4,485.5L639.4,410.3" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M639.4,410.3L639.4,345" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="598.7" cy="570.9" id="code-407" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_07_Proxy_Authentication_Required_1_"><rect height="45.5" style="fill: none;" width="150.9" x="618.7" y="618.7"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 618.7195 583.0256)"><tspan style="font-weight: bold;" x="0" y="0">407</tspan><tspan> Proxy Authentication </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Required</tspan></text></g><path class="line" d="M639.4,345L639.4,255.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M639.4,255.8 C639.4,195.8 630,205.8 690,205.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="639.4" cy="345" id="code-408" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_08__x0D_Request__x0D_Timeout"><rect height="54.2" style="fill: none;" width="121.3" x="649.4" y="649.4"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 649.44 334.8643)"><tspan style="font-weight: bold;" x="0" y="0">408</tspan><tspan> </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Request </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="24">Timeout</tspan></text></g><path class="line" d="M690,205.8L790.2,205.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="690" cy="205.8" id="code-409" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_09_Conflict"><rect height="74.9" style="fill: none;" width="121.3" x="665" y="665"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 665.0402 189.6649)"><tspan style="font-weight: bold;">409</tspan><tspan> Conflict</tspan></text></g><path class="line" d="M790.2,205.8L898.5,205.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="790.2" cy="205.8" id="code-410" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_10_Gone"><rect height="35.6" style="fill: none;" width="121.3" x="769.2" y="769.2"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 767.1884 189.6649)"><tspan style="font-weight: bold;">410</tspan><tspan> Gone</tspan></text></g><path class="line" d="M898.5,205.8L1026.6,205.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="898.5" cy="205.8" id="code-411" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_11_Length_Required"><rect height="10.9" style="fill: none;" width="121.3" x="828.5" y="828.5"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 848.2872 189.6649)"><tspan style="font-weight: bold;">411</tspan><tspan> Length Required</tspan></text></g><path class="line" d="M1026.6,205.8 C1056.6,205.8 1145.4,235.8 1165.4,255.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M1165.4,255.8 C1195.4,275.8 1213.1,300.3 1223.1,320.3" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1026.6" cy="205.8" id="code-412" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_12_Precondition_Failed"><rect height="63.7" style="fill: none;" width="157.9" x="976.6" y="976.6"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 976.5598 189.6649)"><tspan style="font-weight: bold;">412</tspan><tspan> Precondition Failed</tspan></text></g><path class="line" d="M1223.1,320.3 C1233.1,340.3 1251.6,398 1251.6,428" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1223.1" cy="320.3" id="code-413" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_13_Request_Entity_Too_Large_1_"><rect height="66.6" style="fill: none;" width="241.8" x="1143.1" y="1143.1"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1143.077 322.1469)"><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="0"></tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="8.6" y="0"></tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="18.1" y="0"></tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="25.9" y="0"></tspan><tspan style="font-weight: bold;" x="95" y="0">413</tspan><tspan> Request </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12"></tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="95" y="12">Entity Too large</tspan></text></g><path class="line" d="M1251.6,428L1251.6,485.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M1251.6,485.5L1251.6,548.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1251.6" cy="428" id="code-414" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_14_Request__x0D_URI_To_Long"><rect height="27.9" style="fill: none;" width="121.3" x="1263.6" y="1263.6"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1268.6399 429.9044)"><tspan style="font-weight: bold;" x="0" y="0">414</tspan><tspan> Request </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">URI Too Long</tspan></text></g><path class="line" d="M1251.6,548.5L1251.6,660.3" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1251.6" cy="548.5" id="code-415" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_15_Unsupported__x0D_Media_Type"><rect height="34.6" style="fill: none;" width="121.3" x="1268.6" y="1268.6"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1268.6399 550.3843)"><tspan style="font-weight: bold;" x="0" y="0">415</tspan><tspan> Unsupported </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Media Type</tspan></text></g><path class="line" d="M1251.6,660.3 C1251.6,720.3 1251.8,745.5 1221.8,745.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1251.6" cy="660.3" id="code-416" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_16_Requested_Range_Not_Satisfiable_1_"><rect height="33" style="fill: none;" width="171.2" x="1269.4" y="1269.4"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1269.3604 663.1849)"><tspan style="font-weight: bold;" x="0" y="0">416</tspan><tspan> Requested Range </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Not Satisfiable</tspan></text></g><path class="line" d="M1221.8,745.5L1113.8,745.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1221.8" cy="745.5" id="code-417" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_17_Expectation_Failed"><rect height="10.9" style="fill: none;" width="121.3" x="1181.8" y="1181.8"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1181.7601 767.3453)"><tspan style="font-weight: bold;">417</tspan><tspan> Expectation Failed</tspan></text></g><path class="line" d="M1113.8,745.5L1050.9,745.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M1050.9,745.5L980.9,745.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="1113.8" cy="745.5" id="code-418" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_18_I_x27_m_a_teapot__x0D_"><rect height="24.4" style="fill: none;" width="121.3" x="1090.8" y="1090.8"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1090.8403 767.3453)"><tspan style="font-weight: bold;" x="0" y="0">418</tspan><tspan> I&#39;m a</tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="0" y="12">Teapot</tspan></text></g><path class="line" d="M980.9,745.5L842.1,745.5" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="980.9" cy="745.5" id="code-422" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_22_Unprocessable_Entity"><rect height="48.4" style="fill: none;" width="121.3" x="914.9" y="914.9"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 927.4104 766.3853)"><tspan style="font-weight: bold;" x="0" y="0">422</tspan><tspan> Unprocessable </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="32.8" y="12">Entity</tspan></text></g><path class="line" d="M842.1,745.5 C802.1,745.5 803.9,780 803.9,820" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><path class="line" d="M803.9,820 C803.9,880 803.5,899.2 763.5,899.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="842.1" cy="745.5" id="code-423" r="4.5" style="cursor: pointer; fill: white;"></circle><g class="station-label" id="_x34_23_Locked"><rect height="88.4" style="fill: none;" width="153.2" x="832.1" y="832.1"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 832.0803 766.3853)"><tspan style="font-weight: bold;">423</tspan><tspan> Locked</tspan></text></g><path class="line" d="M763.5,899.2L670.5,899.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="763.5" cy="899.2" id="code-424" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_24_Failed__x0D_Dependency"><rect height="41.9" style="fill: none;" width="121.3" x="702.5" y="702.5"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 737.4572 924.0657)"><tspan style="font-weight: bold;" x="0" y="0">424</tspan><tspan> Failed </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="-5.8" y="12">Dependency</tspan></text></g><path class="line" d="M670.5,899.2L589,899.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="670.5" cy="899.2" id="code-426" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_26_Upgrade__x0D_Required"><rect height="74" style="fill: none;" width="121.3" x="618.5" y="618.5"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 647.0814 923.3453)"><tspan style="font-weight: bold;" x="0" y="0">426</tspan><tspan> Upgrade </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="9.6" y="12">Required</tspan></text></g><path class="line" d="M589,899.2L504.4,899.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="589" cy="899.2" id="code-428" r="4.5" style="cursor: pointer; fill: white;"></circle><g class="station-label" id="_x34_28_Precondition__x0D_Required"><rect height="78.8" style="fill: none;" width="116.3" x="529" y="529"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 543.0367 923.3453)"><tspan style="font-weight: bold;" x="0" y="0">428</tspan><tspan> Precondition </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="19.1" y="12">Required </tspan></text></g><path class="line" d="M504.4,899.2L406.2,899.2" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="504.4" cy="899.2" id="code-429" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_29_Too_Many__x0D_Requests"><rect height="80.8" style="fill: none;" width="161.5" x="407.4" y="407.4"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 452.4948 923.3453)"><tspan style="font-weight: bold;" x="0" y="0">429</tspan><tspan> Too Many </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="12" y="12">Requests</tspan></text></g><path class="line" d="M406.2,899.2 C376.2,899.2 378.7,864.6 378.7,814.6" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="406.2" cy="899.2" id="code-431" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_31_Request_Header_Fields_Too_Large__x28_RFC_6585_x29__1_"><rect height="59.2" style="fill: none;" width="176.1" x="236.2" y="236.2"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 312.059 921.4254)"><tspan style="font-weight: bold;" x="0" y="0">431</tspan><tspan> Request Header </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="15.6" y="12">Fields Too Large</tspan></text></g><path class="line" d="M378.7,814.6L378.7,743.8" style="stroke: rgb(182, 7, 23); stroke-width: 5;"></path><circle class="station" cx="378.7" cy="814.6" id="code-451" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x34_51_Unavailable_For_Legal_Reasons__x28_Internet_draft_x29__1_"><rect height="39.7" style="fill: none;" width="121.3" x="231.7" y="231.7"></rect><text style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 274.2669 818.4655)"><tspan style="font-weight: bold;" x="0" y="0">451</tspan><tspan> Unavailable </tspan><tspan style="fill: rgb(182, 7, 23); font-family: Helvetica; font-size: 12px;" x="-13.6" y="12">For Legal Reasons</tspan></text></g></g><g id="line5xx"><path class="line" d="M270.2,255.8L375.2,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M375.2,255.8L505.9,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="270.2" cy="255.8" id="code-500" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_00_Internal_Server_Error"><rect height="56" style="fill: none;" width="169.1" x="200.2" y="200.2"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 200.1737 279.6649)"><tspan style="font-weight: bold;">500</tspan><tspan> Internal Server Error</tspan></text></g><path class="line" d="M505.9,255.8L639.4,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M639.4,255.8L750.5,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="505.9" cy="255.8" id="code-501" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_01_Not_Implemented"><rect height="57" style="fill: none;" width="133.1" x="457.9" y="457.9"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 457.92 279.6649)"><tspan style="font-weight: bold;">501</tspan><tspan> Not Implemented</tspan></text></g><path class="line" d="M750.5,255.8L921.5,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M921.5,255.8L1080.6,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="750.5" cy="255.8" id="code-502" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_02_Bad_Gateway"><rect height="53.2" style="fill: none;" width="168.5" x="720.5" y="720.5"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 720.4801 279.6649)"><tspan style="font-weight: bold;">502</tspan><tspan> Bad Gateway</tspan></text></g><path class="line" d="M1080.6,255.8L1165.4,255.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M1165.4,255.8 C1385.4,255.8 1410.2,240.5 1410.2,320.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="1080.6" cy="255.8" id="code-503" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_03_Service_Unavailable"><rect height="57" style="fill: none;" width="151.1" x="1030.6" y="1030.6"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1030.5598 280.8643)"><tspan style="font-weight: bold;">503</tspan><tspan> Service Unavailable</tspan></text></g><path class="line" d="M1410.2,320.5L1410.2,427.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="1410.2" cy="320.5" id="code-504" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_04_Gateway_Timeout"><rect height="39.4" style="fill: none;" width="79.1" x="1423.2" y="1423.2"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1423.2001 323.3443)"><tspan style="font-weight: bold;" x="0" y="0">504</tspan><tspan> Gateway </tspan><tspan style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px;" x="0" y="12">Timeout</tspan></text></g><path class="line" d="M1410.2,427.8 C1410.2,487.8 1401.6,485.5 1251.6,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M1251.6,485.5L1065.4,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="1410.2" cy="427.8" id="code-505" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_05_HTTP_Version_Not_Supported_1_"><rect height="64.9" style="fill: none;" width="168.5" x="1423.7" y="1423.7"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1423.6801 430.6248)"><tspan style="font-weight: bold;" x="0" y="0">505</tspan><tspan> HTTP </tspan><tspan style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px;" x="0" y="12">Version Not </tspan><tspan style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px;" x="0" y="24">Supported</tspan></text></g><path class="line" d="M1065.4,485.5L829.9,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M829.9,485.5L725.2,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="1065.4" cy="485.5" id="code-506" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_06_Variant_Also__x0D_Negotiates"><rect height="78.5" style="fill: none;" width="118" x="1009.4" y="1009.4"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 1026.1077 508.3844)"><tspan style="font-weight: bold;" x="0" y="0">506</tspan><tspan> Variant Also </tspan><tspan style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px;" x="14.5" y="12">Negotiates</tspan></text></g><path class="line" d="M725.2,485.5L639.4,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M639.4,485.5L507,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="725.2" cy="485.5" id="code-507" r="4.5" style="cursor: pointer; fill: white;"></circle><g class="station-label" id="_x35_07_Insufficient_Storage"><rect height="42.8" style="fill: none;" width="156.6" x="642.2" y="642.2"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 677.6825 510.5447)"><tspan style="font-weight: bold;">507</tspan><tspan> Insufficient Storage</tspan></text></g><path class="line" d="M507,485.5L375.2,485.5" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><path class="line" d="M375.2,485.5 C335.2,485.5 301,497.4 301,537.4" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="507" cy="485.5" id="code-508" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_08_Loop_Detected"><rect height="10.9" style="fill: none;" width="121.3" x="437" y="437"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 461.2233 508.8643)"><tspan style="font-weight: bold;">508</tspan><tspan> Loop Detected</tspan></text></g><path class="line" d="M301,537.4L301,653.8" style="stroke: rgb(255, 129, 32); stroke-width: 5;"></path><circle class="station" cx="301" cy="537.4" id="code-510" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_10_Not_Extended"><rect height="83.3" style="fill: none;" width="139.2" x="191" y="191"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 191.0402 541.2651)"><tspan style="font-weight: bold;">510</tspan><tspan> Not Extended</tspan></text></g><circle class="station" cx="301" cy="653.8" id="code-511" r="4.5" style="cursor: pointer;"></circle><g class="station-label" id="_x35_11_Network_Authentication_Required__x28_RFC_6585_x29__1_"><rect height="97.3" style="fill: none;" width="147.9" x="131.8" y="131.8"></rect><text style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px; cursor: pointer;" transform="matrix(1 0 0 1.1 141.1517 650.6649)"><tspan style="font-weight: bold;" x="0" y="0">511</tspan><tspan> Network Authentication </tspan><tspan style="fill: rgb(255, 129, 32); font-family: Helvetica; font-size: 12px;" x="97.6" y="12">Required</tspan></text></g></g><g id="funnyConnections"><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(90 378.7 743.8)" width="10px" x="373.7" y="733.8"></rect><g class="connection-label" id="SOAP_Dead_End" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="251.8" y="251.8"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 251.8398 748.7372)">SOAP Dead End</text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(-45 639.4 416.3)" width="10px" x="634.4" y="406.3"></rect><g class="connection-label" id="JSON__x0D_Town" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="594.8" y="594.8"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 594.7596 383.2176)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">JSON </tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Town</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" width="10px" x="1160.4" y="245.8"></rect><g class="connection-label" id="Hypermedia_Stadium" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="168.7" x="1172.4" y="1172.4"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 1172.4097 233.2176)">Hypermedia Stadium</text></g><rect class="connection" height="20px" rx="4" ry="4" width="10px" x="634.4" y="245.8"></rect><g class="connection-label" id="OAuth_x0D_Bazar" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="610.1" y="610.1"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 651.8207 229.1375)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">OAuth</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="3.3" y="13.6">Bazar</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(-45 375.2 485.5)" width="10px" x="370.2" y="475.5"></rect><g class="connection-label" id="IoT_x0D_Square" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="238.3" y="238.3"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 341.2111 458.8178)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">IoT</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="-20.4" y="13.6">Square</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 639.4 485.5)" width="10px" x="634.4" y="475.5"></rect><g class="connection-label" id="Swagger_x0D_Market" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="656.7" y="656.7"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 656.6603 454.0172)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">Swagger</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Market</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(-45 803.9 820)" width="10px" x="798.9" y="810"></rect><g class="connection-label" id="Yaml_x0D_Valley" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="757.9" y="757.9"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 757.9246 789.6971)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">Yaml</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Valley</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 1251.6 485.5)" width="10px" x="1246.6" y="475.5"></rect><g class="connection-label" id="Analytics_Road" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="1176.2" y="1176.2"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 1176.2443 454.8178)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">Analytics</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="27" y="13.6">Road</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 1050.9 745.5)" width="10px" x="1045.9" y="735.5"></rect><g class="connection-label" id="API_Blueprint_Bridge" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="1060.6" y="1060.6"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 1060.5598 712.7372)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">API Blueprint</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Bridge</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 919.6 591.8)" width="10px" x="914.6" y="581.8"></rect><g class="connection-label" id="Restful_Church" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="819.6" y="819.6"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 819.6008 619.3774)">Restful Church</text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 375.2 255.8)" width="10px" x="370.2" y="245.8"></rect><g class="connection-label" id="Endpoint_Gardens" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="387.9" y="387.9"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 387.8804 230.4571)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">Endpoint</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Gardens</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" transform="rotate(45 829.9 485.5)" width="10px" x="824.9" y="475.5"></rect><g class="connection-label" id="Web_API_Park" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="847.9" y="847.9"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 847.9205 469.1375)">Web API Park</text></g><rect class="connection" height="20px" rx="4" ry="4" width="10px" x="717.1" y="347"></rect><g class="connection-label" id="HTTP_x0D_Central" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="680.1" y="680.1"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 724.2869 320.0172)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">HTTP</tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="-5.7" y="13.6">Central</tspan></text></g><rect class="connection" height="20px" rx="4" ry="4" width="10px" x="916.5" y="245.8"></rect><g class="connection-label" id="Curl__x0D_Cottage" style="font-weight: bold;"><rect height="34.7" style="fill: none;" width="121.3" x="911.5" y="911.5"></rect><text style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" transform="matrix(1 0 0 1.1 911.5187 223.1375)"><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="0">Curl </tspan><tspan style="fill: rgb(0, 0, 0); font-family: Helvetica; font-size: 13.5px;" x="0" y="13.6">Cottage</tspan></text></g></g><g id="legends"><g id="legend100"><rect height="24.7" style="fill: rgb(31, 64, 71);" width="121.3" x="1320" y="824.2"></rect><text style="fill: rgb(255, 255, 255); font-family: Helvetica; font-size: 14px;" transform="matrix(1 0 0 1.1 1346.2996 841.2861)">Code 100</text><text style="fill: black; font-family: Helvetica; font-size: 14px; font-weight: bold;" x="1451" y="842">Informational</text></g><g id="legend200"><rect height="24.7" style="fill: rgb(129, 186, 118);" width="121.3" x="1320" y="854.2"></rect><text style="fill: rgb(255, 255, 255); font-family: Helvetica; font-size: 14px;" transform="matrix(1 0 0 1.1 1345.3396 870.7837)">Code 200</text><text style="fill: black; font-family: Helvetica; font-size: 14px; font-weight: bold;" x="1451" y="872">Success</text></g><g id="legend300"><rect height="24.7" style="fill: rgb(78, 166, 216);" width="121.3" x="1320" y="884.2"></rect><text style="fill: rgb(255, 255, 255); font-family: Helvetica; font-size: 14px;" transform="matrix(1 0 0 1.1 1344.8577 901.9821)">Code 300</text><text style="fill: black; font-family: Helvetica; font-size: 14px; font-weight: bold;" x="1451" y="902">Redirection</text></g><g id="legend400"><rect height="24.7" style="fill: rgb(182, 7, 23);" width="121.3" x="1320" y="914.2"></rect><text style="fill: rgb(255, 255, 255); font-family: Helvetica; font-size: 14px;" transform="matrix(1 0 0 1.1 1346.2996 931.4889)">Code 400</text><text style="fill: black; font-family: Helvetica; font-size: 14px; font-weight: bold;" x="1451" y="932">Client Error</text></g><g id="legend500"><rect height="24.7" style="fill: rgb(255, 129, 32);" width="121.3" x="1320" y="944.2"></rect><text style="fill: rgb(255, 255, 255); font-family: Helvetica; font-size: 14px;" transform="matrix(1 0 0 1.1 1346.2894 963.1489)">Code 500</text><text style="fill: black; font-family: Helvetica; font-size: 14px; font-weight: bold;" x="1451" y="962">Server Error</text></g></g></svg></div>
+    <div id="tooltip">
+        &nbsp;</div>
+    <script type="text/javascript" src="js/d3.min.js"></script><script type="text/javascript">
+    function getCodeFamilyColor(code) {
+      if ((Math.floor(code/100))===1) {
+        return '#1F4047';
+      } else if ((Math.floor(code/100))===2) {
+        return '#81ba76';
+      } else if ((Math.floor(code/100))===3) {
+        return '#4ea6d8';
+      } else if ((Math.floor(code/100))===4) {
+        return '#b60717';
+      } else if ((Math.floor(code/100))===5) {
+        return '#ff8120';
+      } else {
+        return 'ffffe0';
+      }
+    }
+    
+    function configureTooltipBackground(code, tooltipDiv) {
+      var color = getCodeFamilyColor(code);
+      tooltipDiv.style('color', 'white');
+      tooltipDiv.style('background', color);
+    }
+    
+    function getStationCode(id) {
+      var idElements = id.split('_');
+      return idElements[1].replace('x3', '') + idElements[2];
+    }
+    
+    function getDimensions() {
+      var body = $('body');
+      var w = $(window);
+    
+      return {
+        height: body.innerHeight(),
+        width: body.innerWidth(),
+        scrollLeft: w.scrollLeft(),
+        scrollTop: w.scrollTop()
+      };
+    }
+    
+    function getMouseQuarter(dimension) {
+      var pageX = d3.event.pageX;
+      var pageY = d3.event.pageY;
+    
+      var centerWidth = (dimension.width / 2);
+      var centerHeight = (dimension.height / 2);
+    
+      if (pageX <= centerWidth && pageY <= centerHeight) {
+        return 1;
+      } else if (pageX > centerWidth && pageY <= centerHeight) {
+        return 2;
+      } else if (pageX > centerWidth && pageY > centerHeight) {
+        return 3;
+      } else if (pageX <= centerWidth && pageY > centerHeight) {
+        return 4;
+      }
+    }
+    
+    function moveTooltip(tooltipDiv) {
+      var dimensions = getDimensions();
+    
+      var tooltipDimensions = tooltipDiv.node().getBoundingClientRect();
+    
+      var quarter = getMouseQuarter(dimensions);
+      if (quarter == 1) {
+        tooltipDiv.style('left', (d3.event.pageX + 10) + 'px')
+          .style('top', (d3.event.pageY - 30) + 'px');
+      } else if (quarter == 2) {
+        tooltipDiv.style('left', (d3.event.pageX - 10 - tooltipDimensions.width) + 'px')
+          .style('top', (d3.event.pageY - 30) + 'px');
+      } else if (quarter == 3) {
+        tooltipDiv.style('left', (d3.event.pageX - 10 - tooltipDimensions.width) + 'px')
+          .style('top', (d3.event.pageY + 30 - tooltipDimensions.height) + 'px');
+      } else if (quarter == 4) {
+        tooltipDiv.style('left', (d3.event.pageX + 10) + 'px')
+          .style('top', (d3.event.pageY + 30 - tooltipDimensions.height) + 'px');
+      }
+    }
+    
+    function fillTooltipContent(tooltipDiv, code) {
+      if (code.link === '') {
+        tooltipDiv.html('<h4>'+code.code+' - '+code.message+'</h4><p>'+code.description+'</p>');
+      } else {
+        tooltipDiv.html('<h4><a href="' + code.link + '" target="_blank">'+code.code+' - '+code.message+'</a></h4><p>'+code.description+'</p>');
+      }
+    }
+    
+    function displayTooltip(tooltipDiv) {
+      tooltipDiv.style('opacity', 1);
+    }
+    
+    function hideTooltip(tooltipDiv) {
+      tooltipDiv.style('opacity', 0);
+      if (!states.justMouseOut) {
+        tooltipDiv.html('');
+        tooltipDiv.style('left', '0px')
+          .style('top', '0px');
+      }
+    }
+    
+    var states = {
+      code: 0,
+      justMouseOut: false
+    };
+    
+    var codes = {
+      100: {
+        code: '100',
+        message: 'Continue',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.1.1',
+        description: 'This means that the server has received the request headers, and that the client should proceed to send the request body (in the case of a request for which a body needs to be sent; for example, a POST request). If the request body is large, sending it to a server when a request has already been rejected based upon inappropriate headers is inefficient. To have a server check if the request could be accepted based on the request\\\'s headers alone, a client must send Expect: 100-continue as a header in its initial request and check if a 100 Continue status code is received in response before continuing (or receive 417 Expectation Failed and not continue).'
+      },
+      101: {
+        code: '101',
+        message: 'Switching Protocols',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.1.2',
+        description: 'This means the requester has asked the server to switch protocols and the server is acknowledging that it will do so.'
+      },
+      102: {
+        code: '102',
+        message: 'Processing (WebDAV - RFC 2518)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_102',
+        description: 'As a WebDAV request may contain many sub-requests involving file operations, it may take a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost.'
+      },
+      200: {
+        code: '200',
+        message: 'OK',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1',
+        description: 'Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.'
+      },
+      201: {
+        code: '201',
+        message: 'Created',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2',
+        description: 'The request has been fulfilled and resulted in a new resource being created.'
+      },
+      202: {
+        code: '202',
+        message: 'Accepted',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.3',
+        description: 'The request has been accepted for processing, but the processing has not been completed. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.'
+      },
+      203: {
+        code: '203',
+        message: 'Non-Authoritative Information (since HTTP/1.1)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.4',
+        description: 'The server successfully processed the request, but is returning information that may be from another source.'
+      },
+      204: {
+        code: '204',
+        message: 'No Content',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5',
+        description: 'The server successfully processed the request, but is not returning any content.'
+      },
+      205: {
+        code: '205',
+        message: 'Reset Content',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.6',
+        description: 'The server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view.'
+      },
+      206: {
+        code: '206',
+        message: 'Partial Content (RFC 7233)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.7',
+        description: 'The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.'
+      },
+      207: {
+        code: '207',
+        message: 'Multi-Status (WebDAV; RFC 4918)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_207',
+        description: 'The message body that follows is an XML message and can contain a number of separate response codes, depending on how many sub-requests were made.'
+      },
+      208: {
+        code: '208',
+        message: 'Already Reported (WebDAV; RFC 5842)',
+        link: 'http://www.webdav.org/specs/rfc5842.html#status.208.already.reported',
+        description: 'The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again.'
+      },
+      226: {
+        code: '226',
+        message: 'IM Used (RFC 3229)',
+        link: '',
+        description: 'The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.'
+      },
+      300: {
+        code: '300',
+        message: 'Multiple Choices',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.1',
+        description: 'Indicates multiple options for the resource that the client may follow. It, for instance, could be used to present different format options for video, list files with different extensions, or word sense disambiguation.'
+      },
+      301: {
+        code: '301',
+        message: 'Moved Permanently',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.2',
+        description: 'This and all future requests should be directed to the given URI.'
+      },
+      302: {
+        code: '302',
+        message: 'Found',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.3',
+        description: 'This is an example of industry practice contradicting the standard. The HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was "Moved Temporarily"), but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours. However, some Web applications and frameworks use the 302 status code as if it were the 303.'
+      },
+      303: {
+        code: '303',
+        message: 'See Other (since HTTP/1.1)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.4',
+        description: 'The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), it should be assumed that the server has received the data and the redirect should be issued with a separate GET message.'
+      },
+      304: {
+        code: '304',
+        message: 'Not Modified (RFC 7232)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.5',
+        description: 'Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. This means that there is no need to retransmit the resource, since the client still has a previously-downloaded copy.'
+      },
+      305: {
+        code: '305',
+        message: 'Use Proxy (since HTTP/1.1)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.6',
+        description: 'The requested resource is only available through a proxy, whose address is provided in the response. Many HTTP clients (such as Mozilla and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons.'
+      },
+      306: {
+        code: '306',
+        message: 'Switch Proxy',
+        link: '',
+        description: 'No longer used. Originally meant "Subsequent requests should use the specified proxy."'
+      },
+      307: {
+        code: '307',
+        message: 'Temporary Redirect (since HTTP/1.1)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.8',
+        description: 'In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, the request method is not allowed to be changed when reissuing the original request. For instance, a POST request should be repeated using another POST request.'
+      },
+      308: {
+        code: '308',
+        message: 'Permanent Redirect (RFC 7538)',
+        link: 'https://tools.ietf.org/html/rfc7538',
+        description: 'The request, and all future requests should be repeated using another URI. 307 and 308 (as proposed) parallel the behaviours of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly.'
+      },
+      400: {
+        code: '400',
+        message: 'Bad Request',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1',
+        description: 'The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).'
+      },
+      401: {
+        code: '401',
+        message: 'Unauthorized (RFC 7235)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.2',
+        description: 'Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. See Basic access authentication and Digest access authentication.'
+      },
+      402: {
+        code: '402',
+        message: 'Payment Required',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.3',
+        description: 'Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. Google Developers API uses this status if a particular developer has exceeded the daily limit on requests.'
+      },
+      403: {
+        code: '403',
+        message: 'Forbidden',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4',
+        description: 'The request was a valid request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference.'
+      },
+      404: {
+        code: '404',
+        message: 'Not Found',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5',
+        description: 'The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.'
+      },
+      405: {
+        code: '405',
+        message: 'Method Not Allowed',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.6',
+        description: 'A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.'
+      },
+      406: {
+        code: '406',
+        message: 'Not Acceptable',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.7',
+        description: 'The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request.'
+      },
+      407: {
+        code: '407',
+        message: 'Proxy Authentication Required (RFC 7235)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.8',
+        description: 'The client must first authenticate itself with the proxy.'
+      },
+      408: {
+        code: '408',
+        message: 'Request Timeout',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.9',
+        description: 'The server timed out waiting for the request. According to HTTP specifications: "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time."'
+      },
+      409: {
+        code: '409',
+        message: 'Conflict',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.10',
+        description: 'Indicates that the request could not be processed because of conflict in the request, such as an edit conflict in the case of multiple updates.'
+      },
+      410: {
+        code: '410',
+        message: 'Gone',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11',
+        description: 'Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource again in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a "404 Not Found" may be used instead.'
+      },
+      411: {
+        code: '411',
+        message: 'Length Required',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.12',
+        description: 'The request did not specify the length of its content, which is required by the requested resource.'
+      },
+      412: {
+        code: '412',
+        message: 'Precondition Failed (RFC 7232)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.13',
+        description: 'The server does not meet one of the preconditions that the requester put on the request.'
+      },
+      413: {
+        code: '413',
+        message: 'Payload Too Large (RFC 7231)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.14',
+        description: 'The request is larger than the server is willing or able to process. Called "Request Entity Too Large " previously.'
+      },
+      414: {
+        code: '414',
+        message: 'Request-URI Too Long',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.15',
+        description: 'The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.'
+      },
+      415: {
+        code: '415',
+        message: 'Unsupported Media Type',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.16',
+        description: 'The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.'
+      },
+      416: {
+        code: '416',
+        message: 'Requested Range Not Satisfiable (RFC 7233)',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.17',
+        description: 'The client has asked for a portion of the file (byte serving), but the server cannot supply that portion. For example, if the client asked for a part of the file that lies beyond the end of the file.'
+      },
+      417: {
+        code: '417',
+        message: 'Expectation Failed',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.18',
+        description: 'The server cannot meet the requirements of the Expect request-header field.'
+      },
+      418: {
+        code: '418',
+        message: 'I\'m a teapot (RFC 2324)',
+        link: 'https://www.ietf.org/rfc/rfc2324.txt',
+        description: 'This code was defined in 1998 as one of the traditional IETF April Fools\' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by tea pots requested to brew coffee.'
+      },
+      419: {
+        code: '419',
+        message: 'Authentication Timeout (not in RFC 2616)',
+        link: '',
+        description: 'Not a part of the HTTP standard, 419 Authentication Timeout denotes that previously valid authentication has expired. It is used as an alternative to 401 Unauthorized in order to differentiate from otherwise authenticated clients being denied access to specific server resources.'
+      },
+      420: {
+        code: '420',
+        message: 'Method Failure (Spring Framework)',
+        link: '',
+        description: 'Not part of the HTTP standard, but defined by Spring in the HttpStatus class to be used when a method failed. This status code is deprecated by Spring.'
+      },
+      420: {
+        code: '420',
+        message: 'Enhance Your Calm (Twitter)',
+        link: '',
+        description: 'Not part of the HTTP standard, but returned by version 1 of the Twitter Search and Trends API when the client is being rate limited. Other services may wish to implement the 429 Too Many Requests response code instead.'
+      },
+      421: {
+        code: '421',
+        message: 'Misdirected Request (RFC 7540)',
+        link: '',
+        description: 'The request was directed at a server that is not able to produce a response (for example because a connection reuse).'
+      },
+      422: {
+        code: '422',
+        message: 'Unprocessable Entity (WebDAV; RFC 4918)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_422',
+        description: 'The request was well-formed but was unable to be followed due to semantic errors.'
+      },
+      423: {
+        code: '423',
+        message: 'Locked (WebDAV; RFC 4918)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_423',
+        description: 'The resource that is being accessed is locked.'
+      },
+      424: {
+        code: '424',
+        message: 'Failed Dependency (WebDAV; RFC 4918)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_424',
+        description: 'The request failed due to failure of a previous request (e.g., a PROPPATCH).'
+      },
+      426: {
+        code: '426',
+        message: 'Upgrade Required',
+        link: 'https://tools.ietf.org/html/rfc2817',
+        description: 'The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field.'
+      },
+      428: {
+        code: '428',
+        message: 'Precondition Required (RFC 6585)',
+        link: 'https://tools.ietf.org/html/rfc6585#page-2',
+        description: 'The origin server requires the request to be conditional. Intended to prevent "the \'lost update\' problem, where a client GETs a resource\'s state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict."'
+      },
+      429: {
+        code: '429',
+        message: 'Too Many Requests (RFC 6585)',
+        link: 'http://tools.ietf.org/html/rfc6585#section-4',
+        description: 'The user has sent too many requests in a given amount of time. Intended for use with rate limiting schemes.'
+      },
+      431: {
+        code: '431',
+        message: 'Request Header Fields Too Large (RFC 6585)',
+        link: 'https://tools.ietf.org/html/rfc6585#page-4',
+        description: 'The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.'
+      },
+      440: {
+        code: '440',
+        message: 'Login Timeout (Microsoft)',
+        link: '',
+        description: 'A Microsoft extension. Indicates that your session has expired.'
+      },
+      444: {
+        code: '444',
+        message: 'No Response (Nginx)',
+        link: '',
+        description: 'Used in Nginx logs to indicate that the server has returned no information to the client and closed the connection (useful as a deterrent for malware).'
+      },
+      449: {
+        code: '449',
+        message: 'Retry With (Microsoft)',
+        link: '',
+        description: 'A Microsoft extension. The request should be retried after performing the appropriate action.'
+      },
+      450: {
+        code: '450',
+        message: 'Blocked by Windows Parental Controls (Microsoft)',
+        link: '',
+        description: 'A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage.'
+      },
+      451: {
+        code: '451',
+        message: 'Unavailable For Legal Reasons (Internet draft)',
+        link: 'https://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00#section-3',
+        description: 'Defined in the internet draft "A New HTTP Status Code for Legally-restricted Resources". Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed.'
+      },
+      494: {
+        code: '494',
+        message: 'Request Header Too Large (Nginx)',
+        link: '',
+        description: 'Nginx internal code similar to 431 but it was introduced earlier in version 0.9.4 (on January 21, 2011).'
+      },
+      495: {
+        code: '495',
+        message: 'Cert Error (Nginx)',
+        link: '',
+        description: 'Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection.'
+      },
+      496: {
+        code: '496',
+        message: 'No Cert (Nginx)',
+        link: '',
+        description: 'Nginx internal code used when client didn\'t provide certificate to distinguish it from 4XX in a log and an error page redirection.'
+      },
+      497: {
+        code: '497',
+        message: 'HTTP to HTTPS (Nginx)',
+        link: '',
+        description: 'Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection.'
+      },
+      498: {
+        code: '498',
+        message: 'Token expired/invalid (Esri)',
+        link: '',
+        description: 'Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token.'
+      },
+      499: {
+        code: '499',
+        message: 'Client Closed Request (Nginx)',
+        link: '',
+        description: 'Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back.'
+      },
+      499: {
+        code: '499',
+        message: 'Token required (Esri)',
+        link: '',
+        description: 'Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted).'
+      },
+      500: {
+        code: '500',
+        message: 'Internal Server Error',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.1',
+        description: 'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.'
+      },
+      501: {
+        code: '501',
+        message: 'Not Implemented',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.2',
+        description: 'The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).'
+      },
+      502: {
+        code: '502',
+        message: 'Bad Gateway',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.3',
+        description: 'The server was acting as a gateway or proxy and received an invalid response from the upstream server.'
+      },
+      503: {
+        code: '503',
+        message: 'Service Unavailable',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.4',
+        description: 'The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.'
+      },
+      504: {
+        code: '504',
+        message: 'Gateway Timeout',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.5',
+        description: 'The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.'
+      },
+      505: {
+        code: '505',
+        message: 'HTTP Version Not Supported',
+        link: 'http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.5.6',
+        description: 'The server does not support the HTTP protocol version used in the request.'
+      },
+      506: {
+        code: '506',
+        message: 'Variant Also Negotiates (RFC 2295)',
+        link: 'https://tools.ietf.org/html/rfc2295#section-8.1',
+        description: 'Transparent content negotiation for the request results in a circular reference.'
+      },
+      507: {
+        code: '507',
+        message: 'Insufficient Storage (WebDAV; RFC 4918)',
+        link: 'http://www.webdav.org/specs/rfc2518.html#STATUS_507',
+        description: 'The server is unable to store the representation needed to complete the request.'
+      },
+      508: {
+        code: '508',
+        message: 'Loop Detected (WebDAV; RFC 5842)',
+        link: 'http://www.webdav.org/specs/rfc5842.html#status.508.loop.detected',
+        description: 'The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported).'
+      },
+      509: {
+        code: '509',
+        message: 'Bandwidth Limit Exceeded (Apache bw/limited extension)',
+        link: '',
+        description: 'This status code is not specified in any RFCs. Its use is unknown.'
+      },
+      510: {
+        code: '510',
+        message: 'Not Extended (RFC 2774)',
+        link: 'https://tools.ietf.org/html/rfc2774#page-11',
+        description: 'Further extensions to the request are required for the server to fulfil it.'
+      },
+      511: {
+        code: '511',
+        message: 'Network Authentication Required (RFC 6585)',
+        link: 'https://tools.ietf.org/html/rfc6585#page-4',
+        description: 'The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., "captive portals" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot).'
+      },
+      520: {
+        code: '520',
+        message: 'Unknown Error',
+        link: '',
+        description: 'This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and CloudFlare servers: "The 520 error is essentially a \u201Ccatch-all\u201D response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response)."'
+      },
+      522: {
+        code: '522',
+        message: 'Origin Connection Time-out',
+        link: '',
+        description: 'This status code is not specified in any RFCs, but is used by CloudFlare\'s reverse proxies to signal that a server connection timed out.'
+      },
+      598: {
+        code: '598',
+        message: 'Network read timeout error (Unknown)',
+        link: '',
+        description: 'This status code is not specified in any RFCs, but is used by Microsoft HTTP proxies to signal a network read timeout behind the proxy to a client in front of the proxy.'
+      },
+      599: {
+        code: '599',
+        message: 'Network connect timeout error (Unknown)',
+        link: '',
+        description: 'This status code is not specified in any RFCs, but is used by Microsoft HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.'
+      }
+    };
+    
+      var tooltipDiv = d3.select('#tooltip');
+      var svg = d3.select('svg');
+    
+      d3.selectAll('.station')
+        .on('mouseenter', function(d) {
+          // Format: code-302
+          var id = d3.select(this).attr('id').replace('code-', '');
+    
+          d3.select(this).style('fill', getCodeFamilyColor(id));
+    
+          var code = codes[id];
+          states.code = id;
+    
+          displayTooltip(tooltipDiv);
+          fillTooltipContent(tooltipDiv, code);
+          moveTooltip(tooltipDiv);
+          configureTooltipBackground(id, tooltipDiv);
+        })
+        .on('mouseleave', function(d) {
+          states.justMouseOut = true;
+          d3.select(this).style('fill', 'white');
+          hideTooltip(tooltipDiv);
+        });
+    
+      d3.selectAll('.station-label')
+        .on('mouseenter', function(d) {
+          // Format: _x34_05_Method__x0D_Not_Allowed
+          var id = getStationCode(d3.select(this).attr('id'));
+    
+          d3.select(this).style('fill', getCodeFamilyColor(id));
+    
+          var code = codes[id];
+          states.code = id;
+    
+          displayTooltip(tooltipDiv);
+          fillTooltipContent(tooltipDiv, code);
+          moveTooltip(tooltipDiv);
+          configureTooltipBackground(id, tooltipDiv);
+    
+          d3.select('#code-'+id).style('fill', getCodeFamilyColor(id));
+        })
+        .on('mouseleave', function(d) {
+          states.justMouseOut = true;
+    
+          d3.select(this).style('fill', 'white');
+          hideTooltip(tooltipDiv);
+          var id = getStationCode(d3.select(this).attr('id'));
+          d3.select('#code-'+id).style('fill', 'white');
+        });
+    
+        tooltipDiv
+          .on('mouseenter', function() {
+            if (states.justMouseOut) {
+              displayTooltip(tooltipDiv);
+              var id = states.code;
+              d3.select('#code-'+id).style('fill', getCodeFamilyColor(id));
+              states.justMouseOut = false;
+            }
+          })
+          .on('mouseleave', function() {
+            hideTooltip(tooltipDiv);
+            var id = states.code;
+            d3.select('#code-'+id).style('fill', 'white');
+          });
+    </script>
+    </div>
+    
+    <footer class="stackable">
+      <div class="container">
+        <div class="row"><a href="https://david.aparicio.eu" class="link">David Aparicio</a> (2025)</div>
+        <div class="row">Originally created by restlet.com/http-status-codes-map until 2019</div>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper ←  -->
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/lock-7.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.formset.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/tag-it.min.js"></script>
+    <script src="js/backstretch.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/inViewport.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.visualNav.min.js"></script>
+    <script src="js/magnific_popup.js"></script>
+    <script src="js/slider_pips.js"></script>
+    <script src="js/os_detection.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/require.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/scripts2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font: 10px sans-serif;
+  }
+  
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  
+  .station, .connection {
+    fill: white;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    padding: 15px;
+    border: solid 1px #dedede;
+    font-size: 12px;
+    background: #FFFFE0;
+    border: 1px;
+    border-radius: 8px;
+    /*pointer-events: none;*/
+    font-style: 'London-Tube';
+    opacity: 0;a
+    color: #FFFFFF;
+    z-index: 10;
+  }
+  
+  #tooltip h4 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  #tooltip h4 a {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
