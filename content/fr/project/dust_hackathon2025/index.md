@@ -34,7 +34,7 @@ url_video: "https://youtu.be/jeaFGRyie2M?t=2854"
 
 Une démonstration révolutionnaire présentant notre agent IA innovant, conçu pour rationaliser la correction des bogues et améliorer la productivité ! 🚀
 
-Dans ce projet, nous explorons les capacités de notre agent IA, développé lors de l'événement Echathan. Cet agent change la donne pour les utilisateurs non techniques tels que les chefs de projet (PM) et les responsables de la réussite client (CSM), en leur permettant de corriger les bogues fonctionnels sans faire appel à l'équipe d'ingénieurs.
+Dans ce projet, nous explorons les capacités de notre agent IA, développé lors de l'Hackathon Dust.tt/Quonto sur les Agents IA (11 April 2025). Cet agent change la donne pour les utilisateurs non techniques tels que les chefs de projet (PM) et les responsables de la réussite client (CSM), en leur permettant de corriger les bogues fonctionnels sans faire appel à l'équipe d'ingénieurs.
 
 Pourquoi est-ce important ?
 

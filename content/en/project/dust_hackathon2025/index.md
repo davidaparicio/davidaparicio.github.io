@@ -34,7 +34,7 @@ url_video: "https://youtu.be/jeaFGRyie2M?t=2854"
 
 Groundbreaking demo showcasing our innovative AI agent, designed to streamline bug fixes and enhance productivity! 🚀
 
-In this project, we dive into the capabilities of our AI agent, built during the Echathan event. This agent is a game-changer for non-technical users like Project Managers (PMs) and Customer Success Managers (CSMs), empowering them to fix functional bugs without involving the engineering team.
+In this project, we dive into the capabilities of our AI agent, built during the Dust.tt/Quonto AI Agent Hackathon (11 April 2025). This agent is a game-changer for non-technical users like Project Managers (PMs) and Customer Success Managers (CSMs), empowering them to fix functional bugs without involving the engineering team.
 
 Why This Matters:
 
@@ -53,7 +53,7 @@ Technical Stack Details:
 
 Team12 composed by: Simon Cleriot, Khaled Khebbeb, Jarek Ecke & David Aparicio.
 
-## Project demonstration
+## Project live demo
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_nifTEl5JXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
