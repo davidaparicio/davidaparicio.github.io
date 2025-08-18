@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | David Aparicio</title><link>/project/</link><atom:link href="/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 David Aparicio</copyright><lastBuildDate>Fri, 11 Apr 2025 23:00:00 +0000</lastBuildDate><image><url>/media/icon_hu5f90374de83a434faccdfc0ad39c44da_563627_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>/project/</link></image><item><title>Bugfixer (1st place Hackathon Dust AI Agent)</title><link>/project/dust_hackathon2025/</link><pubDate>Fri, 11 Apr 2025 23:00:00 +0000</pubDate><guid>/project/dust_hackathon2025/</guid><description>&lt;p>Groundbreaking demo showcasing our innovative AI agent, designed to streamline bug fixes and enhance productivity! 🚀&lt;/p>
-&lt;p>In this project, we dive into the capabilities of our AI agent, built during the Echathan event. This agent is a game-changer for non-technical users like Project Managers (PMs) and Customer Success Managers (CSMs), empowering them to fix functional bugs without involving the engineering team.&lt;/p>
+&lt;p>In this project, we dive into the capabilities of our AI agent, built during the Dust.tt/Quonto AI Agent Hackathon (11 April 2025). This agent is a game-changer for non-technical users like Project Managers (PMs) and Customer Success Managers (CSMs), empowering them to fix functional bugs without involving the engineering team.&lt;/p>
 &lt;p>Why This Matters:&lt;/p>
 &lt;pre>&lt;code>Time-Saving: Reduce the workload on your engineering team.
 Customer Satisfaction: Fix bugs faster and keep your customers happy.
@@ -15,7 +15,7 @@ Efficiency: Streamline your workflow and minimize frustration.
 &lt;li>Notion&lt;/li>
 &lt;/ul>
 &lt;p>Team12 composed by: Simon Cleriot, Khaled Khebbeb, Jarek Ecke &amp;amp; David Aparicio.&lt;/p>
-&lt;h2 id="project-demonstration">Project demonstration&lt;/h2>
+&lt;h2 id="project-live-demo">Project live demo&lt;/h2>
 &lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_nifTEl5JXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;div class="alert alert-note">
 &lt;div>
