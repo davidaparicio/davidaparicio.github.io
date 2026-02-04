@@ -32,26 +32,26 @@ image:
   caption: 'Image credit: [**Cloud Native Days France 2026**](https://www.cloudnativedays.fr)'
   focal_point: Right
 
-# links:
-# - icon: file #th-list #list-alt
-#   icon_pack: fas
-#   name: Code
-#   url: https://github.com/davidaparicio/devsecops-workshop/tree/conf/azurtechwinter2025
+links:
+- icon: file #th-list #list-alt
+  icon_pack: fas
+  name: Code
+  url: https://github.com/davidaparicio/CloudNativeDaysFR26-oauth2
 # - icon: binoculars
 #   icon_pack: fas
 #   name: Description
 #   url: https://www.telecom-valley.fr/conferences-azur-tech-winter-2025/#cybers%C3%A9curit%C3%A9
-# - icon: comments
-#   icon_pack: fas
-#   name: Feedback
-#   url: https://openfeedback.io/b5avtqodDPN0y3zzrnDC/2025-12-02/JDl5My86SAGuYoeoEzy4 #?hideHeader=true&forceColorScheme=dark
+- icon: comments
+  icon_pack: fas
+  name: Feedback
+  url: https://openfeedback.io/TffvU1ERYAp87XkoaW7X/2026-02-03 #?hideHeader=true&forceColorScheme=dark
 # #- icon: file-alt
 # #  icon_pack: fas
 # #  name: Post
 # #  url: https://blog.ovhcloud.com/ovhcloud-at-touraine-tech/
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "talks/CloudNativeDaysFR2026_OAuth2Proxy.pdf"
 url_video: ""
 
 slides: ""
